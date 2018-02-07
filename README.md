@@ -22,5 +22,6 @@ Best regards,
 * E: [neotoronto@outlook.com](mailto:neotoronto@outlook.com)
 * F: https://www.facebook.com/neotoronto/
 * G: https://github.com/mwherman2000/neo-windocs
+* M: https://www.meetup.com/NEO-Blockchain-Toronto
 * T: [@neotoronto](https://twitter.com/NeoToronto)
-* W: https://www.meetup.com/NEO-Blockchain-Toronto
+
