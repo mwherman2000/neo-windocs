@@ -21,5 +21,6 @@ Best regards,
 * Michael Herman (Toronto)
 * E: neotoronto@outlook.com
 * F: https://www.facebook.com/neotoronto/
+* G: https://github.com/mwherman2000/neo-windocs
 * T: @neotoronto
 * W: https://www.meetup.com/NEO-Blockchain-Toronto
