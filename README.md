@@ -18,8 +18,8 @@ NEO is a non-profit community-based blockchain project that utilizes blockchain 
 This meetup is a group that it is currently independent of the official NEO and City of Zion projects. I'm looking forward to this changing in the future.
 
 Best regards,
-Michael Herman (Toronto)
-E: neotoronto@outlook.com
-F: https://www.facebook.com/neotoronto/
-T: @neotoronto
-W: https://www.meetup.com/NEO-Blockchain-Toronto
+* Michael Herman (Toronto)
+* E: neotoronto@outlook.com
+* F: https://www.facebook.com/neotoronto/
+* T: @neotoronto
+* W: https://www.meetup.com/NEO-Blockchain-Toronto
