@@ -11,7 +11,7 @@ This project also serves as a respository for content presented at the NEO Block
 
 ## NEO Blockchain Toronto Meetup Group
 
-NEO Blockchain Toronto is (primarily) for blockchain developers and architects interested in creating Distributed Ledge Technology (DLT) (aka blockchain) solutions based the NEO Blockchain platform.
+[NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) is (primarily) for blockchain developers and architects interested in creating Distributed Ledge Technology (DLT) (aka blockchain) solutions based the NEO Blockchain platform.
 
 NEO is a non-profit community-based blockchain project that utilizes blockchain technology and digital identity to digitize assets, to automate the management of digital assets using smart contracts, and to realize a "smart economy" with a distributed network. You can learn more about NEO here (https://neo.org/).
 
@@ -19,8 +19,8 @@ This meetup is a group that it is currently independent of the official NEO and 
 
 Best regards,
 * Michael Herman (Toronto)
-* E: neotoronto@outlook.com
+* E: [neotoronto@outlook.com](mailto:neotoronto@outlook.com)
 * F: https://www.facebook.com/neotoronto/
 * G: https://github.com/mwherman2000/neo-windocs
-* T: @neotoronto
+* T: [@neotoronto](https://twitter.com/NeoToronto)
 * W: https://www.meetup.com/NEO-Blockchain-Toronto
