@@ -18,7 +18,7 @@ NEO is a non-profit community-based blockchain project that utilizes blockchain 
 
 This meetup is a group that it is currently independent of the official [NEO Project](https://github.com/neo-project) and [City of Zion](https://github.com/CityOfZion/) projects. I'm looking forward to this changing in the future.
 
-## Project Folders
+## Sections
 
 * [windocs](https://github.com/mwherman2000/neo-windocs/tree/master/windocs) - NEO Blockchain documentation for Microsoft .NET Developers
 * [events](https://github.com/mwherman2000/neo-windocs/tree/master/events) - Repository for [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) meetings and content
