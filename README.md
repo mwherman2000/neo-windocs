@@ -24,7 +24,7 @@ This meetup is a group that it is currently independent of the official NEO and 
 * [events](https://github.com/mwherman2000/neo-windocs/tree/master/events) - [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) meetings and content
 * [presentations](https://github.com/mwherman2000/neo-windocs/tree/master/presentations) - NEO Blockchain presentations (PPT, PDF)
 * [whitepapers](https://github.com/mwherman2000/neo-windocs/tree/master/whitepapers) - NEO Blockchain whitepapers
-* [images](https://github.com/mwherman2000/neo-windocs/tree/masterimages) - Photos, screen shots, diagrams
+* [images](https://github.com/mwherman2000/neo-windocs/tree/master/images) - Photos, screen shots, diagrams
 * [resources](https://github.com/mwherman2000/neo-windocs/tree/master/resources) - Other files that don't fit into one of the other categories (folders)
 
 Best regards,
