@@ -3,7 +3,7 @@ NEO Blockchain end-to-end, detailed guidance for Microsoft .NET Developers
 
 This project contains content purposely designed to help Microsoft .NET developers ramp up and become productive more quickly.
 
-This project also serves as a respository for content presented at the NEO Blockchain Toronto meetup group.
+This project also serves as a respository for content presented at the [NEO Blockchain Toronto meetup group](https://www.meetup.com/NEO-Blockchain-Toronto/).
 
 ## NEO Blockchain Quick Start Guide for Microsoft .NET Developers
 
