@@ -16,7 +16,7 @@ This project also serves as a respository for content presented at the [NEO Bloc
 
 NEO is a non-profit community-based blockchain project that utilizes blockchain technology and digital identity to digitize assets, to automate the management of digital assets using smart contracts, and to realize a "smart economy" with a distributed network. You can learn more about NEO here (https://neo.org/).
 
-This meetup is a group that it is currently independent of the official NEO and City of Zion projects. I'm looking forward to this changing in the future.
+This meetup is a group that it is currently independent of the official [NEO Project](https://github.com/neo-project) and [City of Zion](https://github.com/CityOfZion/) projects. I'm looking forward to this changing in the future.
 
 ## Project Folders
 
