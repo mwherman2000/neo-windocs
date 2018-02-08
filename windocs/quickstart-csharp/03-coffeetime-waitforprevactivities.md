@@ -4,7 +4,7 @@ NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github
 
 ## Activity 3 - Coffee Time: Wait for previous activities to complete
 
-![Coffee Time](./images/03-coffeetime-waitforprevactivities/blockchainstore-neomug64.jpg)  
+![Coffee Time](./images/03-coffeetime-waitforprevactivities/blockchainstore-neomug64.jpg)
 
 ### Purpose
 
