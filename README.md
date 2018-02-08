@@ -1,7 +1,7 @@
 # neo-windocs
 NEO Blockchain end-to-end, detailed guidance for Microsoft .NET Developers
 
-This project contains new content purposely designed to help Microsoft .NET developers ramp up and become productive more quickly.
+This project contains content purposely designed to help Microsoft .NET developers ramp up and become productive more quickly.
 
 This project also serves as a respository for content presented at the NEO Blockchain Toronto meetup group.
 
@@ -16,6 +16,15 @@ This project also serves as a respository for content presented at the NEO Block
 NEO is a non-profit community-based blockchain project that utilizes blockchain technology and digital identity to digitize assets, to automate the management of digital assets using smart contracts, and to realize a "smart economy" with a distributed network. You can learn more about NEO here (https://neo.org/).
 
 This meetup is a group that it is currently independent of the official NEO and City of Zion projects. I'm looking forward to this changing in the future.
+
+## Project Folders
+
+* windocs - NEO Blockchain documentation for Microsoft .NET Developers
+* events - [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) content
+* presentations - NEO Blockchain presentations (PPT, PDF)
+* whitepapers - NEO Blockchain whitepapers
+* images - Photos, screen shots, diagrams
+* resources - other files that don't fit into one of the above categories
 
 Best regards,
 * Michael Herman (Toronto)
