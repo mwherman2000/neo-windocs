@@ -12,7 +12,7 @@ The purpose of this activity is to have **fun**.
 
 TODO - What and Why
 
-### Goals
+### Goals, Non-Goals and Assumptions
 
 TODO - What
 

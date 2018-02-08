@@ -12,7 +12,7 @@ The purpose of this activity is to...
 
 TODO - What and Why
 
-### Goals
+### Goals, Non-Goals and Assumptions
 
 TODO - What
 
