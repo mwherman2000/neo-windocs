@@ -22,4 +22,4 @@ TODO - Why
 
 ## Sections
 
-* [Quick Start Guide for Microsoft .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
+* [Quick Start Guide for Microsoft .NET Developers](./quickstart-csharp)
