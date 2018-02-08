@@ -21,11 +21,11 @@ This meetup is a group that it is currently independent of the official NEO and 
 ## Project Folders
 
 * windocs - NEO Blockchain documentation for Microsoft .NET Developers
-* events - [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) content
+* events - [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) meetings and content
 * presentations - NEO Blockchain presentations (PPT, PDF)
 * whitepapers - NEO Blockchain whitepapers
 * images - Photos, screen shots, diagrams
-* resources - other files that don't fit into one of the above categories
+* resources - Other files that don't fit into one of the other categories (folders)
 
 Best regards,
 * Michael Herman (Toronto)
