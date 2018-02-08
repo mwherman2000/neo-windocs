@@ -21,7 +21,7 @@ This meetup is a group that it is currently independent of the official NEO and 
 ## Project Folders
 
 * [windocs](https://github.com/mwherman2000/neo-windocs/tree/master/windocs) - NEO Blockchain documentation for Microsoft .NET Developers
-* [events](https://github.com/mwherman2000/neo-windocs/tree/master/events) - [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) meetings and content
+* [events](https://github.com/mwherman2000/neo-windocs/tree/master/events) - Repo for [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) meetings and content
 * [presentations](https://github.com/mwherman2000/neo-windocs/tree/master/presentations) - NEO Blockchain presentations (PPT, PDF)
 * [whitepapers](https://github.com/mwherman2000/neo-windocs/tree/master/whitepapers) - NEO Blockchain whitepapers
 * [images](https://github.com/mwherman2000/neo-windocs/tree/master/images) - Photos, screen shots, diagrams
