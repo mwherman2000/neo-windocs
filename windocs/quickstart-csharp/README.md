@@ -30,12 +30,11 @@ TODO - Why
 5. [Build NEO development tools](./05-buildneodevtools.md)
 6. [Download and install Docker platform](./06-installdockerplatform.md)
 7. [Download and NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)
-8. [Create and compile the HelloWorld smart contract](./08-createcompilesmartcontract.md)sample
+8. [Create and compile the HelloWorld smart contract sample](./08-createcompilesmartcontract.md)
 9. [Deploy and test the HelloWord smart contract](./09-deploytestsmartcontract.md)
 10. [Celebrate :-)](./10-celebrate.md)
 
 ## References
 
 * TODO
-* TODO
-* TODO
+
