@@ -29,7 +29,7 @@ TODO - Why
 4. [Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md)
 5. [Build NEO development tools](./05-buildneodevtools.md)
 6. [Download and install Docker platform](./06-installdockerplatform.md)
-7. [Download and NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)
+7. [Download and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)
 8. [Create and compile the HelloWorld smart contract sample](./08-createcompilesmartcontract.md)
 9. [Deploy and test the HelloWord smart contract](./09-deploytestsmartcontract.md)
 10. [Celebrate :-)](./10-celebrate.md)
