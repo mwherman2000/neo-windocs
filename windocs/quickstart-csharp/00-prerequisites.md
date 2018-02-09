@@ -34,6 +34,31 @@ The activities in this document were tested on two configurations:
 * Windows 10 Home edition HP laptop, 8GB RAM, 1TB HDD, Intel i5 processor
 * Windows 10 Pro edition Levnovo laptop, 32GB RAM, 500GB SSD + 500GB HDD, Intel i7 processor
 
+### Download and Install the Microsoft .NET 4.7 Developer Pack
+
+1. Download the .NET 4.7 Dev Pack from here: [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
+
+![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack1Install.png)
+
+2. TODO
+
+![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack2Install.png)
+
+3. TODO
+
+![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack3Install.png)
+
+4. TODO
+
+![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack4Install.png)
+
+5. TODO
+
+![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack5Install.png)
+
+6. Done
+
 ## References
 
-* TODO
+* [DevPack1] [The .NET Framework 4.7 Developer Pack and Language Packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs) from [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
+* [DevPack2] [Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=55168) from [https://www.microsoft.com/en-us/download/details.aspx?id=55168](https://www.microsoft.com/en-us/download/details.aspx?id=55168)
