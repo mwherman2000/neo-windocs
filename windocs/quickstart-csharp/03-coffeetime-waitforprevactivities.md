@@ -8,22 +8,26 @@ NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github
 
 ### Purpose
 
-The purpose of this activity is to...
-
-TODO - What and Why
+The purpose of this activity is to wait for the previous activities to complete before proceeding to the activities that are dependent on the previous activities.
 
 ### Goals, Non-Goals and Assumptions
 
-TODO - What
+* Ensure you have everything downloaded and installed before proceeding to the next set of activities
 
 ### Principles
 
-TODO - How
+* Provide reliable documentation TODO reference
+* Save as much of a person's time as possible
 
 ### Drivers
 
-TODO - Why
+* Need in the Neo developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
+
+## Wait for previous activities to complete
+
+* Wait for the Visual Studio installation to complete
+* Wait for the Neo Developer Tools downloads to complete
 
 ## References
 
-* TODO
+* N/A

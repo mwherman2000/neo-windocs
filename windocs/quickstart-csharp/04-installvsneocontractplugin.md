@@ -8,43 +8,43 @@ TODO
 
 ### Purpose
 
-The purpose of this activity is to...
-
-TODO - What and Why
+The purpose of this activity is to install the NeoContractPlugin extension into Visual Studio.
 
 ### Goals, Non-Goals and Assumptions
 
-TODO - What
+* Ensure you have a working and properly configured version of Visual Studio 2017 configured with the NeoContractPlugin installed in Visual Studio
 
 ### Principles
 
-TODO - How
+* Provide reliable documentation TODO reference
+* Save as much of a person's time as possible
+* Use free software whenever possible
 
 ### Drivers
 
-TODO - Why
+* Need in the Neo developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Install NeoContractPlugin Visual Studio extension
 
-![Generic Visual Studio downloads site (all editions)](./images/04-installvsneocontractplugin/VS2017Home.png)
+![Visual Studio Home Screen](./images/04-installvsneocontractplugin/VS2017Home.png)
 Figure 4.1. Visual Studio Home Screen
 
-![Generic Visual Studio downloads site (all editions)](./images/04-installvsneocontractplugin/NeoContractPlugin1Install.png)
+![Search for NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin1Install.png)
 Figure 4.2. Search for NeoContractPlugin extension
 
-![Generic Visual Studio downloads site (all editions)](./images/04-installvsneocontractplugin/NeoContractPlugin2Install.png)
+![Download NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin2Install.png)
 Figure 4.3. Download NeoContractPlugin extension
 
-![Generic Visual Studio downloads site (all editions)](./images/04-installvsneocontractplugin/NeoContractPlugin3Install.png)
+![NeoContractPlugin install will be scheduled](./images/04-installvsneocontractplugin/NeoContractPlugin3Install.png)
 Figure 4.4. NeoContractPlugin install will be scheduled
 
-![Generic Visual Studio downloads site (all editions)](./images/04-installvsneocontractplugin/NeoContractPlugin4Install.png)
+![NeoContractPlugin extension install confirmation](./images/04-installvsneocontractplugin/NeoContractPlugin4Install.png)
 Figure 4.5. NeoContractPlugin extension install confirmation
 
-![Generic Visual Studio downloads site (all editions)](./images/04-installvsneocontractplugin/NeoContractPlugin5Install.png)
+![NeoContractPlugin extension installation progress](./images/04-installvsneocontractplugin/NeoContractPlugin5Install.png)
 Figure 4.6. NeoContractPlugin extension installation progress
 
-![Generic Visual Studio downloads site (all editions)](./images/04-installvsneocontractplugin/NeoContractPlugin6Install.png)
+![NeoContractPlugin extension installation complete](./images/04-installvsneocontractplugin/NeoContractPlugin6Install.png)
 Figure 4.7. NeoContractPlugin extension installation complete
 
 ## References

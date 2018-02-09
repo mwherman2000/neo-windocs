@@ -24,7 +24,7 @@ Visual Studio 2017 will install side-by-side with previous versions/editions of 
 
 ### Drivers
 
-* Need to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
+* Need in the Neo developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)
 
