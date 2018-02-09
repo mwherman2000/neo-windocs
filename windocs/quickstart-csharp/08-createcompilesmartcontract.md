@@ -2,7 +2,7 @@
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 8 - Create and compile HelloWorld smart contract sample
+## Activity 8 - Create, compile and test HelloWorld smart contract sample
 
 TODO
 
@@ -23,6 +23,12 @@ TODO - How
 ### Drivers
 
 TODO - Why
+
+## Create, compile and test HelloWorld smart contract sample
+
+TODO
+
+
 
 ## References
 

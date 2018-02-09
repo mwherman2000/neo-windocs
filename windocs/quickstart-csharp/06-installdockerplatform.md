@@ -2,7 +2,7 @@
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 6 - Install Docker platform
+## Activity 6 - Download, install and test Docker platform
 
 TODO
 
@@ -23,6 +23,12 @@ TODO - How
 ### Drivers
 
 TODO - Why
+
+## Insall Docker platform
+
+TODO
+
+The tasks for this activity are complete. Proceed to [Activity 7 - Download, install and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md).
 
 ## References
 

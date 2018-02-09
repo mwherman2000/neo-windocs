@@ -26,7 +26,7 @@ TODO - Why
 
 ## Build NEO development tools
 
-The tasks for this activity are complete. Proceed to [Activity 6 - Install Docker platform](./06-installdockerplatform.md).
+The tasks for this activity are complete. Proceed to [Activity 6 - Download, install and test Docker platform](./06-installdockerplatform.md).
 
 ## References
 
