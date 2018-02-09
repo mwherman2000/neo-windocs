@@ -42,15 +42,18 @@ In addition, it is quite useful to have the Visual Studio Code installed on your
 ### Scenario 1 - You don't have any version of Visual Studio 2017 installed
 
 TODO
+
 1. Download the Visual Studio installer from either of:
   * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
   * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
 
   ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
+  
   Figure 1.1. Generic Visual Studio downloads site (all editions)
 
   ![Visual Studio Community Edition specific download site](./images/01-installvisualstudio/VS2017CommunityDownloadSite.png)
-   Figure 1.2. Visual Studio Community Edition specific download site
+  
+  Figure 1.2. Visual Studio Community Edition specific download site
 
 
 TODO
@@ -66,7 +69,8 @@ TODO
   * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
 
   ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
-  Figure 1.1. Generic Visual Studio downloads site (all editions)
+  
+  Figure 1.3. Generic Visual Studio downloads site (all editions)
 
 The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO development tool sources](./02-downloadneodevtoolsrc.md).
 
