@@ -31,7 +31,7 @@ The purpose of this document is to enable .NET developers who are brand new to N
 5. [Build NEO development tools](./05-buildneodevtools.md)
 6. [Download, install and test Docker platform](./06-installdockerplatform.md)
 7. [Download and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)
-8. [Create, compile and test HelloWorld smart contract sample](./08-createcompilesmartcontract.md)
+8. [Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)
 9. [Deploy and test the HelloWord smart contract](./09-deploytestsmartcontract.md)
 10. [Celebrate :-)](./10-celebrate.md)
 

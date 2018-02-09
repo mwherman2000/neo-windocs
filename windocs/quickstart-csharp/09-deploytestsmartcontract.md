@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 8 - Deploy and test HelloWorld smart contract
+## Activity 9 - Deploy and test HelloWorld smart contract
 
 TODO
 
@@ -23,6 +23,13 @@ TODO - How
 ### Drivers
 
 TODO - Why
+
+## Deploy and test HelloWorld smart contract
+
+TODO
+
+The tasks for this activity are complete. Proceed to [Activity 10 - Celebrate](./10-celebrate.md).
+
 
 ## References
 

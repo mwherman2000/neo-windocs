@@ -26,7 +26,7 @@ TODO - Why
 
 ## Download, install and test NEO privatenet Docker Container
 
-The tasks for this activity are complete. Proceed to [Activity 8 - Create, compile and test HelloWorld smart contract sample](./08-createcompilesmartcontract.md).
+The tasks for this activity are complete. Proceed to [Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md).
 
 ## References
 
