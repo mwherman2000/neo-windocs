@@ -34,29 +34,37 @@ The activities in this document were tested on two configurations:
 * Windows 10 Home edition HP laptop, 8GB RAM, 1TB HDD, Intel i5 processor
 * Windows 10 Pro edition Levnovo laptop, 32GB RAM, 500GB SSD + 500GB HDD, Intel i7 processor
 
-### Download and Install the Microsoft .NET 4.7 Developer Pack
+## Download and Install the Microsoft .NET 4.7 Developer Pack
 
-1. Download the .NET 4.7 Dev Pack from here: [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
+The .NET 4.7 Dev Pack is required to be able to build some components in the NEO developer toolset. If you overlook this step, Visual Studio will interupt and prompt to install this dev pack when it is required.
 
-![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack1Install.png)
+1. Download the .NET 4.7 Dev Pack starting here: [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
 
-2. TODO
+![Microsoft Knowlege Base: The .NET Framework 4.7 Developer Pack and Language Packs](./images/00-prerequisites/Dotnet4-7DevPack1Install.png)
+Figure 0.1. Microsoft Knowlege Base: The .NET Framework 4.7 Developer Pack and Language Packs
 
-![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack2Install.png)
+2. This will take you to the Microsoft Downloads site for the dev pack: [https://www.microsoft.com/en-us/download/details.aspx?id=55168](https://www.microsoft.com/en-us/download/details.aspx?id=55168). Scroll down and click the Download button to download the installer executable. 
 
-3. TODO
+![Microsoft Downloads site: Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016](./images/00-prerequisites/Dotnet4-7DevPack2Install.png)
+Figure 0.2. Microsoft Downloads site: Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016
 
-![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack3Install.png)
+3. Go to your Downloads folder on your computer and double-click the `NDP47-DevPack-KB3186612-ENU.exe` executable.
+4. Click OK to run as Adminstrator for the installation process.
 
-4. TODO
+![.NET 4.7 Dev Pack EULA](./images/00-prerequisites/Dotnet4-7DevPack3Install.png)
+Figure 0.3. .NET 4.7 Dev Pack EULA
 
-![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack4Install.png)
+4. The install process will start.
 
-5. TODO
+![v](./images/00-prerequisites/Dotnet4-7DevPack4Install.png)
+Figure 0.4. c
 
-![.NET 4.7 Developer Pack Download Site](./images/00-prerequisites/Dotnet4-7DevPack5Install.png)
+5. The following page will be displayed when the installation is complete.
 
-6. Done
+![.NET 4.7 Dev Pack Installation Complete](./images/00-prerequisites/Dotnet4-7DevPack5Install.png)
+Figure 0.5. .NET 4.7 Dev Pack Installation Complete
+
+6. Proceed to [Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](01-installvisualstudio.md).
 
 ## References
 
