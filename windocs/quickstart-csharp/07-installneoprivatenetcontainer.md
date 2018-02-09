@@ -1,6 +1,6 @@
 # NEO Blockchain Quick Start Process Guide for .NET Developers
 
-NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 7 - Download, install and test NEO privatenet Docker container
 
