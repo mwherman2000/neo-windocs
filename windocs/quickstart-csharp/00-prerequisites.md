@@ -25,8 +25,9 @@ The goal of this activity is to inform you about the minimum and recommended pre
 
 The basic hardware and software prerquisites are that you have a computer (PC or laptap) with:
 * Microsoft Windows 10 64-bit **Pro**, Enterprise and Education edition operating system (1607 Anniversary Update, Build 14393 or later)
-  * > The current version of Docker for Windows runs on 64bit Windows 10 Pro, Enterprise and Education (1607 Anniversary Update, Build 14393 or later). [[DOCKER](https://docs.docker.com/docker-for-windows/install/)]
-  * Windows 10 Home edition can't be used because it doesn't include the Hyper-V feature and hence, the Hyper-V service can't be installed/enabled and the NEO Docker container can't be use for deploying and testing NEO smart contracts. The Hyper-V service is a pre-requisite for installing Docker.
+  > The current version of Docker for Windows runs on 64bit Windows 10 Pro, Enterprise and Education (1607 Anniversary Update, Build 14393 or later). [[DOCKER](https://docs.docker.com/docker-for-windows/install/)]
+  
+  Windows 10 Home edition can't be used because it doesn't include the Hyper-V feature and hence, the Hyper-V service can't be installed/enabled and the NEO Docker container can't be use for deploying and testing NEO smart contracts. The Hyper-V service is a pre-requisite for installing Docker.
   
     ![Windows 10 Home edition doesn't include the Hyper-V feature](./images/06-installdockerplatform/Docker0Install-Home2.png)
 
@@ -39,9 +40,21 @@ The basic hardware and software prerquisites are that you have a computer (PC or
 
 The activities in this document were tested on two configurations:
 * Windows 10 Pro edition Levnovo laptop, 32GB RAM, 500GB SSD + 500GB HDD, Intel i7 processor, Virtualization Technology enabled in BIOS
-  * Installation succeeded
+  * The installation succeeded
 * Windows 10 Home edition HP laptop, 8GB RAM, 1TB HDD, Intel i5 processor, Virtualization Technology enabled in BIOS
-  * Installation failed because Windows 10 Home edition doesn't include the Hyper-V feature and hence, the service can't be installed/enabled and the NEO Docker container can't be use for deploying and testing NEO smart contracts.
+  * The installation failed because Windows 10 Home edition doesn't include the Hyper-V feature and hence, the service can't be installed/enabled and the NEO Docker container can't be use for deploying and testing NEO smart contracts.
+
+## Create your NEO working folder
+
+This folder will be used for all of your NEO development work.  It is the folder where you will download and build various NEO developer tools to as well as where you might choose for your own NEO solutions.
+
+1. In Windows Explorer/File Manager or using the Command Prompt or Powershell, create youe local "NEO" folder:
+
+    `C:\NEO`
+
+    This is the recommended folder name but you can choose an alternate folder as well.
+
+    **NOTE:** Some of the path names used in the NEO Project projects can be quite long.
 
 ## Download and Install the Microsoft .NET 4.7 Developer Pack
 

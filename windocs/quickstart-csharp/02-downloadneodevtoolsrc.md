@@ -26,30 +26,44 @@ TODO - Why
 
 ## Download and unpack NEO development tool sources
 
+While Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE) is completing, proceed to download and unpack the following 2 NEO Project projects to help you save time.
+
+**NOTE:** Rather than downloading the source archive files, you may choose to `git clone` each of the 2 projects.  I leave that up to you. I'm just trying to keep things as simple as 
+
 ### Neon MSIL Transcompiler
 
-![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeonCompiler1Install.png)
+1. Visit the Neon Neo transcompiler Github project at [https://github.com/neo-project/neo-compiler](https://github.com/neo-project/neo-compiler).
 
-Figure 2.1. Neon Neo Transcompiler Github Project
+   ![Neon Neo transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeonCompiler1Install.png)
 
-![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeonCompiler2Install.png)
+   Figure 2.1. Neon Neo Transcompiler Github Project
 
-Figure 2.2. Neon Neo Transcompiler Source Download
+2. Click `Clone or Download` and then select `Download ZIP` to download an archive of the current version of the project's source code to your local NEO folder (i.e. `C:\NEO` or your alternate folder created in Activity 0 - Prerequisites and Recommendations).
+
+   ![Neon Neo transcompiler Github project Download](./images/02-downloadneodevtoolsrc/NeonCompiler2Install.png)
+
+   Figure 2.2. Neon Neo Transcompiler Source Download
+
+3. Unzip the archive file to save the source files into the subfolder (e.g. by default `C:\NEO\neo-compiler-master`).
 
 ### Neo-Gui-Developer Node/Wallet
 
-![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeoGuiDev1Install.png)
+4. Visit the Neon Neo transcompiler Github project at [https://github.com/neo-project/neo-compiler](https://github.com/neo-project/neo-compiler).
 
-Figure 2.3. Neo-Gui-Developer Node/Wallet Github Project
+   ![Neo-Gui-Developer Node/Wallet Github Project](./images/02-downloadneodevtoolsrc/NeoGuiDev1Install.png)
 
-![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeoGuiDev2Install.png)
+   Figure 2.3. Neo-Gui-Developer Node/Wallet Github Project
 
-Figure 2.4. Neo-Gui-Developer Node/Wallet Source Download
+5. Click `Clone or Download` and then select `Download ZIP` to download an archive of the current version of the project's source code to your local NEO folder (i.e. `C:\NEO` or your alternate folder created in Activity 0 - Prerequisites and Recommendations).
 
-TODO
+   ![Neo-Gui-Developer Node/Wallet Github Projectd Download](./images/02-downloadneodevtoolsrc/NeoGuiDev2Install.png)
+
+   Figure 2.4. Neo-Gui-Developer Node/Wallet Source Download
+
+4. Unzip the archive file to save the source files into a subfolder (e.g. by default `C:\NEO\neo-gui-developer-master`).
 
 The tasks for this activity are complete. Proceed to [Activity 3 - Coffee Time: Wait for previous activities to complete](./03-coffeetime-waitforprevactivities.md).
 
 ## References
 
-* TODO
+* [NEON] NEO Project, [https://github.com/neo-project/neo-compiler](https://github.com/neo-project/neo-compiler) from [https://github.com/neo-project/neo-compiler](https://github.com/neo-project/neo-compiler).
