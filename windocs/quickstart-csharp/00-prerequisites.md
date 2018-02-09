@@ -1,6 +1,6 @@
-# Quick Start Process Guide for Microsoft .NET Developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 0 - Prerequisites and Recommendations
 
@@ -14,7 +14,7 @@ The goal of this activity is to inform you about the minimum and recommended pre
 
 ### Principles
 
-* Provide reliable documentation TODO reference
+* Provide reliable documentation: timely, accurate, visual, and complete
 * Save as much of a person's time as possible
 
 ### Drivers
@@ -24,7 +24,9 @@ The goal of this activity is to inform you about the minimum and recommended pre
 ## Prerequisites and Recommendations
 
 The basic hardware and software prerquisites are that you have a computer (PC or laptap) with:
-* Microsoft Windows 10 operating system (any edition - Home or Pro or Academic)
+* Microsoft Windows 10 **Pro** edition operating system
+  * Docker will not run on Windows 10 Home edition according to this [article](https://medium.com/proof-of-working/how-to-run-a-private-network-of-the-neo-blockchain-d83004557359)
+  * The previous statement has been brought into question by a section in this [article](https://github.com/CityOfZion/neo-privatenet-docker#for-users-who-use-docker-machine-ie-windows-home-edition-users-without-hyper-v). I haven't had a chance to check this out (yet).
 * Latest Windows Updates installed
 * 8GB of RAM (16GM or more prefered because you need to install and enable the Hyper-V feature and service)
 * 50GB of free disk space (100GB ore preferred because you will eventually have multiple copies of the NEO blockchain files downloaded on to your machine)
@@ -41,30 +43,35 @@ The .NET 4.7 Dev Pack is required to be able to build some components in the NEO
 1. Download the .NET 4.7 Dev Pack starting here: [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
 
 ![Microsoft Knowlege Base: The .NET Framework 4.7 Developer Pack and Language Packs](./images/00-prerequisites/Dotnet4-7DevPack1Install.png)
+
 Figure 0.1. Microsoft Knowlege Base: The .NET Framework 4.7 Developer Pack and Language Packs
 
 2. This will take you to the Microsoft Downloads site for the dev pack: [https://www.microsoft.com/en-us/download/details.aspx?id=55168](https://www.microsoft.com/en-us/download/details.aspx?id=55168). Scroll down and click the Download button to download the installer executable. 
 
 ![Microsoft Downloads site: Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016](./images/00-prerequisites/Dotnet4-7DevPack2Install.png)
+
 Figure 0.2. Microsoft Downloads site: Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016
 
 3. Go to your Downloads folder on your computer and double-click the `NDP47-DevPack-KB3186612-ENU.exe` executable.
 4. Click OK to run as Adminstrator for the installation process.
 
 ![.NET 4.7 Dev Pack EULA](./images/00-prerequisites/Dotnet4-7DevPack3Install.png)
+
 Figure 0.3. .NET 4.7 Dev Pack EULA
 
 4. The install process will start.
 
-![v](./images/00-prerequisites/Dotnet4-7DevPack4Install.png)
-Figure 0.4. c
+![.NET 4.7 Dev Pack Installation](./images/00-prerequisites/Dotnet4-7DevPack4Install.png)
+
+Figure 0.4. .NET 4.7 Dev Pack Installation
 
 5. The following page will be displayed when the installation is complete.
 
 ![.NET 4.7 Dev Pack Installation Complete](./images/00-prerequisites/Dotnet4-7DevPack5Install.png)
+
 Figure 0.5. .NET 4.7 Dev Pack Installation Complete
 
-6. Proceed to [Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](01-installvisualstudio.md).
+The tasks for this activity are complete. Proceed to [Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](./01-installvisualstudio.md).
 
 ## References
 

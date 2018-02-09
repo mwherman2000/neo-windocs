@@ -1,25 +1,27 @@
 # neo-windocs/windocs
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Purpose
 
-The purpose of the section windocs is to...
-
-TODO - What and Why
+The purpose of the section windocs is to serve as a repository for content purposely designed to help .NET developers ramp up and become productive more quickly when developing solutions using the NEO Blockchain
 
 ## Goals
 
-TODO - What
+* To ensure all of the relavent documentation needed by .NET developers is readily and easily accessible 
 
 ## Principles
 
-TODO - How
+* Provide reliable documentation: timely, accurate, visual, and complete
+* Save as much of a person's time as possible
+* Use free software whenever possible
 
 ## Drivers
 
-TODO - Why
+* Need in the Neo .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Sections
 
-* [Quick Start Guide for Microsoft .NET Developers](./quickstart-csharp)
+* [NEO Blockchain Quick Start Guide for .NET developers](./quickstart-csharp)
+* [windocs Presentations](./windocs-presentations)
+* [windocs Whitepapers](./windocs-whitepapers)

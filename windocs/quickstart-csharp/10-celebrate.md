@@ -1,6 +1,6 @@
-# Quick Start Process Guide for Microsoft .NET Developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 10 - Celebrate
 
@@ -23,6 +23,10 @@ TODO - How
 ### Drivers
 
 TODO - Why
+
+## Celebrate
+
+TODO
 
 ## References
 

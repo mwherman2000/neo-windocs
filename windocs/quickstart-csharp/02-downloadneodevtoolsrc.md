@@ -1,6 +1,6 @@
-# Quick Start Process Guide for Microsoft .NET Developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 2 - Download and unpack NEO development tool sources
 
@@ -29,20 +29,26 @@ TODO - Why
 ### Neon MSIL Transcompiler
 
 ![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeonCompiler1Install.png)
+
 Figure 2.1. Neon Neo Transcompiler Github Project
 
 ![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeonCompiler2Install.png)
+
 Figure 2.2. Neon Neo Transcompiler Source Download
 
 ### Neo-Gui-Developer Node/Wallet
 
 ![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeoGuiDev1Install.png)
+
 Figure 2.3. Neo-Gui-Developer Node/Wallet Github Project
 
 ![Neon Neo Transcompiler Github Project](./images/02-downloadneodevtoolsrc/NeoGuiDev2Install.png)
+
 Figure 2.4. Neo-Gui-Developer Node/Wallet Source Download
 
 TODO
+
+The tasks for this activity are complete. Proceed to [Activity 3 - Coffee Time: Wait for previous activities to complete](./03-coffeetime-waitforprevactivities.md).
 
 ## References
 

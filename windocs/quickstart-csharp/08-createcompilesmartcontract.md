@@ -1,6 +1,6 @@
-# Quick Start Process Guide for Microsoft .NET Developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 8 - Create and compile HelloWorld smart contract sample
 
@@ -23,6 +23,12 @@ TODO - How
 ### Drivers
 
 TODO - Why
+
+## Create and compile HelloWorld smart contract sample
+
+TODO
+
+The tasks for this activity are complete. Proceed to [Activity 9 - Deploy and test HelloWorld smart contract](./09-deploytestsmartcontract.md).
 
 ## References
 

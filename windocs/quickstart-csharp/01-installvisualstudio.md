@@ -1,6 +1,6 @@
-# Quick Start Process Guide for Microsoft .NET Developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)
 
@@ -18,13 +18,13 @@ Visual Studio 2017 will install side-by-side with previous versions/editions of 
 
 ### Principles
 
-* Provide reliable documentation TODO reference
+* Provide reliable documentation: timely, accurate, visual, and complete
 * Save as much of a person's time as possible
 * Use free software whenever possible
 
 ### Drivers
 
-* Need in the Neo developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
+* Need in the Neo .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)
 
@@ -42,15 +42,18 @@ In addition, it is quite useful to have the Visual Studio Code installed on your
 ### Scenario 1 - You don't have any version of Visual Studio 2017 installed
 
 TODO
+
 1. Download the Visual Studio installer from either of:
   * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
   * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
 
   ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
+  
   Figure 1.1. Generic Visual Studio downloads site (all editions)
 
   ![Visual Studio Community Edition specific download site](./images/01-installvisualstudio/VS2017CommunityDownloadSite.png)
-   Figure 1.2. Visual Studio Community Edition specific download site
+  
+  Figure 1.2. Visual Studio Community Edition specific download site
 
 
 TODO
@@ -66,9 +69,10 @@ TODO
   * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
 
   ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
-  Figure 1.1. Generic Visual Studio downloads site (all editions)
+  
+  Figure 1.3. Generic Visual Studio downloads site (all editions)
 
-TODO
+The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO development tool sources](./02-downloadneodevtoolsrc.md).
 
 ## References
 
