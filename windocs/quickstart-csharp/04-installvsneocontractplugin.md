@@ -1,6 +1,6 @@
 # Quick Start Process Guide for Microsoft .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 4 - Install NeoContractPlugin Visual Studio extension
 
@@ -16,7 +16,7 @@ The purpose of this activity is to install the NeoContractPlugin extension into 
 
 ### Principles
 
-* Provide reliable documentation TODO reference
+* Provide reliable documentation
 * Save as much of a person's time as possible
 * Use free software whenever possible
 

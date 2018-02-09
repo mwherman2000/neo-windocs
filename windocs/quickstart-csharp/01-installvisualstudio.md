@@ -1,6 +1,6 @@
 # Quick Start Process Guide for Microsoft .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)
 
@@ -18,7 +18,7 @@ Visual Studio 2017 will install side-by-side with previous versions/editions of 
 
 ### Principles
 
-* Provide reliable documentation TODO reference
+* Provide reliable documentation
 * Save as much of a person's time as possible
 * Use free software whenever possible
 

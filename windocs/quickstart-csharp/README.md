@@ -1,24 +1,25 @@
-# Quick Start Process Guide for Microsoft .NET Developers
+# NEO Blockchain Quick Start Process Guide for Microsoft .NET Developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp))
+NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Purpose
 
-The purpose of this document is to...
-
-TODO - What and Why
+The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environent up and running in as little time as possible.
 
 ## Goals
 
-TODO - What
+* Ensure you have a working and properly configured NEO development environment up and running in as short a time as possible
+* Enable to create, deploy and test your first NEO smart contract written in C# (using the HelloWorld sample)
 
 ## Principles
 
-TODO - How
+* Provide reliable documentation
+* Save as much of a person's time as possible
+* Use free software whenever possible
 
 ## Drivers
 
-TODO - Why
+* Need in the Neo developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Sections
 

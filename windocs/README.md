@@ -4,9 +4,7 @@ NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github
 
 ## Purpose
 
-The purpose of the section windocs is to...
-
-TODO - What and Why
+The purpose of the section windocs is to serve as a repository for content purposely designed to help Microsoft .NET developers ramp up and become productive more quickly.
 
 ## Goals
 
