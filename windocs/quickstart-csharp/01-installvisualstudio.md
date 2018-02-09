@@ -68,9 +68,43 @@ TODO
   * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
   * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
 
-  ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
+    ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
   
-  Figure 1.3. Generic Visual Studio downloads site (all editions)
+    Figure 1.3. Generic Visual Studio downloads site (all editions)
+
+2. In your Downloads folder, double click on the `vs_community.exe` installer executable.
+
+3. Accept the Visual Studio EULA.
+
+    ![Accept the Visual Studio EULA](./images/01-installvisualstudio/VS2017CommunityEULA.png)
+
+    Figure 1.4. Accept the Visual Studio EULA
+
+4. Select the workloads (options) you want to use for your conventional front-end, middle-tier, and back-end components of your solution.
+    
+    ![Select the workloads (options) you want to use for your conventional front-end, middle-tier, and back-end components of your solution.](./images/01-installvisualstudio/VS2017CommunityWorkloads0.png)
+
+    Figure 1.5. Visual Studio Workloads
+
+5. **IMPORTANT** Select the `.NET Core cross-platform development` toolset to enable compilation of all of the NEO developer tools.
+
+    ![**IMPORTANT** Select the `.NET Core cross-platform development` toolset to enable compilation of all of the NEO developer tools.](./images/01-installvisualstudio/VS2017CommunityWorkloads1.png)
+
+    Figure 1.6. Visual Studio Toolsets
+
+6. Click `Modify` to complete the installation.
+
+7. Installation complete.
+
+    ![Installation complete](./images/01-installvisualstudio/VS2017CommunityInstallComplete.png)
+
+    Figure 1.7. Installation complete
+
+7. Test the installation. From the Windos start menu, type "Visual Studio".  Select the Visual Studio app from the list. After a short delay, Visual Studio should start and look like something similar to the following.
+
+    ![Test the installation](./images/01-installvisualstudio/VS2017Home.png)
+
+    Figure 1.8. Test the installation
 
 The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO development tool sources](./02-downloadneodevtoolsrc.md).
 
