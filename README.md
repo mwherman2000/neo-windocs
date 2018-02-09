@@ -6,9 +6,9 @@ This project contains content purposely designed to help Microsoft .NET develope
 
 This project also serves as a respository for content presented at the [NEO Blockchain Toronto meetup group](https://www.meetup.com/NEO-Blockchain-Toronto/).
 
-## NEO Blockchain Quick Start Guide for Microsoft .NET Developers
+## NEO Blockchain Microsoft .NET Developer Content
 
-[Work in Process]
+[NEO Blockchain Quick Start Guide for Microsoft .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
 
 ## NEO Blockchain Toronto Meetup Group
 
