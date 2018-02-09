@@ -4,8 +4,6 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Activity 4 - Install NeoContractPlugin Visual Studio extension
 
-TODO
-
 ### Purpose
 
 The purpose of this activity is to install the NeoContractPlugin extension into Visual Studio.
@@ -22,47 +20,47 @@ The purpose of this activity is to install the NeoContractPlugin extension into 
 
 ### Drivers
 
-* Need in the Neo .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
+* Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Install NeoContractPlugin Visual Studio extension
 
-1. TODO
+1. Start Visual Studio
 
     ![Visual Studio Home Screen](./images/04-installvsneocontractplugin/VS2017Home.png)
 
     Figure 4.1. Visual Studio Home Screen
 
-2. TODO
+2. On the `Tools` menu, select `Extensions and Updates...` to display the following page. Select `Online`; then enter **NEO** in the Search box. A list similar to the following will be displayed.
 
     ![Search for NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin1Install.png)
 
     Figure 4.2. Search for NeoContractPlugin extension
 
-3. TODO
+3. To the right of the NeoContractPlugin extension, click `Download`.
 
     ![Download NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin2Install.png)
 
     Figure 4.3. Download NeoContractPlugin extension
 
-4. TODO
+4. The following message will be displayed in the status area at the bottom of the page. This indicates that Visual Studio has scheduled the installation to occur in the background after you exit Visual Studio. Click `Close`on the page.
 
-    ![NeoContractPlugin install will be scheduled](./images/04-installvsneocontractplugin/NeoContractPlugin3Install.png)
+    ![NeoContractPlugin install will installation be scheduled](./images/04-installvsneocontractplugin/NeoContractPlugin3Install.png)
 
-    Figure 4.4. NeoContractPlugin install will be scheduled
+    Figure 4.4. NeoContractPlugin installation will be scheduled
 
-5. TODO
+5. Click the `Red X` to close Visual Studio. In a minute or two, the following page will be displayed indicating that the installation of the extension has started. Click `Modidy`.
 
     ![NeoContractPlugin extension install confirmation](./images/04-installvsneocontractplugin/NeoContractPlugin4Install.png)
 
     Figure 4.5. NeoContractPlugin extension install confirmation
 
-6. TODO
+6. The installation of the extension will proceed.
 
     ![NeoContractPlugin extension installation progress](./images/04-installvsneocontractplugin/NeoContractPlugin5Install.png)
 
     Figure 4.6. NeoContractPlugin extension installation progress
 
-7. TODO
+7. When the installation of the extension is complete, the following page will be displayed.
 
     ![NeoContractPlugin extension installation complete](./images/04-installvsneocontractplugin/NeoContractPlugin6Install.png)
 
@@ -72,5 +70,5 @@ The tasks for this activity are complete. Proceed to [Activity 5 - Build NEO dev
 
 ## References
 
-* TODO
+* [NEOCONTRACTPLUGIN] NEO Project, [NEO Development Pack](https://github.com/neo-project/neo-devpack-dotnet) from [https://github.com/neo-project/neo-devpack-dotnet](https://github.com/neo-project/neo-devpack-dotnet)
 

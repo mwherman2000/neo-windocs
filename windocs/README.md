@@ -18,7 +18,7 @@ The purpose of the section windocs is to serve as a repository for content purpo
 
 ## Drivers
 
-* Need in the Neo .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
+* Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Sections
 

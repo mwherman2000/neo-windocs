@@ -29,7 +29,7 @@ The basic hardware and software prerquisites are that you have a computer (PC or
   
   Windows 10 Home edition can't be used because it doesn't include the Hyper-V feature and hence, the Hyper-V service can't be installed/enabled and the NEO Docker container can't be use for deploying and testing NEO smart contracts. The Hyper-V service is a pre-requisite for installing Docker.
   
-    ![Windows 10 Home edition doesn't include the Hyper-V feature](./images/06-installdockerplatform/Docker0Install-Home2.png)
+    ![Windows 10 Home edition doesn't include the Hyper-V feature](./images/00-prerequisites/Docker0Install-Home2.png)
 
     Figure 0.1. Windows 10 Home edition doesn't include the Hyper-V feature
 
@@ -56,40 +56,78 @@ This folder will be used for all of your NEO development work.  It is the folder
 
     **NOTE:** Some of the path names used in the NEO Project projects can be quite long.
 
+## Install the Hyper-V service on your Windows 10 computer
+
+2. Inspect the Virtualization Technology setting in your computer's BIOS by starting Windows Task Manager and selecting the `Performance` tab; then select `CPU`. 
+
+    ![Task Manager: Inspect the BIOS Virtualization Technology Setting (Disabled)](./images/00-prerequisites/Docker2Install-VirtDisabled.png)
+
+    Figure 0.2. Task Manager: Inspect the BIOS Virtualization Technology Setting (Disabled)
+
+3. In Task Manager, if the `Virtualization` setting is Disabled, you need to power down computer; then restart it - pressing `F10` to enter the BIOS Setup Utility (similar to the following). Change the `Virtualization Technology` setting to `Enabled`; save and exit from the BIOS Setup Utility.  Reboot your commputer.
+
+    ![BIOS Setup Utility: Virtualization Technology Setting (change to Enabled; then save and reboot)](./images/00-prerequisites/Docker0Install-BIOS.png)
+
+    Figure 0.3. BIOS Setup Utility: Virtualization Technology Setting (change to Enabled; then save and reboot)
+
+4. To verify the Virtualization Technology setting in your computer's BIOS is Enabled, login to your computer and start Windows Task Manager again; selecting the `Performance` tab; then select `CPU`. `Virtualization` should now be `Enabled`.
+
+    ![Task Manager: Verify the BIOS Virtualization Technology Setting (Disabled)](./images/00-prerequisites/Docker2Install-VirtEnabled.png)
+
+    Figure 0.4. Task Manager: Verify the BIOS Virtualization Technology Setting (Enabled)
+
+5. To install the Hyper-V service, click the Windows Start icon and type "Turn Windows Features on or off". Scroll down until you find Hyper-V and select it (a checkmark should appear in the box). If the the Hyper-V box is already checked, then the Hyper-V service is already installed and you **don't* have to change this setting.
+
+    ![Windows Features: Turn Windows Features on or off](./images/00-prerequisites/Docker0Install-Home0.png)
+
+    Figure 0.5. Windows Features: Turn Windows Features on or off
+
+    If you don't see the Hyper-V feature in the list at all, it is likely because you are running Windows 10 Home edition on your computer.  Find a computer with Windows 10 Pro, Enterprise or Academic edition or upgrade the operating system on your computer to one of these versions of Windows 10.
+
+    ![Windows Features: Windows 10 Home edition doesn't include the Hyper-V feature](./images/00-prerequisites/Docker0Install-Home1.png)
+
+    Figure 0.6. Windows Features: Windows 10 Home edition doesn't include the Hyper-V feature
+
+    If you insist on trying to continue, you're eventually going to run into this blocking problem in Activity 6 - Download, install and test Docker platform. Stop now while you're ahead.
+
+    ![Windows Features: HyperV is not available in Home editions](./images/00-prerequisites/Docker0Install.png)
+
+    Figure 0.7. Windows Features: HyperV is not available in Home editions
+
 ## Download and Install the Microsoft .NET 4.7 Developer Pack
 
 The .NET 4.7 Dev Pack is required to be able to build some components in the NEO developer toolset. If you overlook this step, Visual Studio will interupt and prompt to install this dev pack when it is required.
 
-1. Download the .NET 4.7 Dev Pack starting here: [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
+6. Download the .NET 4.7 Dev Pack starting here: [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
 
     ![Microsoft Knowlege Base: The .NET Framework 4.7 Developer Pack and Language Packs](./images/00-prerequisites/Dotnet4-7DevPack1Install.png)
 
-    Figure 0.2. Microsoft Knowlege Base: The .NET Framework 4.7 Developer Pack and Language Packs
+    Figure 0.8. Microsoft Knowlege Base: The .NET Framework 4.7 Developer Pack and Language Packs
 
-2. This will take you to the Microsoft Downloads site for the dev pack: [https://www.microsoft.com/en-us/download/details.aspx?id=55168](https://www.microsoft.com/en-us/download/details.aspx?id=55168). Scroll down and click the Download button to download the installer executable. 
+7. This will take you to the Microsoft Downloads site for the dev pack: [https://www.microsoft.com/en-us/download/details.aspx?id=55168](https://www.microsoft.com/en-us/download/details.aspx?id=55168). Scroll down and click the Download button to download the installer executable. 
 
     ![Microsoft Downloads site: Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016](./images/00-prerequisites/Dotnet4-7DevPack2Install.png)
 
-    Figure 0.3. Microsoft Downloads site: Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016
+    Figure 0.9. Microsoft Downloads site: Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016
 
-3. Go to your Downloads folder on your computer and double-click the `NDP47-DevPack-KB3186612-ENU.exe` executable.
-4. Click OK to run as Adminstrator for the installation process.
+8. Go to your Downloads folder on your computer and double-click the `NDP47-DevPack-KB3186612-ENU.exe` executable.
+9. Click OK to run as Adminstrator for the installation process.
 
     ![.NET 4.7 Dev Pack EULA](./images/00-prerequisites/Dotnet4-7DevPack3Install.png)
 
-    Figure 0.3. .NET 4.7 Dev Pack EULA
+    Figure 0.10. .NET 4.7 Dev Pack EULA
 
-4. The install process will start.
+10. The install process will start.
 
     ![.NET 4.7 Dev Pack Installation](./images/00-prerequisites/Dotnet4-7DevPack4Install.png)
 
-    Figure 0.4. .NET 4.7 Dev Pack Installation
+    Figure 0.11. .NET 4.7 Dev Pack Installation
 
-5. The following page will be displayed when the installation is complete.
+11. The following page will be displayed when the installation is complete.
 
    ![.NET 4.7 Dev Pack Installation Complete](./images/00-prerequisites/Dotnet4-7DevPack5Install.png)
 
-   Figure 0.5. .NET 4.7 Dev Pack Installation Complete
+   Figure 0.12. .NET 4.7 Dev Pack Installation Complete
 
 The tasks for this activity are complete. Proceed to [Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](./01-installvisualstudio.md).
 

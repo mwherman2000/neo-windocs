@@ -19,7 +19,7 @@ The purpose of this activity is to wait for the previous activities to complete 
 
 ### Drivers
 
-* Need in the Neo .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
+* Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Wait for previous activities to complete
 
