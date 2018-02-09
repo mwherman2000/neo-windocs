@@ -23,3 +23,5 @@ The purpose of the section windocs is to serve as a repository for content purpo
 ## Sections
 
 * [NEO Blockchain Quick Start Guide for .NET developers](./quickstart-csharp)
+* [windocs Presentations](./windocs-presentations)
+* [windocs Whitepapers](./windocs-whitepapers)
