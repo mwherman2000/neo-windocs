@@ -26,33 +26,47 @@ The purpose of this activity is to install the NeoContractPlugin extension into 
 
 ## Install NeoContractPlugin Visual Studio extension
 
-![Visual Studio Home Screen](./images/04-installvsneocontractplugin/VS2017Home.png)
+1. TODO
 
-Figure 4.1. Visual Studio Home Screen
+    ![Visual Studio Home Screen](./images/04-installvsneocontractplugin/VS2017Home.png)
 
-![Search for NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin1Install.png)
+    Figure 4.1. Visual Studio Home Screen
 
-Figure 4.2. Search for NeoContractPlugin extension
+2. TODO
 
-![Download NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin2Install.png)
+    ![Search for NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin1Install.png)
 
-Figure 4.3. Download NeoContractPlugin extension
+    Figure 4.2. Search for NeoContractPlugin extension
 
-![NeoContractPlugin install will be scheduled](./images/04-installvsneocontractplugin/NeoContractPlugin3Install.png)
+3. TODO
 
-Figure 4.4. NeoContractPlugin install will be scheduled
+    ![Download NeoContractPlugin extension](./images/04-installvsneocontractplugin/NeoContractPlugin2Install.png)
 
-![NeoContractPlugin extension install confirmation](./images/04-installvsneocontractplugin/NeoContractPlugin4Install.png)
+    Figure 4.3. Download NeoContractPlugin extension
 
-Figure 4.5. NeoContractPlugin extension install confirmation
+4. TODO
 
-![NeoContractPlugin extension installation progress](./images/04-installvsneocontractplugin/NeoContractPlugin5Install.png)
+    ![NeoContractPlugin install will be scheduled](./images/04-installvsneocontractplugin/NeoContractPlugin3Install.png)
 
-Figure 4.6. NeoContractPlugin extension installation progress
+    Figure 4.4. NeoContractPlugin install will be scheduled
 
-![NeoContractPlugin extension installation complete](./images/04-installvsneocontractplugin/NeoContractPlugin6Install.png)
+5. TODO
 
-Figure 4.7. NeoContractPlugin extension installation complete
+    ![NeoContractPlugin extension install confirmation](./images/04-installvsneocontractplugin/NeoContractPlugin4Install.png)
+
+    Figure 4.5. NeoContractPlugin extension install confirmation
+
+6. TODO
+
+    ![NeoContractPlugin extension installation progress](./images/04-installvsneocontractplugin/NeoContractPlugin5Install.png)
+
+    Figure 4.6. NeoContractPlugin extension installation progress
+
+7. TODO
+
+    ![NeoContractPlugin extension installation complete](./images/04-installvsneocontractplugin/NeoContractPlugin6Install.png)
+
+    Figure 4.7. NeoContractPlugin extension installation complete
 
 The tasks for this activity are complete. Proceed to [Activity 5 - Build NEO development tools](./05-buildneodevtools.md).
 

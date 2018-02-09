@@ -4,8 +4,6 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Activity 3 - Coffee Time: Wait for previous activities to complete
 
-![Coffee Time](./images/03-coffeetime-waitforprevactivities/blockchainstore-neomug64.jpg)
-
 ### Purpose
 
 The purpose of this activity is to wait for the previous activities to complete before proceeding to the activities that are dependent on the previous activities.
@@ -26,10 +24,13 @@ The purpose of this activity is to wait for the previous activities to complete 
 ## Wait for previous activities to complete
 
 1. Wait for the Visual Studio installation to complete
-2. Wait for the Neo Developer Tools downloads to complete
+2. Wait for the NEO developer tool source downloads to complete
+3. Have a coffee
+
+   ![Coffee Time](./images/03-coffeetime-waitforprevactivities/blockchainstore-neomug64.jpg)
 
 The tasks for this activity are complete. Proceed to [Activity 4 - Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md).
 
 ## References
 
-* N/A
+* [COFFEMUG] The Blockchain Store, [NEO Antshares Crypto Coffee Mug](http://www.blockchainstore.xyz/product-page/glossy-crypto-coffee-mug-neo-antshares-logo) from [http://www.blockchainstore.xyz/product-page/glossy-crypto-coffee-mug-neo-antshares-logo](http://www.blockchainstore.xyz/product-page/glossy-crypto-coffee-mug-neo-antshares-logo)
