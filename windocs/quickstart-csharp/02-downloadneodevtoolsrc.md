@@ -30,7 +30,7 @@ While Activity 1 - Download and install Visual Studio 2017 Community Edition int
 
 **NOTE:** Rather than downloading the source archive files, you may choose to `git clone` each of the 2 projects.  I leave that up to you. I'm just trying to keep things as simple as 
 
-### Neon NEO MSIL Transcompiler
+### Download and unpack the Neon NEO MSIL Transcompiler
 
 1. Visit the Neon Neo transcompiler GitHub project at [https://github.com/neo-project/neo-compiler](https://github.com/neo-project/neo-compiler).
 
@@ -46,7 +46,7 @@ While Activity 1 - Download and install Visual Studio 2017 Community Edition int
 
 3. Unzip the archive file to save the source files into the subfolder (e.g. by default `C:\NEO\neo-compiler-master`).
 
-### Neo-Gui-Developer Node/Wallet
+### Download and unpack the Neo-Gui-Developer Node/Wallet
 
 4. Visit the Neon Neo transcompiler GitHub project at [https://github.com/CityOfZion/neo-gui-developer](https://github.com/CityOfZion/neo-gui-developer).
 

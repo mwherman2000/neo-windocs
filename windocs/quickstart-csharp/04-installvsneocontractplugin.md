@@ -66,7 +66,7 @@ The purpose of this activity is to install the NeoContractPlugin extension into 
 
     Figure 4.7. NeoContractPlugin extension installation complete
 
-The tasks for this activity are complete. Proceed to [Activity 5 - Build NEO development tools](./05-buildneodevtools.md).
+The tasks for this activity are complete. Proceed to [Activity 5 - Build NEO developer tools](./05-buildneodevtools.md).
 
 ## References
 

@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 5 - Build NEO development tools
+## Activity 5 - Build NEO developer tools
 
 ### Purpose
 
@@ -22,10 +22,11 @@ The purpose of this activity is to build the NEO developer tools from the source
 
 * Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
-## Build NEO development tools
+## Build NEO developer tools
 
-1. TODO
+### Build and test the Neon NEO MSIL Transcompiler
 
+1. Build t
 
 
 2. TODO
@@ -34,7 +35,9 @@ The purpose of this activity is to build the NEO developer tools from the source
 
 3. TODO
 
+### Download and unpack the Neo-Gui-Developer Node/Wallet
 
+TODO
 
 The tasks for this activity are complete. Proceed to [Activity 6 - Download, install and test Docker platform](./06-installdockerplatform.md).
 
