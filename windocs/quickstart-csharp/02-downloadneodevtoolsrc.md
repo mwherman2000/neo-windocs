@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process Guide for .NET developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -43,6 +43,8 @@ Figure 2.3. Neo-Gui-Developer Node/Wallet Github Project
 Figure 2.4. Neo-Gui-Developer Node/Wallet Source Download
 
 TODO
+
+The tasks for this activity are complete. Proceed to [Activity 3 - Coffee Time: Wait for previous activities to complete](./03-coffeetime-waitforprevactivities.md).
 
 ## References
 

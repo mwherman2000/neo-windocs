@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process Guide for .NET developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -68,7 +68,7 @@ TODO
   ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
   Figure 1.1. Generic Visual Studio downloads site (all editions)
 
-TODO
+The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO development tool sources](./02-downloadneodevtoolsrc.md).
 
 ## References
 

@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process Guide for .NET developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -46,6 +46,8 @@ Figure 4.6. NeoContractPlugin extension installation progress
 
 ![NeoContractPlugin extension installation complete](./images/04-installvsneocontractplugin/NeoContractPlugin6Install.png)
 Figure 4.7. NeoContractPlugin extension installation complete
+
+The tasks for this activity are complete. Proceed to [Activity 5 - Build NEO development tools](./05-buildneodevtools.md).
 
 ## References
 

@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process Guide for .NET developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -23,6 +23,10 @@ TODO - How
 ### Drivers
 
 TODO - Why
+
+## Build NEO development tools
+
+The tasks for this activity are complete. Proceed to [Activity 6 - Install Docker platform](./06-installdockerplatform.md).
 
 ## References
 

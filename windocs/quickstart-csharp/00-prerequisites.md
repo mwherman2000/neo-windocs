@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process Guide for .NET developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -66,7 +66,7 @@ Figure 0.4. c
 ![.NET 4.7 Dev Pack Installation Complete](./images/00-prerequisites/Dotnet4-7DevPack5Install.png)
 Figure 0.5. .NET 4.7 Dev Pack Installation Complete
 
-6. Proceed to [Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](01-installvisualstudio.md).
+The tasks for this activity are complete. Proceed to [Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](./01-installvisualstudio.md).
 
 ## References
 

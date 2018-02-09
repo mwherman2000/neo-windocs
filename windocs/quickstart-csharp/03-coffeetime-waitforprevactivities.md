@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process Guide for .NET developers
+# NEO Blockchain Quick Start Process Guide for .NET Developers
 
 NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -25,8 +25,10 @@ The purpose of this activity is to wait for the previous activities to complete 
 
 ## Wait for previous activities to complete
 
-* Wait for the Visual Studio installation to complete
-* Wait for the Neo Developer Tools downloads to complete
+1. Wait for the Visual Studio installation to complete
+2. Wait for the Neo Developer Tools downloads to complete
+
+The tasks for this activity are complete. Proceed to [Activity 4 - Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md).
 
 ## References
 
