@@ -24,7 +24,9 @@ The goal of this activity is to inform you about the minimum and recommended pre
 ## Prerequisites and Recommendations
 
 The basic hardware and software prerquisites are that you have a computer (PC or laptap) with:
-* Microsoft Windows 10 operating system (any edition - Home or Pro or Academic)
+* Microsoft Windows 10 **Pro** edition operating system
+  * Docker will not run on Windows 10 Home edition according to this [article](https://medium.com/proof-of-working/how-to-run-a-private-network-of-the-neo-blockchain-d83004557359)
+  * The previous statement has been brought into question by a section in this [article](https://github.com/CityOfZion/neo-privatenet-docker#for-users-who-use-docker-machine-ie-windows-home-edition-users-without-hyper-v). I haven't had a chance to check this out (yet).
 * Latest Windows Updates installed
 * 8GB of RAM (16GM or more prefered because you need to install and enable the Hyper-V feature and service)
 * 50GB of free disk space (100GB ore preferred because you will eventually have multiple copies of the NEO blockchain files downloaded on to your machine)
