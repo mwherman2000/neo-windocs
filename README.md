@@ -1,6 +1,6 @@
 # neo-windocs
 
-NEO Blockchain end-to-end, detailed guidance for Microsoft .NET Developers [url](https://github.com/mwherman2000/neo-windocs)
+NEO Blockchain end-to-end, detailed guidance for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs))
 
 This project contains content purposely designed to help Microsoft .NET developers ramp up and become productive more quickly.
 
