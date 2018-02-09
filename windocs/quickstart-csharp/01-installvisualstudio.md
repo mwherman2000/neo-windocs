@@ -12,7 +12,7 @@ The purpose of this activity is to download, install and perform basic configura
 
 * Ensure you have a working and properly configured version of Visual Studio 2017 installed
 
-Any customization steps are decribed in subsequent activities.
+Any additional Visual Studio customization steps are decribed in subsequent activities.
 
 Visual Studio 2017 will install side-by-side with previous versions/editions of Visual Studio without affecting them (other than reducing your free disk space). This includes Visual Studio 2015 and Visual Studio Code, etc.
 
@@ -20,7 +20,7 @@ Visual Studio 2017 will install side-by-side with previous versions/editions of 
 
 * Provide reliable documentation: timely, accurate, visual, and complete
 * Save as much of a person's time as possible
-* Use free software whenever possible
+* Use open source software whenever possible
 
 ### Drivers
 

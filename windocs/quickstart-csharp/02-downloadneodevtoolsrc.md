@@ -4,25 +4,24 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Activity 2 - Download and unpack NEO developer tool sources
 
-TODO
-
 ### Purpose
 
-The purpose of this activity is to...
-
-TODO - What and Why
+The purpose of this activity is to download the NEO developer tool source projects while the Visual Studio installation running to completion.
 
 ### Goals, Non-Goals and Assumptions
 
-TODO - What
+* Ensure you have everything downloaded and installed before proceeding to the next set of activities
+* Ensure you're able to get up and running is as short a time as possible
 
 ### Principles
 
-TODO - How
+* Provide reliable documentation: timely, accurate, visual, and complete
+* Save as much of a person's time as possible
+* Use open source software whenever possible
 
 ### Drivers
 
-TODO - Why
+* Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Download and unpack NEO developer tool sources
 

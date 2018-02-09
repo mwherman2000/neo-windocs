@@ -14,7 +14,7 @@ The purpose of this section is to act as a repository for NEO developer presenta
 
 * Provide reliable documentation: timely, accurate, visual, and complete
 * Save as much of a person's time as possible
-* Use free software whenever possible
+* Use open source software whenever possible
 
 ## Drivers
 
