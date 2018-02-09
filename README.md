@@ -12,7 +12,7 @@ This project also serves as a respository for content presented at the [NEO Bloc
 
 ## NEO Blockchain Toronto Meetup Group
 
-**[NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/)** is a non-profit, community-based Meetup group for blockchain developers and architects interested in designing and creating Distributed Ledge Technology (DLT) (aka blockchain) solutions based the NEO Blockchain platform.
+**[NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/)** is a non-profit, community-based Meetup group for blockchain developers and architects interested in designing and creating Distributed Ledge Technology (DLT) (aka blockchain) solutions using the NEO Blockchain platform.
 
 **[NEO](https://neo.org/)** is a non-profit, community-based blockchain project that utilizes blockchain technology and digital identity to digitize assets, to automate the management of digital assets using smart contracts, and to realize a "smart economy" with a distributed network.
 
