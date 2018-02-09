@@ -1,6 +1,6 @@
-# NEO Blockchain Quick Start Process Guide for Microsoft .NET Developers
+# NEO Blockchain Quick Start Process Guide for .NET developers
 
-NEO Blockchain documentation for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
+NEO Blockchain documentation for .NET developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Activity 0 - Prerequisites and Recommendations
 
@@ -14,7 +14,7 @@ The goal of this activity is to inform you about the minimum and recommended pre
 
 ### Principles
 
-* Provide reliable documentation
+* Provide reliable documentation: timely, accurate, visual, and complete
 * Save as much of a person's time as possible
 
 ### Drivers

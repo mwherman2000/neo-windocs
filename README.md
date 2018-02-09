@@ -1,14 +1,14 @@
 # neo-windocs
 
-NEO Blockchain end-to-end, detailed guidance for Microsoft .NET Developers ([url](https://github.com/mwherman2000/neo-windocs))
+NEO Blockchain end-to-end, detailed guidance for .NET developers ([url](https://github.com/mwherman2000/neo-windocs))
 
-This project contains content purposely designed to help Microsoft .NET developers ramp up and become productive more quickly.
+This project contains content purposely designed to help .NET developers ramp up and become productive more quickly.
 
 This project also serves as a respository for content presented at the [NEO Blockchain Toronto meetup group](https://www.meetup.com/NEO-Blockchain-Toronto/).
 
 ## NEO Blockchain Microsoft .NET Developer Content
 
-* [NEO Blockchain Quick Start Guide for Microsoft .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
+* [NEO Blockchain Quick Start Guide for .NET developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
 
 ## NEO Blockchain Toronto Meetup Group
 
@@ -20,7 +20,7 @@ This meetup is a group that it is currently independent of the official [NEO Pro
 
 ## Sections
 
-* [windocs](https://github.com/mwherman2000/neo-windocs/tree/master/windocs) - NEO Blockchain documentation for Microsoft .NET Developers
+* [windocs](https://github.com/mwherman2000/neo-windocs/tree/master/windocs) - NEO Blockchain documentation for .NET developers
 * [events](https://github.com/mwherman2000/neo-windocs/tree/master/events) - Repository for [NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/) meetings and content
 * [presentations](https://github.com/mwherman2000/neo-windocs/tree/master/presentations) - NEO Blockchain presentations (PPT, PDF)
 * [whitepapers](https://github.com/mwherman2000/neo-windocs/tree/master/whitepapers) - NEO Blockchain whitepapers
