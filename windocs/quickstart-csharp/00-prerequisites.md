@@ -24,7 +24,8 @@ The goal of this activity is to inform you about the minimum and recommended pre
 ## Prerequisites and Recommendations
 
 The basic hardware and software prerquisites are that you have a computer (PC or laptap) with:
-* Microsoft Windows 10 **Pro** edition operating system
+* Microsoft Windows 10 64-bit **Pro**, Enterprise and Education edition operating system (1607 Anniversary Update, Build 14393 or later)
+  * > The current version of Docker for Windows runs on 64bit Windows 10 Pro, Enterprise and Education (1607 Anniversary Update, Build 14393 or later). [[DOCKER](https://docs.docker.com/docker-for-windows/install/)]
   * Docker will not run on Windows 10 Home edition according to this [article](https://medium.com/proof-of-working/how-to-run-a-private-network-of-the-neo-blockchain-d83004557359)
   * The previous statement has been brought into question by a section in this [article](https://github.com/CityOfZion/neo-privatenet-docker#for-users-who-use-docker-machine-ie-windows-home-edition-users-without-hyper-v). I haven't had a chance to check this out (yet).
 * Latest Windows Updates installed
@@ -75,5 +76,6 @@ The tasks for this activity are complete. Proceed to [Activity 1 - Download and 
 
 ## References
 
-* [DevPack1] [The .NET Framework 4.7 Developer Pack and Language Packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs) from [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
-* [DevPack2] [Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=55168) from [https://www.microsoft.com/en-us/download/details.aspx?id=55168](https://www.microsoft.com/en-us/download/details.aspx?id=55168)
+* [DOCKER] docker.com, [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/) from [https://docs.docker.com/docker-for-windows/install/] (https://docs.docker.com/docker-for-windows/install/)
+* [DEVPACK1] [The .NET Framework 4.7 Developer Pack and Language Packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs) from [https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs](https://support.microsoft.com/en-ca/help/3186612/the-net-framework-4-7-developer-pack-and-language-packs)
+* [DEVPAK2] [Microsoft .NET Framework 4.7 Developer Pack and Language Packs for Windows 7 SP1, Windows 8.1, Windows 10 Anniversary Update, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2 and Windows Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=55168) from [https://www.microsoft.com/en-us/download/details.aspx?id=55168](https://www.microsoft.com/en-us/download/details.aspx?id=55168)
