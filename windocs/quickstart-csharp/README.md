@@ -37,5 +37,5 @@ The purpose of this document is to enable .NET developers who are brand new to N
 
 ## References
 
-* TODO
+* [NEOTUTORIAL] NEO Project, [NEO smart contract tutorial](http://docs.neo.org/en-us/sc/tutorial.html) from [http://docs.neo.org/en-us/sc/tutorial.html](http://docs.neo.org/en-us/sc/tutorial.html)
 
