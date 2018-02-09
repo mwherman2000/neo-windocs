@@ -1,6 +1,6 @@
 # neo-windocs/windocs
 
-NEO Blockchain documentation for .NET developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
+NEO Blockchain documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
 ## Purpose
 
