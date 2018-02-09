@@ -25,7 +25,7 @@ The purpose of this document is to enable .NET developers who are brand new to N
 
 0. [Pre-requisites and Recommendations](./00-prerequisites.md)
 1. [Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](./01-installvisualstudio.md)
-2. [Download and unpack NEO development tool sources](./02-downloadneodevtoolsrc.md)
+2. [Download and unpack NEO developer tool sources](./02-downloadneodevtoolsrc.md)
 3. [Coffee time: Wait for previous activities to complete](./03-coffeetime-waitforprevactivities.md)
 4. [Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md)
 5. [Build NEO developer tools](./05-buildneodevtools.md)

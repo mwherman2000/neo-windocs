@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 2 - Download and unpack NEO development tool sources
+## Activity 2 - Download and unpack NEO developer tool sources
 
 TODO
 
@@ -24,7 +24,7 @@ TODO - How
 
 TODO - Why
 
-## Download and unpack NEO development tool sources
+## Download and unpack NEO developer tool sources
 
 While Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE) is completing, proceed to download and unpack the following 2 NEO Project projects to help you save time.
 

@@ -106,7 +106,7 @@ TODO
 
     Figure 1.8. Test the installation
 
-The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO development tool sources](./02-downloadneodevtoolsrc.md).
+The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO developer tool sources](./02-downloadneodevtoolsrc.md).
 
 ## References
 
