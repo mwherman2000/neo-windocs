@@ -8,7 +8,7 @@ This project also serves as a respository for content presented at the [NEO Bloc
 
 ## NEO Blockchain Microsoft .NET Developer Content
 
-[NEO Blockchain Quick Start Guide for Microsoft .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
+* [NEO Blockchain Quick Start Guide for Microsoft .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
 
 ## NEO Blockchain Toronto Meetup Group
 
