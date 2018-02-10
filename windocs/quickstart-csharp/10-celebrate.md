@@ -10,24 +10,24 @@ TODO
 
 The purpose of this activity is to have **fun**.
 
-TODO - What and Why
-
 ### Goals, Non-Goals and Assumptions
 
-TODO - What
+* Celebrate "getting to the end" and having a completely working NEO Blockchain .NET development environment
 
 ### Principles
 
-TODO - How
+* Provide reliable documentation: timely, accurate, visual, and complete
+* Save as much of a person's time as possible
+* Use open source software whenever possible
 
 ### Drivers
 
-TODO - Why
+* Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Celebrate
 
-TODO
+1. Have **fun**
 
 ## References
 
-* TODO
+* N/A
