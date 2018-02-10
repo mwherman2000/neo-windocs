@@ -24,7 +24,7 @@ The purpose of this activity is to download, install and test the NEO private ne
 
 * Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
-## Download, install and test NEO privatenet Docker Container
+## Download and install the NEO privatenet Docker Container
 
 1. To ensure Docker is installed and running, start the Powershell console and enter `docker run hello-world` (and press Enter).
 
@@ -32,7 +32,71 @@ The purpose of this activity is to download, install and test the NEO private ne
   
     Figure 7.1. Docker Run Hello-World
 
+2. To download the NEO Docker container and run it, run the following script: 
+    ```
+    docker pull metachris/neo-privnet-with-gas
+    docker run -d --name neo-privnet-with-gas -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp metachris/neo-privnet-with-gas
+    pause
+    ```
+    Script: NEO Docker Download/Install/Run  ([./scripts/neodockerinstall.bat.txt](./scripts/neodockerinstall.bat.txt))
+
+    The script produces the following output:
+
+    ![NEO Docker Download/Install/Run](./images/07-installneoprivatenetcontainer/DockerNeo1Install.png)
+  
+    Figure 7.2. NEO Docker Download/Install/Run
+
+## Test the NEO privatenet Docker Container
+
+3. To test the NEO Docker container, run following script:
+    ```
+    REM cd opt/neo-python
+    REM python3 prompt.py -p
+    REM block 0
+    docker exec -it neo-privnet-with-gas /bin/bash
+    pause
+    ```
+    Script: NEO Docker Python CLI/Shell ([./scripts/neodockerpshell.bat.txt](./scripts/neodockerpshell.bat.txt))
+
+4. The above script will open a bash console for the NEO container. Execute the following commands in the Bash console to start the NEO Python CLI:
+    ```
+    cd opt/neo-python
+    python3 prompt.py -p
+    ```
+
+5. The above commands will start the NEO Python CLI. Execute the following commands to verify the NEO container (and NEO node) is working:
+    ```
+    block 0
+    exit
+    ```
+
+    In total, the last 3 tasks produce the following output:
+
+    ![NEO Docker Test](./images/07-installneoprivatenetcontainer/DockerNeo1Test.png)
+  
+    Figure 7.3. NEO Docker Test
+
 The tasks for this activity are complete. Proceed to [Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md).
+
+## Additional Notes
+
+For a client app to access the NEO privatenet you just created, your ap will need to use the following pair of NEO JSON configuration files:
+
+* config.json: ([./json/config-windows.privatenet.json](./json/config-windows.privatenet.json))
+* protocol.json: ([./json/protocol.privatenet.json](./json/protocol.privatenet.json))
+
+To switch over from an existing NEO network to this privatenet, make sure you:
+* Delete your old blockchain folder
+* Delete your old `peers.dat` file
+* Re-index your database
+
+## Script Library
+
+* NEO Docker Download/Install/Run ([./scripts/neodockerinstall.bat.txt](./scripts/neodockerinstall.bat.txt))
+* NEO Docker Stop/Remove ([./scripts/neodockeruninstall.bat.txt](./scripts/neodockeruninstall.bat.txt))
+* NEO Docker Start ([./scripts/neodockerstart.bat.txt](./scripts/neodockerstart.bat.txt))
+* NEO Docker Stop ([./scripts/neodockerstop.bat.txt](./scripts/neodockerstop.bat.txt))
+* NEO Docker Python CLI/Shell ([./scripts/neodockerpshell.bat.txt](./scripts/neodockerpshell.bat.txt))
 
 ## References
 

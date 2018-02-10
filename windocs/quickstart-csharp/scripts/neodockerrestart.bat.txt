@@ -1,0 +1,5 @@
+docker stop neo-privnet-with-gas
+docker container list
+docker start neo-privnet-with-gas
+docker container list
+pause
