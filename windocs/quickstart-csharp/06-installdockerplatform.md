@@ -4,8 +4,6 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Activity 6 - Download, install, and test Docker platform
 
-TODO
-
 ### Purpose
 
 The purpose of this activity is to download, install, and test the Docker container platform to in turn support the running of a local NEO private network (NEO privatenet).

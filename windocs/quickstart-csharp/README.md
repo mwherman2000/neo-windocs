@@ -4,7 +4,7 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Purpose
 
-The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environent up and running in as little time as possible.
+The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environment up and running in as little time as possible.
 
 ## Goals
 
