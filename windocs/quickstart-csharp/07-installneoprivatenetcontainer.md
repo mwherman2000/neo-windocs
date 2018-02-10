@@ -4,8 +4,6 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Activity 7 - Download, install and test NEO privatenet Docker container
 
-TODO
-
 ### Purpose
 
 The purpose of this activity is to download, install and test the NEO private network (privatenet) Docker container using the Docker platform installed in the previous activity to insure we can build and deploy NEO smart contracts to privatenet.
