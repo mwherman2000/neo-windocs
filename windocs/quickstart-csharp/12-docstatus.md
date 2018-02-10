@@ -31,7 +31,7 @@ Activity | Description | Complete?  | Numbering? | Reviewed? | Tested?
 2 | **[Activity 2 - Download and unpack NEO developer tool sources](./02-downloadneodevtoolsrc.md)** | 2018/2/10 | ____________ | ____________ | ____________
 3 | **[Activity 3 - Coffee Time: Wait for previous activities to complete](./03-coffeetime-waitforprevactivities.md)** | 2018/2/10 | 2018/2/10 | ____________ | ____________
 4 | **[Activity 4 - Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md)** | 2018/2/10 | ____________ | ____________ | ____________
-5 | **[Activity 5 - Build NEO developer tools](./05-buildneodevtools.md)** | ____________ | ____________ | ____________ | ____________
+5 | **[Activity 5 - Build NEO developer tools](./05-buildneodevtools.md)** | 2018/2/10 | ____________ | ____________ | ____________
 6 | **[Activity 6 - Download, install, and test Docker platform](./06-installdockerplatform.md)** | 2018/2/10 | ____________ | ____________ | ____________
 7 | **[Activity 7 - Download, install and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)** | ____________ | ____________ | ____________ | ____________
 8 | **[Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)** | ____________ | ____________ | ____________ | ____________

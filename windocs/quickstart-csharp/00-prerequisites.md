@@ -105,7 +105,7 @@ This folder will be used for all of your NEO development work.  It is the folder
 
     Figure 0.8. Windows Features: Restarting your computer
 
-7. To verify the Hyper-V service is running, click the Windows start menu and enter `services.msc`. You should see numerous Hyper-V services listed in the Services control panel.
+7. To verify the Hyper-V service is running, click the Windows start menu and enter "services.msc". You should see numerous Hyper-V services listed in the Services control panel.
 
     ![Services Control Panel: Hyper-V Services](./images/00-prerequisites/Features-HV3.png)
 
