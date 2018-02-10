@@ -27,7 +27,7 @@ The purpose of this activity is provide a terse checklist of all of the importan
 1. Complete the following checklist to verify and confirm all of the key tasks of each activity have completed successfully.
 
 Activity | Key&nbsp;Tasks | Description | Complete?
---------:| ---------:|:----------- |:---------
+:--------:|:---------:|:----------- |:---------
 0 | | **[Activity 0 - Prerequisites and Recommendations](./00-prerequisites.md)**
 0 | 1 | TODO | ____________
 0 | 2 | TODO | ____________

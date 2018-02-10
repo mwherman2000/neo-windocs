@@ -41,15 +41,15 @@ The basic hardware and software prerquisites are that you have a computer (PC or
 * An SSD (solid state drive) is preferred over a conventional hard drive (HDD) for perfomance reasons but it's not a necessity
 
 The activities in this document were tested with the following configurations:
-1. Windows 10 Pro edition Levnovo laptop, 32GB RAM, 500GB SSD + 500GB HDD, Intel i7 processor, Virtualization Technology enabled in BIOS
+* Windows 10 Pro edition Levnovo laptop, 32GB RAM, 500GB SSD + 500GB HDD, Intel i7 processor, Virtualization Technology enabled in BIOS
   * The installation succeeded
-2. Windows 10 Enterprise edition (Evaluation - Build 201712) virtual machine (referred to above), 2GB RAM
+* Windows 10 Enterprise edition (Evaluation - Build 201712) virtual machine (referred to above), 2GB RAM
   * Only the Docker installation was tested and it **did not** succeed.  Not all of the required Hyper-V services were available for Docker to start without failing.
   * The Visual Studio installation requires a key (no evaluation key is provided with the VM)
-3. Windows 10 Home edition HP laptop, 8GB RAM, 1TB HDD, Intel i5 processor, Virtualization Technology enabled in BIOS
+* Windows 10 Home edition HP laptop, 8GB RAM, 1TB HDD, Intel i5 processor, Virtualization Technology enabled in BIOS
   * The installation failed because Windows 10 Home edition doesn't include the Hyper-V feature and hence, the service can't be installed/enabled and the NEO Docker container can't be use for deploying and testing NEO smart contracts.
 
-## Create your NEO working folder
+## Create your NEO Working Folder
 
 This folder will be used for all of your NEO development work.  It is the folder where you will download and build various NEO developer tools to as well as where you might choose for your own NEO solutions.
 
@@ -61,7 +61,7 @@ This folder will be used for all of your NEO development work.  It is the folder
 
     **NOTE:** Some of the path names used in the NEO Project projects can be quite long.
 
-## Install the Hyper-V service on your Windows 10 computer
+## Install the Hyper-V Service on your Windows 10 computer
 
 2. Inspect the Virtualization Technology setting in your computer's BIOS by starting Windows Task Manager and selecting the `Performance` tab; then select `CPU`. 
 

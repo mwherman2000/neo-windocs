@@ -42,17 +42,17 @@ In addition, it is quite useful to have the Visual Studio Code installed on your
 ### Scenario 1 - You don't have any version of Visual Studio 2017 installed
 
 1. Download the Visual Studio 2017 installer from either of:
-  * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
+   * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
 
-    ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
+     ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
   
-    Figure 1.1. Generic Visual Studio downloads site (all editions)
+     Figure 1.1. Generic Visual Studio downloads site (all editions)
 
-  * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
+   * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
 
-      ![Visual Studio Community Edition specific download site](./images/01-installvisualstudio/VS2017CommunityDownloadSite.png)
+     ![Visual Studio Community Edition specific download site](./images/01-installvisualstudio/VS2017CommunityDownloadSite.png)
   
-    Figure 1.2. Visual Studio Community Edition specific download site
+     Figure 1.2. Visual Studio Community Edition specific download site
 
 2. In your Downloads folder, double click on the `vs_community.exe` installer executable.
 
