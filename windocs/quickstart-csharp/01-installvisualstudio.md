@@ -127,7 +127,7 @@ If you have an existing version of Visual Studio 2017 installed, confirm that th
 
 15. Test the installation. From the Windows start menu, type "visual studio code".  Select the Visual Studio Code app from the list.
 
-The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO developer tool sources](./02-downloadneodevtoolsrc.md).
+The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO developer tool projects (source)](./02-downloadneodevtoolsrc.md).
 
 ## References
 

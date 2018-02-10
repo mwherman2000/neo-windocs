@@ -34,7 +34,7 @@ Activity | Key&nbsp;Tasks | Description | Complete?
 1 | | **[Activity 1 - Download and install Visual Studio 2017 Community Edition integrated development environment (IDE)](./01-installvisualstudio.md)**
 1 | 1 | TODO | ____________
 1 | 2 | TODO | ____________
-2 | | **[Activity 2 - Download and unpack NEO developer tool sources](./02-downloadneodevtoolsrc.md)**
+2 | | **[Activity 2 - Download and unpack NEO developer tool projects (source)](./02-downloadneodevtoolsrc.md)**
 2 | 1 | TODO | ____________
 2 | 2 | TODO | ____________
 3 | | **[Activity 3 - Coffee Time: Wait for previous activities to complete](./03-coffeetime-waitforprevactivities.md)**
@@ -43,7 +43,7 @@ Activity | Key&nbsp;Tasks | Description | Complete?
 4 | | **[Activity 4 - Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md)**
 4 | 1 | TODO | ____________
 4 | 2 | TODO | ____________
-5 | | **[Activity 5 - Build NEO developer tools](./05-buildneodevtools.md)**
+5 | | **[Activity 5 - Build and test NEO developer tool projects (from source)](./05-buildneodevtools.md)**
 5 | 1 | TODO | ____________
 5 | 2 | TODO | ____________
 6 | | **[Activity 6 - Download, install, and test Docker platform](./06-installdockerplatform.md)**

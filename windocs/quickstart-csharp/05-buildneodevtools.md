@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 5 - Build NEO developer tools
+## Activity 5 - Build and test NEO developer tool projects (from source)
 
 ### Purpose
 
@@ -22,11 +22,11 @@ The purpose of this activity is to build the NEO developer tools from the source
 
 * Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
-## Build NEO developer tools
+## Build and test NEO developer tool projects (from source)
 
 ### Build the Neon NEO MSIL Transcompiler
 
-1. Open the neo-compiler project in Visual Studio by double-clicking `neo-compiler.sln` in the `C:\NEO\neo-compiler-master\neo-compiler-master` folder created in Activity 2 - Download and unpack NEO developer tool sources.
+1. Open the neo-compiler project in Visual Studio by double-clicking `neo-compiler.sln` in the `C:\NEO\neo-compiler-master\neo-compiler-master` folder created in Activity 2 - Download and unpack NEO developer tool projects (source).
 
     ![Open `neo-compiler.sln` in Visual Studio 2017](./images/05-buildneodevtools/NeonCompiler3Build.png)
 
@@ -183,7 +183,7 @@ At this point, the `neo-compiler` project has been built and published. The rema
 
 ### Build the Neo-Gui-Developer Node/Wallet
 
-25. Open the neo-compiler project in Visual Studio by double-clicking `neo-gui.sln` in the `C:\NEO\neo-gui-developer-master\neo-gui-developer-master` folder created in Activity 2 - Download and unpack NEO developer tool sources.
+25. Open the neo-compiler project in Visual Studio by double-clicking `neo-gui.sln` in the `C:\NEO\neo-gui-developer-master\neo-gui-developer-master` folder created in Activity 2 - Download and unpack NEO developer tool projects (source).
 
     ![Open `neo-gui.sln` in Visual Studio 2017](./images/05-buildneodevtools/NeoGuiDev1Build.png)
 

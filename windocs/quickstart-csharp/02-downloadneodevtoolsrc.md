@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 2 - Download and unpack NEO developer tool sources
+## Activity 2 - Download and unpack NEO developer tool projects (source)
 
 ### Purpose
 
