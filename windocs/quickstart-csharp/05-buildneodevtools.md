@@ -134,13 +134,13 @@ The purpose of this activity is to build the NEO developer tools from the source
 
     Figure 5.X. XXXX
 
+### Test the Neon NEO MSIL Transcompiler
+
 19. TODO
 
     ![XXXX](./images/05-buildneodevtools/NeonCompilerKBuild.png)
 
     Figure 5.X. XXXX
-
-### Test the Neon NEO MSIL Transcompiler
 
 20. TODO
 
