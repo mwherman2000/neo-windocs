@@ -24,7 +24,7 @@ The purpose of this activity is provide a terse checklist of all of the importan
 
 ## Checklist
 
-Activity | Key Tasks | Description | Complete?
+Activity | Key&nbsp;Tasks | Description | Complete?
 --------:| ---------:|:----------- |:---------
 0 | | **[Activity 0 - Prerequisites and Recommendations](./00-prerequisites.md)**
 0 | 1 | TODO | ____________
