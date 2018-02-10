@@ -29,7 +29,7 @@ The purpose of this document is to enable .NET developers who are brand new to N
 3. [Coffee time: Wait for previous activities to complete](./03-coffeetime-waitforprevactivities.md)
 4. [Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md)
 5. [Build and test NEO developer tool projects (from source)](./05-buildneodevtools.md)
-6. [Download, install and test Docker platform](./06-installdockerplatform.md)
+6. [Download, install, and test Docker platform](./06-installdockerplatform.md)
 7. [Download and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)
 8. [Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)
 9. [Deploy and test the HelloWord smart contract](./09-deploytestsmartcontract.md)

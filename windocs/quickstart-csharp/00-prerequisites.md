@@ -93,7 +93,7 @@ This folder will be used for all of your NEO development work.  It is the folder
 
     Figure 0.6. Windows Features: Windows 10 Home edition doesn't include the Hyper-V feature
 
-    If you insist on trying to continue, you're eventually going to run into this blocking problem in Activity 6 - Download, install and test Docker platform. Stop now while you're ahead.
+    If you insist on trying to continue, you're eventually going to run into this blocking problem in Activity 6 - Download, install, and test Docker platform. Stop now while you're ahead.
 
     ![Windows Features: HyperV is not available in Home editions](./images/00-prerequisites/Docker0Install.png)
 
