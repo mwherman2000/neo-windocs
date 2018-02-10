@@ -33,6 +33,8 @@ The basic hardware and software prerquisites are that you have a computer (PC or
 
     Figure 0.1. Windows 10 Home edition doesn't include the Hyper-V feature
 
+  **NOTE:** If you want to use a fresh clean Windows 10 Enterprise edition (Evaluation - Build 201712) enviroment (and you are running the Hyper-V service on your physical computer), consider downloading and running the "Windows 10 Dev Environment" virtual macine image.  If is available for the following hypervisors: VMWare, Hyper-V, VirtualBox, and Parallels.  Checkout [https://developer.microsoft.com/en-us/windows/downloads/virtual-machines](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines).
+
 * Latest Windows Updates installed
 * 8GB of RAM (16GM or more prefered because you need to install and enable the Hyper-V feature and service)
 * 50GB of free disk space (100GB ore preferred because you will eventually have multiple copies of the NEO blockchain files downloaded on to your machine)
@@ -41,6 +43,9 @@ The basic hardware and software prerquisites are that you have a computer (PC or
 The activities in this document were tested on two configurations:
 * Windows 10 Pro edition Levnovo laptop, 32GB RAM, 500GB SSD + 500GB HDD, Intel i7 processor, Virtualization Technology enabled in BIOS
   * The installation succeeded
+* Windows 10 Enterprise edition (Evaluation - Build 201712) virtual machine (referred to above), 2GB RAM
+  * Only the Docker installation was tested and it succeeded
+  * The Visual Studio installation requires a key (no evaluation key is provided with the VM)
 * Windows 10 Home edition HP laptop, 8GB RAM, 1TB HDD, Intel i5 processor, Virtualization Technology enabled in BIOS
   * The installation failed because Windows 10 Home edition doesn't include the Hyper-V feature and hence, the service can't be installed/enabled and the NEO Docker container can't be use for deploying and testing NEO smart contracts.
 
