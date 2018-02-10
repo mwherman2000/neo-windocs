@@ -8,23 +8,29 @@ TODO
 
 ### Purpose
 
-The purpose of this activity is to...
-
-TODO - What and Why
+The purpose of this activity is to download, install and test the NEO private network (privatenet) Docker container using the Docker platform installed in the previous activity to insure we can build and deploy NEO smart contracts to privatenet.
 
 ### Goals, Non-Goals and Assumptions
 
-TODO - What
+* Ensure you have a working and properly configured set of NEO developer tools for creating and building smart contracts in Visual Studio with the C# programming language
 
 ### Principles
 
-TODO - How
+* Provide reliable documentation: timely, accurate, visual, and complete
+* Save as much of a person's time as possible
+* Use open source software whenever possible
 
 ### Drivers
 
-TODO - Why
+* Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Download, install and test NEO privatenet Docker Container
+
+1. To ensure Docker is installed and running, start the Powershell console and enter `docker run hello-world` (and press Enter).
+
+    ![Docker Run Hello-World](./images/06-installdockerplatform/Docker8Install.png)
+  
+    Figure 7.1. Docker Run Hello-World
 
 The tasks for this activity are complete. Proceed to [Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md).
 

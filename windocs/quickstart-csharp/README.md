@@ -35,6 +35,7 @@ The purpose of this document is to enable .NET developers who are brand new to N
 9. [Deploy and test the HelloWord smart contract](./09-deploytestsmartcontract.md)
 10. [Celebrate :-)](./10-celebrate.md)
 11. [Checklist](./11-checklist.md)
+12. [Document Stsatus](./12-docstatus.md)
 
 ## References
 
