@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process Guide for .NET Developers
+# NEO Blockchain Quick Start Process for .NET Developers
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -10,7 +10,7 @@ The purpose of this activity is to for you to ensure you have Windows environmen
 
 ### Goals, Non-Goals and Assumptions
 
-The goal of this activity is to inform you about the minimum and recommended pre-requisites for successful execution of the remaining acitivities in Quick Start Process Guide for Windows .NET Developers.
+The goal of this activity is to inform you about the minimum and recommended pre-requisites for successful execution of the remaining acitivities in Quick Start Process for Windows .NET Developers.
 
 ### Principles
 
