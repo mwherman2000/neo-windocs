@@ -41,36 +41,18 @@ In addition, it is quite useful to have the Visual Studio Code installed on your
 
 ### Scenario 1 - You don't have any version of Visual Studio 2017 installed
 
-TODO
-
-1. Download the Visual Studio installer from either of:
+1. Download the Visual Studio 2017 installer from either of:
   * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
-  * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
-
-  ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
-  
-  Figure 1.1. Generic Visual Studio downloads site (all editions)
-
-  ![Visual Studio Community Edition specific download site](./images/01-installvisualstudio/VS2017CommunityDownloadSite.png)
-  
-  Figure 1.2. Visual Studio Community Edition specific download site
-
-
-TODO
-
-### Scenario 2 - You have an existing version of Visual Studio 2017 installed
-
-TODO
-
-### Scenario 3 - Installing and configuring Visual Studio Code
-
-1. Download the Visual Studio Code installer from either of:
-  * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
-  * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
 
     ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked1.png)
   
-    Figure 1.3. Generic Visual Studio downloads site (all editions)
+    Figure 1.1. Generic Visual Studio downloads site (all editions)
+
+  * [Visual Studio Community Edition specific download site](https://www.visualstudio.com/vs/community/) ([https://www.visualstudio.com/vs/community/](https://www.visualstudio.com/vs/community/)).
+
+      ![Visual Studio Community Edition specific download site](./images/01-installvisualstudio/VS2017CommunityDownloadSite.png)
+  
+    Figure 1.2. Visual Studio Community Edition specific download site
 
 2. In your Downloads folder, double click on the `vs_community.exe` installer executable.
 
@@ -78,19 +60,19 @@ TODO
 
     ![Accept the Visual Studio EULA](./images/01-installvisualstudio/VS2017CommunityEULA.png)
 
-    Figure 1.4. Accept the Visual Studio EULA
+    Figure 1.3. Accept the Visual Studio EULA
 
 4. Select the workloads (options) you want to use for your conventional front-end, middle-tier, and back-end components of your solution.
     
-    ![Select the workloads (options) you want to use for your conventional front-end, middle-tier, and back-end components of your solution.](./images/01-installvisualstudio/VS2017CommunityWorkloads0.png)
+    ![Visual Studio Installer: Workloads](./images/01-installvisualstudio/VS2017CommunityWorkloads0.png)
 
-    Figure 1.5. Visual Studio Workloads
+    Figure 1.4. Visual Studio Installer: Workloads
 
 5. **IMPORTANT** Select the `.NET Core cross-platform development` toolset to enable compilation of all of the NEO developer tools.
 
-    ![**IMPORTANT** Select the `.NET Core cross-platform development` toolset to enable compilation of all of the NEO developer tools.](./images/01-installvisualstudio/VS2017CommunityWorkloads1.png)
+    ![Visual Studio Installer: Toolsets.](./images/01-installvisualstudio/VS2017CommunityWorkloads1.png)
 
-    Figure 1.6. Visual Studio Toolsets
+    Figure 1.5. Visual Studio Installer: Toolsets
 
 6. Click `Modify` to complete the installation.
 
@@ -98,13 +80,52 @@ TODO
 
     ![Installation complete](./images/01-installvisualstudio/VS2017CommunityInstallComplete.png)
 
-    Figure 1.7. Installation complete
+    Figure 1.6. Installation complete
 
-7. Test the installation. From the Windos start menu, type "Visual Studio".  Select the Visual Studio app from the list. After a short delay, Visual Studio should start and look like something similar to the following.
+8. Test the installation. From the Windows start menu, type "visual studio".  Select the Visual Studio app from the list. After a short delay, Visual Studio should start and look like something similar to the following.
 
     ![Test the installation](./images/01-installvisualstudio/VS2017Home.png)
 
-    Figure 1.8. Test the installation
+    Figure 1.7. Test the installation
+
+### Scenario 2 - You have an existing version of Visual Studio 2017 installed
+
+If you have an existing version of Visual Studio 2017 installed, confirm that the required set of workloads and toolsets have been installed.
+
+9. Start Visual Studio 2017
+
+    ![Visual Studio 2017](./images/01-installvisualstudio/VS2017Home.png)
+
+    Figure 1.8. Visual Studio 2017
+
+10. In the Visual Studio toolbar, select `Tools > Get Tools and Features...`. The Visual Studio installer will start.
+
+    ![Visual Studio Installer](./images/01-installvisualstudio/VS2017CommunityWorkloads0.png)
+
+    Figure 1.9. Visual Studio Installer
+
+11. Proceed to Task 4 (above) in Scenario 1 - You don't have any version of Visual Studio 2017 installed and complete the remaining tasks.
+
+### Scenario 3 - (OPTIONAL) Installing and configuring Visual Studio Code
+
+12. Download the Visual Studio Code installer from either of:
+  * [Generic Visual Studio downloads site (all editions)](https://www.visualstudio.com/downloads/) ([https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/))
+
+    ![Generic Visual Studio downloads site (all editions)](./images/01-installvisualstudio/VS2017DownloadsMarked2.png)
+  
+    Figure 1.10. Generic Visual Studio downloads site (all editions)
+
+  * [Visual Studio Code specific download site](https://code.visualstudio.com) ([https://code.visualstudio.com](https://code.visualstudio.com)).
+
+      ![Visual Studio Code specific download site](./images/01-installvisualstudio/VSCodeDownloadsSite.png)
+  
+    Figure 1.11. Visual Studio Code specific download site
+
+13. In your Downloads folder, double click on the `VSCodeSetup-x64-1.20.0.exe` installer executable.
+
+14. Follow the default installation instructions to completion.
+
+15. Test the installation. From the Windows start menu, type "visual studio code".  Select the Visual Studio Code app from the list.
 
 The tasks for this activity are complete. Proceed to [Activity 2 - Download and unpack NEO developer tool sources](./02-downloadneodevtoolsrc.md).
 
