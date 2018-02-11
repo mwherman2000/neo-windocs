@@ -36,7 +36,7 @@ The purpose of this document is to enable .NET developers who are brand new to N
 10. [Celebrate](./10-celebrate.md)
 11. [Appendix A - Checklist](./11-checklist.md)
 12. [Appendix B - Roadmap](./12-roadmap.md)
-13. [Appendix C - Reset your NEO privatenet environment: Container, Wallets, and Clients](./13-appendixa-resetprivatenet.md)
+13. [Appendix C - Reset your NEO privatenet environment: Container, Wallets, and Clients](./13-resetprivatenetenv.md)
 
 ## References
 
