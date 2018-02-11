@@ -1,7 +1,7 @@
 {
   "ApplicationConfiguration": {
     "Paths": {
-      "Chain": "Chain",
+      "Chain": "ChainDockerPrivateNet1",
       "Notifications": "Notifications"
     },
     "P2P": {
@@ -13,7 +13,7 @@
       "SslCert": "",
       "SslCertPassword": ""
     },
-	"DataDirectoryPath": "ChainDockerPrivateNet",
+	"DataDirectoryPath": "ChainDockerPrivateNet2",
     "CertCachePath": "Certs",
     "NodePort": 20333,
     "WsPort": 20334,
