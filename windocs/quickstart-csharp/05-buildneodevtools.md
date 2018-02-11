@@ -170,7 +170,7 @@ At this point, the `neo-compiler` project has been built and published. The rema
 
     Figure 5.22. Visual Studio: Creating the NeoContract Project
 
-23. Right-click on the NeoContract project folder and select Build. Note the highlighted messages in the Build section of the Output panel. These 2 message indicate the Visual Studio was able to create both the NEO virtual machine byte code file as well as the Application Binary Interace (ABI) file (in JSON format).
+23. Right-click on the NeoContract project folder and select `Build`. Note the highlighted messages in the Build section of the Output panel. These 2 message indicate the Visual Studio was able to create both the NEO virtual machine byte code file as well as the Application Binary Interace (ABI) file (in JSON format).
 
     **NOTE:** If you don't see these 2 messages, the most likely senarios are:
       * `noen.dll` wasn't published properly. Go back to Task 6 of this activity.

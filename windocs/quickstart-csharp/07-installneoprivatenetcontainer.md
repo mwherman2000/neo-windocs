@@ -78,14 +78,15 @@ The tasks for this activity are complete. Proceed to [Activity 8 - Create and co
 
 ## Additional Notes
 
-For a client app to access the NEO privatenet you just created, your NEO app will need to use the following pair of NEO JSON configuration files:
+For a client app to access the NEO privatenet you just created, your NEO app will need to replace the 2 JSON configuration files with the contents of the following JSON files:
 
-* config.json: ([./json/config-windows.privatenet.json](./json/config-windows.privatenet.json))
-* protocol.json: ([./json/protocol.privatenet.json](./json/protocol.privatenet.json))
+* config.json: ([./json/config.neodocker.json](./json/config.neodocker.json))
+* protocol.json: ([./json/protocol.neodocker.json](./json/protocol.neodocker.json))
 
 To switch over from an existing NEO network to this privatenet, make sure you:
 * Delete your old blockchain database folder
 * Delete your old `peers.dat` file
+* Start neo-gui.exe
 * Re-index your database
 
 ## Script Library

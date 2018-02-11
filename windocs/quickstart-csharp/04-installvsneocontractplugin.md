@@ -48,7 +48,7 @@ The purpose of this activity is to install the NeoContractPlugin extension into 
 
     Figure 4.4. NeoContractPlugin installation will be scheduled
 
-5. Click the `Red X` to close Visual Studio. In a minute or two, the following page will be displayed indicating that the installation of the extension has started. Click `Modidy`.
+5. Click the `Red X` to close Visual Studio. In a minute or two, the following page will be displayed indicating that the installation of the extension has started. Click `Modify`.
 
     ![NeoContractPlugin extension install confirmation](./images/04-installvsneocontractplugin/NeoContractPlugin4Install.png)
 

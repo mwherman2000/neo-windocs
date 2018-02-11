@@ -33,7 +33,7 @@ Activity | Description | Complete?  | Numbering? | Reviewed? | Tested?
 4 | **[Activity 4 - Install NeoContractPlugin Visual Studio extension](./04-installvsneocontractplugin.md)** | 2018/2/10 | ____________ | ____________ | ____________
 5 | **[Activity 5 - Build and test NEO developer tool projects (from source)](./05-buildneodevtools.md)** | 2018/2/10 | ____________ | ____________ | ____________
 6 | **[Activity 6 - Download, install, and test Docker platform](./06-installdockerplatform.md)** | 2018/2/10 | ____________ | ____________ | ____________
-7 | **[Activity 7 - Download, install and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)** | ____________ | ____________ | ____________ | ____________
+7 | **[Activity 7 - Download, install and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)** | 2018/2/10 | ____________ | ____________ | ____________
 8 | **[Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)** | ____________ | ____________ | ____________ | ____________
 9 | **[Activity 9 - Deploy and test HelloWorld smart contract](./09-deploytestsmartcontract.md)** | ____________ | ____________ | ____________ | ____________
 10 | **[Activity 10 - Celebrate](./10-celebrate.md)** | 2018/2/10 | 2018/2/10 | ____________ | ____________
