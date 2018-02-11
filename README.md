@@ -18,6 +18,13 @@ This project also serves as a respository for content presented at the [NEO Bloc
 
 This meetup is a group that it is currently independent of the official [NEO Project](https://github.com/neo-project) and [City of Zion](https://github.com/CityOfZion/) projects. I'm looking forward to this changing in the future.
 
+## Roadmap
+
+* [NEO Blockchain Quick Start Process for .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
+* NEO C# Architecture Reference Model (NEO-CHARM)
+* NEO C# Namespace Map: Client App, Node2Client API, Node Internal APIs, Smart Contact APIs 
+* NEO C# Smart Contract Repository (NEO-CHLIB)
+
 ## Sections
 
 * [windocs](https://github.com/mwherman2000/neo-windocs/tree/master/windocs) - NEO Blockchain Documentation for .NET Developers

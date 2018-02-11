@@ -2,11 +2,11 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Document Status
+## Roadmap
 
 ### Purpose
 
-The purpose of this activity is track this document's section by section status.
+The purpose of this activity is track this document's section-by-section status as well as notes for fre
 
 ### Goals, Non-Goals and Assumptions
 
