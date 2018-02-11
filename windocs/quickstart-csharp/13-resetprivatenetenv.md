@@ -44,6 +44,8 @@ The purpose of this section is to document how to reset your NEO privatenet envi
 
 **NOTE:** **Be very careful** to only delete wallets used with the NEO **privatenet**.
 
+**NOTE:** Rather than delete your wallet files, consider moving them to a subfolder (e.g. folder `wallets-old`)
+
 ## Reset your NEO privatenet clients
 
 4. Delete all of your client app's blockchain database folders.
