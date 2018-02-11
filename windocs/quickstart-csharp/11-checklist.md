@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Activity 11 - Checklist
+## Appendix A - Checklist
 
 ### Purpose
 

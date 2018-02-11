@@ -4,8 +4,6 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Activity 10 - Celebrate
 
-TODO
-
 ### Purpose
 
 The purpose of this activity is to have **fun**.

@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Roadmap
+## Appendix B - Roadmap Status
 
 ### Purpose
 
@@ -37,7 +37,9 @@ Activity | Description | Complete?  | Numbering? | Reviewed? | Tested?
 8 | **[Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)** | ____________ | ____________ | ____________ | ____________
 9 | **[Activity 9 - Deploy and test HelloWorld smart contract](./09-deploytestsmartcontract.md)** | ____________ | ____________ | ____________ | ____________
 10 | **[Activity 10 - Celebrate](./10-celebrate.md)** | 2018/2/10 | 2018/2/10 | ____________ | ____________
-11 | **[Activity 11 - Checklist](./11-checklist.md)** | ____________ | ____________ | ____________ | ____________
+11 | **[Appendix A - Checklist](./11-checklist.md)** | ____________ | ____________ | ____________ | ____________
+12 | **[Appendix B - Roadmap (this document)](./12-roadmap.md)** | 2018/2/11 | ____________ | ____________ | ____________
+13 | **[Appendix C - Reset your NEO privatenet environment: Container, Wallets, and Clients ](./13-resetprivatenetenv.md)** | 2018/2/11 | ____________ | ____________ | ____________
 
 ## References
 

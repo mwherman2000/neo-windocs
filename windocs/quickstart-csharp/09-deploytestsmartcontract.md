@@ -55,7 +55,7 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
 
 ## Configure `neo-gui (developer)` to use the NEO privatenet Docker container
 
-3. Open Windows Explorer and navigate to ``:
+3. Open Windows Explorer and navigate to `TODO`:
 
     ![`neo-gui (developer)` bin/Debug Folder](./images/07-installneoprivatenetcontainer/DockerNeo1Start.png)
 
