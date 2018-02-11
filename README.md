@@ -10,6 +10,8 @@ This project also serves as a respository for content presented at the [NEO Bloc
 
 * [NEO Blockchain Quick Start Guide for .NET developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
 
+The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environment up and running in as little time as possible.
+
 ## NEO Blockchain Toronto Meetup Group
 
 **[NEO Blockchain Toronto](https://www.meetup.com/NEO-Blockchain-Toronto/)** is a non-profit, community-based Meetup group for blockchain developers and architects interested in designing and creating Distributed Ledge Technology (DLT) (aka blockchain) solutions using the NEO Blockchain platform.
