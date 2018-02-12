@@ -30,13 +30,16 @@ The purpose of this section is to document how to reset your NEO privatenet envi
 
 2. Reset the the NEO Docker container by running the following script: 
     ```
+    docker container list
     docker stop neo-privnet-with-gas
     docker container list
-    docker start neo-privnet-with-gas
+    docker rm neo-privnet-with-gas
+    docker container list
+    docker run -d --name neo-privnet-with-gas -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp metachris/neo-privnet-with-gas
     docker container list
     pause
     ```
-    Script: NEO Docker Restart ([./scripts/neodockerrestart.bat.txt](./scripts/neodockerrestart.bat.txt))
+    Script: NEO Docker Restart ([./scripts/neodockerreset.bat.txt](./scripts/neodockerreset.bat.txt))
 
 ## Reset your NEO privatenet wallets
 
@@ -55,6 +58,14 @@ The purpose of this section is to document how to reset your NEO privatenet envi
 ## Start your NEO privatenet client apps
 
 7. After the preceding tasks are complete, the reset is complete. You can rebuild/start your NEO privatenet client apps.
+
+## Script Library
+
+* NEO Docker Download/Install/Run ([./scripts/neodockerinstall.bat.txt](./scripts/neodockerinstall.bat.txt))
+* NEO Docker Stop/Remove ([./scripts/neodockeruninstall.bat.txt](./scripts/neodockeruninstall.bat.txt))
+* NEO Docker Start ([./scripts/neodockerstart.bat.txt](./scripts/neodockerstart.bat.txt))
+* NEO Docker Stop ([./scripts/neodockerstop.bat.txt](./scripts/neodockerstop.bat.txt))
+* NEO Docker Python CLI/Shell ([./scripts/neodockerpshell.bat.txt](./scripts/neodockerpshell.bat.txt))
 
 ## References
 
