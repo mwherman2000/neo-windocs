@@ -45,9 +45,9 @@ The purpose of this section is to document how to reset your NEO privatenet envi
 
 3. Delete all of your wallets you used with the NEO privatenet. They will need to be recreated anyway.
 
-**NOTE:** **Be very careful** to only delete wallets used with the NEO **privatenet**.
+**NOTE:** **Be very careful** to only delete wallets used with the NEO **privatenet** - *not your mainnet wallets*.
 
-**NOTE:** Rather than delete your wallet files, consider moving them to a subfolder (e.g. folder `wallets-old`)
+**NOTE:** Rather than delete your wallet files, consider moving them to a subfolder (e.g. folder `wallets-old`).
 
 ## Reset your NEO privatenet clients
 
