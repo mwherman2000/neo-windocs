@@ -38,6 +38,12 @@ The purpose of this document is to enable .NET developers who are brand new to N
 12. [Appendix B - Roadmap](./12-roadmap.md)
 13. [Appendix C - Reset your NEO privatenet Environment: Container, Wallets, and Clients](./13-resetprivatenetenv.md)
 
+## #FYHumor
+
+There are approximately 140 screen shots in this Quick Start process guide.
+
+![Quick Start Light Table](./images/lighttable.png)
+
 ## References
 
 * [NEOTUTORIAL] NEO Project, [NEO smart contract tutorial](http://docs.neo.org/en-us/sc/tutorial.html) from [http://docs.neo.org/en-us/sc/tutorial.html](http://docs.neo.org/en-us/sc/tutorial.html)
