@@ -103,61 +103,72 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
 
 ## Create a new development wallet
 
-9. TODO
+9. From the `neo-gui` menu bar, click `Wallet` > `New Wallet Database...`.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldATest.png)
+    ![`neo-gui`: `Wallet` > `New Wallet Database...`](./images/09-deploytestsmartcontract/HelloWorldATest.png)
 
-    Figure 9.X. XXX
+    Figure 9.8. `neo-gui`: `Wallet` > `New Wallet Database...`
 
-10. TODO
+10. The following `New Wallet` dialog but will appear. Click `browse`.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldBTest.png)
+    ![`neo-gui`: `New Wallet` dialog](./images/09-deploytestsmartcontract/HelloWorldBTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.9. `neo-gui`: `New Wallet` dialog
 
-11. TODO
+11. Select a folder where you want your wallet to be created, enter the file name for the wallet database, and click `Save`.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldCTest.png)
+    ![`neo-gui`: Wallet Location](./images/09-deploytestsmartcontract/HelloWorldCTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.10. `neo-gui`: Wallet Location
 
-12. TODO
+    **NOTE:** Think of these as temporary development wallets that you will need to recreate every time you reset the NEO privatenet Docker container. There's no need to back them up.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldDTest.png)
+    **NOTE:** A good suggestion is to include the name of the blockchain database folder that appears in `neo-gui` title bar (assuming you made this source code change in Activity 5) in the name of your wallet file.
 
-    Figure 9.X. XXX
+    **NOTE:** The `neo-gui-developer` project only creates wallet databases using `.db3` format files (SQLLite database files). Other versions of `neo-gui` use JSON files. Note the difference.
 
-13. TODO
+12. Enter a password to protect your wallet. Confirm your password by re-entering into the second text box.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldETest.png)
+    ![`neo-gui`: Wallet Location](./images/09-deploytestsmartcontract/HelloWorldDTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.11. `neo-gui`: Wallet Password
+
+13. The creation of your wallet is complete. One default account address has been created. 
+
+    **NOTE:** This address will be different every time you create a new wallet.
+
+    ![`neo-gui`: Wallet Created](./images/09-deploytestsmartcontract/HelloWorldETest.png)
+
+    Figure 9.12. `neo-gui`: Wallet Created
 
 ## Import the existing Developer account from the NEO privatenet Docker container
 
-14. TODO
+14. To get some NEO/Gas, there is a preconfigured Developer account configured into the NEO private Docker container. To import this account, right-click on the newly created account and select `Import` > `Import from WIF...`.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldFTest.png)
+    ![`neo-gui`: `Import` > `Import from WIF...`](./images/09-deploytestsmartcontract/HelloWorldFTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.13. `neo-gui`: `Import` > `Import from WIF...`
 
-15. Enter the WIF key provided with the NEO Docker container documentation [NEODOCKER1](https://hub.docker.com/r/metachris/neo-privnet-with-gas/#Wallet). 
+15. The following `Import Private Key` dialog box will be displayed. 
+Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER1](https://hub.docker.com/r/metachris/neo-privnet-with-gas/#Wallet)] and click `OK`. 
     ```
     WIF key: KxDgvEKzgSBPPfuVfw67oPQBSjidEiqTHURKSDL1R7yGaGYAeYnr
     ```
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldGTest.png)
+    ![`neo-gui`: `Import Private Key`](./images/09-deploytestsmartcontract/HelloWorldGTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.14. `neo-gui`: `Import Private Key`
 
 16. The result should be that you've created the following second account at address:
     ```
     Address: AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y
     ```
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldHTest.png)
+    **NOTE:** You may need to select `Wallet` > `Rebuild Index` for the non-zero NEO/Gas to appear next to the new account address.
 
-    Figure 9.X. XXX
+    ![`neo-gui`: Second Address with NEO/Gas](./images/09-deploytestsmartcontract/HelloWorldHTest.png)
+
+    Figure 9.15. `neo-gui`: Second Address with NEO/Gas
 
 ## Deploy your smart contract (HelloWorld 1.0)
 
@@ -165,13 +176,13 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
 
     ![Visual Studio 2017](./images/05-buildneodevtools/NeonCompilerLTest.png)
 
-    Figure 9.x. Visual Studio 2017
+    Figure 9.16. Visual Studio 2017
 
 18. Select `File` > `New` > `Project...` to open the New Project dialog box. Select `Visual C#`. Select `NeoContract`. Click `OK` to close this dialog box and create a new NeoContract solution and project in Visual Studio. 
 
     ![Visual Studio: Create a New NeoContract Project](./images/05-buildneodevtools/NeonCompilerMTest.png)
 
-    Figure 9.x. Visual Studio: Create a New NeoContract Project
+    Figure 9.17. Visual Studio: Create a New NeoContract Project
 
     **NOTE:** If you have created previous NeoContract projects, your project may be called `NeoContract2`, `NeoContract3`, or whatever you chose to name the project.  Remember the project name and path because you will need to find the AVM file later on in this activity.
 
@@ -179,78 +190,78 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
 
     ![Visual Studio: Creating the NeoContract Project](./images/05-buildneodevtools/NeonCompilerNTest.png)
 
-    Figure 9.x. Visual Studio: Creating the NeoContract Project
+    Figure 9.18. Visual Studio: Creating the NeoContract Project
 
 20. Right-click on the NeoContract project folder and select `Build`. Note the highlighted messages in the Build section of the Output panel. These 2 message indicate the Visual Studio was able to create both the NEO virtual machine byte code file as well as the Application Binary Interace (ABI) file (in JSON format).
 
     **NOTE:** If you don't see these 2 messages, the most likely senarios are:
-      * `noen.dll` wasn't published properly. Go back to Task 6 of this activity.
+      * `neon.dll` wasn't published properly. Go back to Task 6 of this activity.
       * The `Path` environment variable was not set correctly. Go back to Task 16 of this activity.
       * You had opened Visual Studio before you set the `Path` environment variable.  Close Visual Studio and then go back to Task 20.
 
     ![Visual Studio: Building the NeoContract Project](./images/05-buildneodevtools/NeonCompilerOTest.png)
 
-    Figure 9.x. Visual Studio: Building the NeoContract Project
+    Figure 9.19. Visual Studio: Building the NeoContract Project
 
 ## Deploy your first smart contract
 
-17. TODO
+21. From the `neo-gui`menu bar, select `Advanced` > 
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldITest.png)
 
-    Figure 9.X. XXX
+    Figure 9.20. XXX
 
-18. TODO
+22. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldJTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.21. XXX
 
 # Invoke your first smart contract
 
-19. TODO
+23. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldKTest.png)
 
     Figure 9.X. XXX
 
-20. TODO
+24. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldLTest.png)
 
     Figure 9.X. XXX
 
-21. TODO
+25. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldMTest.png)
 
     Figure 9.X. XXX
 
-22. TODO
+26. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldNTest.png)
 
     Figure 9.X. XXX
 
-23. TODO
+27. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldOTest.png)
 
     Figure 9.X. XXX
 
-24. TODO
+28. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldPTest.png)
 
     Figure 9.X. XXX
 
-25. TODO
+29. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldQTest.png)
 
     Figure 9.X. XXX
 
-26. TODO
+30. TODO
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldRTest.png)
 
@@ -310,22 +321,6 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldZTest.png)
 
     Figure 9.X. XXX
-
-
-    Parameter/Return&nbsp;Type | Description |
-    :--------|:---------------------- |
-    Signature|00|
-    Boolean|01|
-    Integer|02|
-    Hash160 (160-bit hash value)|03|
-    Hash256 (256-bit hash value)|04|
-    ByteArray|05|
-    PublicKey|06|
-    String|07|
-    Array|10|
-    InteropInterface|f0|   
-    Void|ff|
-
 
 The tasks for this activity are complete. Proceed to [Activity 10 - Celebrate](./10-celebrate.md).
 
