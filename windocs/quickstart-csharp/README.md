@@ -38,11 +38,14 @@ The purpose of this document is to enable .NET developers who are brand new to N
 12. [Appendix B - Roadmap](./12-roadmap.md)
 13. [Appendix C - Reset your NEO privatenet Environment: Container, Wallets, and Clients](./13-resetprivatenetenv.md)
 
-## #FYHumor
+## Statistics
 
-There are approximately 140 screen shots in this Quick Start process guide.
+* 10 major activities comprising approximately 130 documented tasks
+* Approximately 140 screen shots
 
-![Quick Start Light Table](./images/lighttable.png)
+    ![Quick Start Images Collection](./images/lighttable.png)
+
+    Figure 0.1. Quick Start Images Light Table
 
 ## References
 
