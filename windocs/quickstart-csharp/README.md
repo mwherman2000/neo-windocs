@@ -40,12 +40,15 @@ The purpose of this document is to enable .NET developers who are brand new to N
 
 ## Statistics
 
-* 10 major activities comprising approximately 130 documented tasks
-* Approximately 140 screen shots
+* 10 major activities comprising 130 documented tasks (approximately)
+* 140 screen shots (approximately)
 
     ![Quick Start Images Collection](./images/lighttable.png)
 
-    Figure 0.1. Quick Start Images Light Table
+    Figure 0.1. Quick Start Image Light Table
+* 7 batch files
+* 2 JSON configuration files
+* 1 C# code snippet
 
 ## References
 
