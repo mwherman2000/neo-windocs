@@ -287,7 +287,7 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
 ## Create your second smart contract (HelloWorld 2.0)
 
-26. Follow the previous tasks to create a new NeonContract project (e.g. NeoContract2).
+26. Follow the pattern set out in the previous tasks to create a new NeonContract project (e.g. NeoContract2).
 
     **NOTE:** If you have created previous NeoContract projects, your project may be called `NeoContract3`, `NeoContract4`, or whatever you chose to name the project.  Remember the project name and path because you will need to find the AVM file later on in this activity.
 
@@ -295,9 +295,9 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
     * Change `Main()` to a accept a single integer parameter called `value`.
     * Add a `return value * 100;` statement to the end of `Main()`.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldSTest.png)
+    ![HelloWorld 2.0 Smart Contract](./images/09-deploytestsmartcontract/HelloWorldSTest.png)
 
-    Figure 9.29. XXX
+    Figure 9.29. HelloWorld 2.0 Smart Contract
 
     Your code should not look similar to the following:
     ```csharp
@@ -323,54 +323,78 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
 ## Deploy your second smart contract
 
-32. TODO
+28. Follow the pattern set out in the previous tasks to deploy your HelloWorld 2.0 smart contract. Fill in the fields on the Deploy Contract dialog box.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldTTest.png)
+    **NOTE:** On the `Deploy Contract` dialog box, in the `Return Type` section, you need to provide a string of 2-digit codes denoting the data type of:
+    * Inbound parameters
+    * Return value
 
-    Figure 9.X. XXX
-33. TODO
+    The data type codes for the parameters and return value can be found in the following table.
+    
+    Parameter/Return&nbsp;Type | Description |
+    :--------|:---------------------- |
+    Signature|00|
+    Boolean|01|
+    Integer|02|
+    Hash160 (160-bit hash value)|03|
+    Hash256 (256-bit hash value)|04|
+    ByteArray|05|
+    PublicKey|06|
+    String|07|
+    Array|10|
+    InteropInterface|f0|   
+    Void|ff|
+    Table 9.1: NEO Smart Contract Parameter/Return Types [[NEOPARMTYPES](http://docs.neo.org/en-us/sc/tutorial/Parameter.html)]
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldUTest.png)
+    For HelloWorld 2.0, you need to specify `02` and `02` for the single integer inbound parameter and the integer return value.
 
-    Figure 9.X. XXX
+    ![HelloWorld 2.0: Deploy Contract](./images/09-deploytestsmartcontract/HelloWorldTTest.png)
 
-34. TODO
+    Figure 9.30. HelloWorld 2.0: Deploy Contract
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldVTest.png)
+29. Load the AVM file for HelloWorld 2.0 and click `Deploy` on the `Deploy Contract` dialog box.
 
-    Figure 9.X. XXX
+    ![HelloWorld 2.0: Load Contract](./images/09-deploytestsmartcontract/HelloWorldUTest.png)
 
-35. TODO
+    Figure 9.31. HelloWorld 2.0: Load Contract
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldWTest.png)
+30. Copy the script hash value and click `close` on the `Script Hash` dialog box.
 
-    Figure 9.X. XXX
+    ![HelloWorld 2.0: Script Hash](./images/09-deploytestsmartcontract/HelloWorldVTest.png)
 
-36. TODO
+    Figure 9.32. HelloWorld 2.0: Script Hash
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldXTest.png)
+31. To complete the deployment, click `Test` and then `Invoke` on the `Invoke Contract` dialog box.
 
-    Figure 9.X. XXX
+    ![HelloWorld 2.0: Complete Deployment](./images/09-deploytestsmartcontract/HelloWorldWTest.png)
 
-27. On the right-side of the `Invoke Contract` dialog box, in the `Contract Parameters` section, click on `Integer=(null)` to dislay the `Parameter Editor` dialog box. Enter `123` and click `Add`.
+    Figure 9.33. HelloWorld 2.0: Complete Deployment
 
-    **NOTE:** Ut doesn't really matter what you enter because this first smart contract doesn't use any parameters.
+32. Deployment complete. Click `close`.
 
-    ![`neo-gui` Parameters](./images/09-deploytestsmartcontract/HelloWorldOTest.png)
+    ![HelloWorld 2.0: Deployment Complete](./images/09-deploytestsmartcontract/HelloWorldXTest.png)
 
-    Figure 9.26. `neo-gui` Parameters
+    Figure 9.34. HelloWorld 2.0: Deployment Complete
 
-37. TODO
+## Invoke your second smart contract
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldYTest.png)
+33. On the right-side of the `Invoke Contract` dialog box, in the `Contract Parameters` section, click on `Integer=(null)` to dislay the `Parameter Editor` dialog box. Enter `123` and click `Add`.
 
-    Figure 9.X. XXX
+    ![HelloWorld 2.0: Parameters](./images/09-deploytestsmartcontract/HelloWorldOTest.png)
 
-38. TODO
+    Figure 9.35. HelloWorld 2.0: Parameters
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldZTest.png)
+34. Click `Test` to call your smart contract. The results (return value) will appear in the text box at the bottom of the dialog box.
 
-    Figure 9.X. XXX
+    ![HelloWorld 2.0: Test](./images/09-deploytestsmartcontract/HelloWorldYTest.png)
+
+    Figure 9.36. HelloWorld 2.0: Test
+
+35. To see the list of contracts you have deployed,dFrom the `neo-gui`menu bar, select `Advanced` > `List Contracts` to display the `Smart Contract Monitor` dialog box.
+
+    ![`neo-gui`: Smart Contract Monitor](./images/09-deploytestsmartcontract/HelloWorldZTest.png)
+
+    Figure 9.37. `neo-gui`: Smart Contract Monitor
 
 The tasks for this activity are complete. Proceed to [Activity 10 - Celebrate](./10-celebrate.md).
 
@@ -382,6 +406,7 @@ The tasks for this activity are complete. Proceed to [Activity 10 - Celebrate](.
 
 * [NEOTUTORIAL] NEO Project, [NEO smart contract tutorial](http://docs.neo.org/en-us/sc/tutorial.html) from [http://docs.neo.org/en-us/sc/tutorial.html](http://docs.neo.org/en-us/sc/tutorial.html)
 * [NEODOCKER1] metachris, [metachris/neo-privnet-with-gas](https://hub.docker.com/r/metachris/neo-privnet-with-gas/) from [https://hub.docker.com/r/metachris/neo-privnet-with-gas/]https://hub.docker.com/r/metachris/neo-privnet-with-gas/()
+* [NEOPARMTYPES] Neo Project, [Smart Contract Parameters and Return Values](http://docs.neo.org/en-us/sc/tutorial/Parameter.html) from [http://docs.neo.org/en-us/sc/tutorial/Parameter.html](http://docs.neo.org/en-us/sc/tutorial/Parameter.html)
 
 ## Other Good Resources
 
