@@ -2,7 +2,7 @@
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
-## Appendix C - Reset your NEO privatenet Environment: Container, Wallets, and Clients
+## Appendix C - Reset NEO privatenet Environment: Container, Wallets, and Clients
 
 ### Purpose
 
