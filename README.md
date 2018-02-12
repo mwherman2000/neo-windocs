@@ -26,7 +26,7 @@ This meetup is a group that it is currently independent of the official [NEO Pro
 
 ## Roadmap
 
-* [NEO Blockchain Quick Start Process for .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
+* [NEO Blockchain Quick Start Guide for .NET Developers](https://github.com/mwherman2000/neo-windocs/tree/master/windocs/quickstart-csharp)
 * NEO C# Architecture Reference Model (NEO-CHARM)
 * NEO C# Namespace Map: Client App, Node2Client API, Node Internal APIs, Smart Contact APIs 
 * NEO C# Smart Contract Repository (NEO-CHLIB)

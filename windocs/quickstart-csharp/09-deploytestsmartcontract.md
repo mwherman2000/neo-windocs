@@ -1,4 +1,4 @@
-# NEO Blockchain Quick Start Process for .NET Developers
+# NEO Blockchain Quick Start Guide for .NET Developers
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -127,7 +127,7 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
 
     **NOTE:** The `neo-gui-developer` project only creates wallet databases using `.db3` format files (SQLLite database files). Other versions of `neo-gui` use JSON files. Note the difference.
 
-12. Enter a password to protect your wallet. Confirm your password by re-entering into the second text box.
+12. Enter a password to protect your wallet. Confirm your password by re-entering into the second field.
 
     ![`neo-gui`: Wallet Location](./images/09-deploytestsmartcontract/HelloWorldDTest.png)
 
@@ -231,55 +231,59 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
     **NOTE:** If you haven't changed the code for your smart contract (and hence, the AVM file created by Visual Studio/neon will be the same), it will have the same script hash value. `neo-gui` doesn't create a new script hash value every time you deploy a smart contract. It only calculates a new hash value if the code for the smart contract has changed.
 
-# Invoke your first smart contract
+23. Immediately after you copy the script hash in the previous task, click `close` on the Script Hash dialog box to display the following `Invoke Contract` dailog.
 
-23. TODO
+    Click `Test` and then click `Invoke`. It is with these 2 actions that your smart contract will be deployed to the NEO privatenet.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldKTest.png)
+    ![`neo-gui`: Invoke Contract Dialog Box](./images/09-deploytestsmartcontract/HelloWorldKTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.22. `neo-gui`: Invoke Contract Dialog BoxXXX
 
-24. TODO
+24. When the `Transaction successful` dialog box appears, click `close`. There is no need to copy of the transaction hash (TXID).
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldLTest.png)
+    ![`neo-gui`: Transaction Successful Dialog Box](./images/09-deploytestsmartcontract/HelloWorldLTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.23. `neo-gui`: Transaction Successful Dialog Box
 
-25. TODO
+25. In 'neo-gui`, click on the `Transaction History` tab to see the list of transactions that have been executed on the NEO privaenet.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldMTest.png)
+    ![`neo-gui`: Transaction History](./images/09-deploytestsmartcontract/HelloWorldMTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.24. `neo-gui`: Transaction History
 
-26. TODO
+## Invoke your first smart contract
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldNTest.png)
+26. From the `neo-gui`menu bar, select `Advanced` > `Invoke Contract...` to display the `Invoke Contact` dialog box.
 
-    Figure 9.X. XXX
+    Paste the script hash from the deployment tasks into the `ScriptHash` field. If you deployment was successful, the rest of the fields on the form should be filled with the values you entered on the `Deploy Contract` dialog box.
 
-27. TODO
+    **NOTE:** If the fields are blank, go back to Task 21 and start over. Pay particular attention to the instructions in Task 23.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldOTest.png)
+    ![`neo-gui`: Invoke Contract Dialog Box](./images/09-deploytestsmartcontract/HelloWorldNTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.25. `neo-gui`: Invoke Contract Dialog Box
 
-28. TODO
+27. Click `Test` to invoke your contract. 
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldPTest.png)
+    ![`neo-gui`: Invoke Contract Dialog Box: Test](./images/09-deploytestsmartcontract/HelloWorldPTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.26. `neo-gui`: Invoke Contract Dialog Box: Test
 
-29. TODO
+28. The results (return values) will appear in the text box at the bottom of the dialog. 
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldQTest.png)
+    **NOTE:** You may have to click it twice.
 
-    Figure 9.X. XXX
+    ![`neo-gui`: Invoke Contract Dialog Box: Results](./images/09-deploytestsmartcontract/HelloWorldQTest.png)
 
-30. TODO
+    Figure 9.27. `neo-gui`: Invoke Contract Dialog Box: Results
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldRTest.png)
+29. Returning to the `neo-gui` Account tab, you will notice the your NEO/Gas has been reduced.
 
-    Figure 9.X. XXX
+    **NOTE:** 490 Gas is used to deploy a contract. 1 Gas is used to invoke a transaction.
+
+    ![`neo-gui` Account Tab](./images/09-deploytestsmartcontract/HelloWorldRTest.png)
+
+    Figure 9.28. `neo-gui` Account Tab
 
 ## Create your second smart contract (HelloWorld 2.0)
 
@@ -287,13 +291,37 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
     **NOTE:** If you have created previous NeoContract projects, your project may be called `NeoContract3`, `NeoContract4`, or whatever you chose to name the project.  Remember the project name and path because you will need to find the AVM file later on in this activity.
 
-## Deploy your second smart contract
-
-27. TODO
+27. Make a few changes to the default smart contract:
+    * Change `Main()` to a accept a single integer parameter called `value`.
+    * Add a `return value * 100;` statement to the end of `Main()`.
 
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldSTest.png)
 
-    Figure 9.X. XXX
+    Figure 9.29. XXX
+
+    Your code should not look similar to the following:
+    ```csharp
+    using System;
+    using System.Numerics;
+    using Neo.SmartContract.Framework;
+    using Neo.SmartContract.Framework.Services.Neo;
+
+    namespace NeoContract2
+    {
+        public class HelloWorld : SmartContract
+        {
+            public static int Main(int value)
+            {
+                Storage.Put(Storage.CurrentContext, "Hello", "World!");
+
+                return value * 100;
+            }
+        }
+    }
+    ```
+    Code 9.1: HelloWorld 2.0
+
+## Deploy your second smart contract
 
 32. TODO
 
@@ -323,6 +351,14 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
     ![XXX](./images/09-deploytestsmartcontract/HelloWorldXTest.png)
 
     Figure 9.X. XXX
+
+27. On the right-side of the `Invoke Contract` dialog box, in the `Contract Parameters` section, click on `Integer=(null)` to dislay the `Parameter Editor` dialog box. Enter `123` and click `Add`.
+
+    **NOTE:** Ut doesn't really matter what you enter because this first smart contract doesn't use any parameters.
+
+    ![`neo-gui` Parameters](./images/09-deploytestsmartcontract/HelloWorldOTest.png)
+
+    Figure 9.26. `neo-gui` Parameters
 
 37. TODO
 
