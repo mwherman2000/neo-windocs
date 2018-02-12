@@ -199,7 +199,7 @@ At this point, the `neo-compiler` project has been built and published. The rema
 
     ![Visual Studio: Solution Explorer](./images/05-buildneodevtools/NeoGuiDev3Build.png)
 
-    Figure 5.26. XXVisual Studio: Solution ExplorerXX
+    Figure 5.26. Visual Studio: Solution Explorer
 
 27. (OPTIONAL) If you are comfortable making code changes to a Windows C# .NET Webforms application, navigate to the `Mainform.cs` source file in the `UI` folder. Right-click this file and select `View Code`. Scroll down to the MainForm() constructor method. At end of the constructor, add the highlighted single line of code:
     ```csharp

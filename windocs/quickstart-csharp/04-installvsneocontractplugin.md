@@ -66,6 +66,10 @@ The purpose of this activity is to install the NeoContractPlugin extension into 
 
     Figure 4.7. NeoContractPlugin extension installation complete
 
+## Testing NeoContractPlugin Visual Studio extension
+
+* The NeoContractPlugin extension cannot be tested in Visual Studio until the NEO C# transcompiler has been build and configured. This is described in the next activity.  The NeoContractPlugin Visual Studio extension will be tested near the end of that activity.
+
 The tasks for this activity are complete. Proceed to [Activity 5 - Build and test NEO developer tool projects (from source)](./05-buildneodevtools.md).
 
 ## References
