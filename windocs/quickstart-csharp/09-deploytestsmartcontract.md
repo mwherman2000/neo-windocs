@@ -24,16 +24,20 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
 
 * Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
-## Start the NEO privatenet Docker container
+## Start (reset) the NEO privatenet Docker container
 
 1. Start the NEO privatenet Docker container by opening PowerShell and running the following commands: 
     ```
     docker container list
-    docker start neo-privnet-with-gas
+    docker stop neo-privnet-with-gas
+    docker container list
+    docker rm neo-privnet-with-gas
+    docker container list
+    docker run -d --name neo-privnet-with-gas -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp metachris/neo-privnet-with-gas
     docker container list
     pause
     ```
-    Script: NEO Docker Start  ([./scripts/neodockerstart.bat.txt](./scripts/neodockerstart.bat.txt))
+    Script: NEO Docker Reset ([./scripts/neodockerreset.bat.txt](./scripts/neodockerreset.bat.txt))
 
     The script produces the following output:
 
