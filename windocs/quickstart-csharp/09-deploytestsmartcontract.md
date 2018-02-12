@@ -205,17 +205,31 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
 ## Deploy your first smart contract
 
-21. From the `neo-gui`menu bar, select `Advanced` > 
+21. From the `neo-gui`menu bar, select `Advanced` > `Deploy Contract...` to display the `Deploy Contact` dialog box.
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldITest.png)
+    ![`neo-gui`: Deploy Contract Dialog Box](./images/09-deploytestsmartcontract/HelloWorldITest.png)
 
-    Figure 9.20. XXX
+    Figure 9.20. `neo-gui`: Deploy Contract Dialog Box
 
-22. TODO
+22. Enter the following information in the `Deploy Contract` dialog box.
+* In the `Information` section, enter something appropriate for each field. These fields must be non-blank.
+* In the `Return Type` section, leave these fields empty (for this particular smart contract).
+* Click the `Need Storage` check box so that a check is displayed.
+* Click `Load` to the AVM file created by your Visual Studio project (e.g. `C:\NEO\repos\NeoContract1\NeoContract1\bin\Debug\NeoContract1.avm`). . 
 
-    ![XXX](./images/09-deploytestsmartcontract/HelloWorldJTest.png)
+22. When the above information is complete, click `Deploy` on the `Deploy Contract` dialog box to complete the preparation steps for `neo-gui` to deploy the VM byte code for your contract. 
 
-    Figure 9.21. XXX
+    The Script Hash will be displayed in the Script Hash dialog box. Click `copy` to have the script hash on the clipboard.
+
+    ![`neo-gui`: Script Hash](./images/09-deploytestsmartcontract/HelloWorldJTest.png)
+
+    Figure 9.21. `neo-gui`: Script Hash
+
+    **NOTE:** The script hash is a hash of the VM byte code read in from your AVM (.avm) byte code file. This is the same script hash value that appears at the bottom of the `Deploy Contract` dialog box **after** you had loaded your AVM file.
+
+    **NOTE:** If you forget to click `copy` to save a copy of the script hash to the clipboard, you can always retrieve the script hash value by reselecting `Advanced` > `Deploy Contract...` to display the `Deploy Contact` dialog box and reloading your AVM file. The script hash will appear near the bottom of the `Deploy Contract` dialog box. If all you need is the script hash, you don't need to complete the fields in the Information or Return Type sections. Click `Cancel` this time instead of Deploy.
+
+    **NOTE:** If you haven't changed the code for your smart contract (and hence, the AVM file created by Visual Studio/neon will be the same), it will have the same script hash value. `neo-gui` doesn't create a new script hash value every time you deploy a smart contract. It only calculates a new hash value if the code for the smart contract has changed.
 
 # Invoke your first smart contract
 
