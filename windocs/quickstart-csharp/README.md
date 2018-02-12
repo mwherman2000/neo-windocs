@@ -4,7 +4,7 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Purpose
 
-The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environment up and running in as little time as possible.
+The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environment and get it up and running in as little time as possible.
 
 ## Goals
 
@@ -32,7 +32,7 @@ The purpose of this document is to enable .NET developers who are brand new to N
 6. [Download, install, and test Docker platform](./06-installdockerplatform.md)
 7. [Download and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)
 8. [Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)
-9. [Deploy and test the HelloWord smart contract](./09-deploytestsmartcontract.md)
+9. [Deploy and test the HelloWorld smart contract](./09-deploytestsmartcontract.md)
 10. [Celebrate](./10-celebrate.md)
 11. [Appendix A - Checklist](./11-checklist.md)
 12. [Appendix B - Roadmap](./12-roadmap.md)
