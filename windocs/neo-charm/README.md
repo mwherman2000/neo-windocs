@@ -43,10 +43,10 @@ As a smart contract developer, it is your responsbility to learn and understand 
 
 The architecture of the NEO VM is illustrated in the following diagram.
 
-![NEO Blockchain Architecture Reference Model](./diagrams/neo-charm-2-0-0.png)
+![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-0.png)
 Figure 2. NEO Blockchain Architecture Reference Model (subsystems)
 
-The collection of .NET namespaces supported by the NEO VM is illustrated below.
+The collection of .NET namespaces supported by the NEO VM susbsystems is illustrated below.
 
 ![NEO Blockchain Architecture Reference Model (.NET namespaces)](./diagrams/neo-charm-1-0-2.png)
 Figure 3. NEO Blockchain Architecture Reference Model (.NET namespaces)
