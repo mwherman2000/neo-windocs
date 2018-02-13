@@ -14,7 +14,7 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
     ```
     System.Action3<System.Byte[],System.Byte[],System.Numerics.BigInteger>.maybe it is System.Action which is defined in mscorlib.dll，copy this dll in.`
     ```
-    You need to copy mscorlib.dll from
+    You need to copy `mscorlib.dll` from
     ```
     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2
     ```
@@ -22,7 +22,7 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
     ```
     C:\NEO\examples-csharp-master\examples-csharp-master\ICO_Template\bin\Debug
     ```
-    
+
     ![Dotnet-4.6.2-not-installedB.png](./images/Dotnet-4.6.2-not-installedB.png)
 
 5. Rebuild your solution and you should be ready to go.
