@@ -99,7 +99,7 @@
     <element xsi:type="archimate:TechnologyService" name="Assets DataCache" id="83c5f6ee-4025-4e50-9340-2028f6dd81ba"/>
     <element xsi:type="archimate:TechnologyService" name="Contracts DataCache" id="272a6897-e343-4b26-be19-b907480857ae"/>
     <element xsi:type="archimate:TechnologyService" name="Storage DataCache" id="45c55273-b9a9-4354-8e8e-91a145361a6a"/>
-    <element xsi:type="archimate:Artifact" name="Blockchain State" id="d9c494ff-14a4-429b-b72b-f26d58ed23e0"/>
+    <element xsi:type="archimate:Artifact" name="Blockchain State (Distributed Ledger)" id="d9c494ff-14a4-429b-b72b-f26d58ed23e0"/>
     <element xsi:type="archimate:TechnologyService" name="Blockchain.Default" id="896a6ccf-c18b-4909-bc30-1f1f74965582"/>
   </folder>
   <folder name="Motivation" id="c781203e-9f12-4a3b-bf51-fb8457ebd14c" type="motivation"/>

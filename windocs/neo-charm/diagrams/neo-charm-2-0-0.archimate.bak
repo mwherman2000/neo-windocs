@@ -87,9 +87,9 @@
     <element xsi:type="archimate:TechnologyService" name="NEP6Wallet" id="81230f5d-475a-4b1b-9478-bcd9758cab6c"/>
     <element xsi:type="archimate:TechnologyService" name="ScryotParameters" id="c2dfdcdd-cc02-4809-9ec3-3befee14a1a1"/>
     <element xsi:type="archimate:TechnologyService" name="Neo.SmartContract.ApplicationEngine : ExecutionEngine" id="582a0b7f-6603-49c0-87f2-d6bfadc49ffe"/>
-    <element xsi:type="archimate:Artifact" name="HelloWorld.cs" id="f86ee9bc-cbe7-4091-b1fd-9c7e46d86a45"/>
-    <element xsi:type="archimate:Artifact" name="HelloWorld.dll" id="4fde47fd-2124-4e05-b748-ac71d368bf25"/>
-    <element xsi:type="archimate:Artifact" name="HelloWorld.avm" id="caa0a661-ef2f-4d0a-8dc7-28fa202efcf7"/>
+    <element xsi:type="archimate:Artifact" name="HelloWorld.cs (C#)" id="f86ee9bc-cbe7-4091-b1fd-9c7e46d86a45"/>
+    <element xsi:type="archimate:Artifact" name="HelloWorld.dll (MSIL)" id="4fde47fd-2124-4e05-b748-ac71d368bf25"/>
+    <element xsi:type="archimate:Artifact" name="HelloWorld.avm (AVM Script (byte code))" id="caa0a661-ef2f-4d0a-8dc7-28fa202efcf7"/>
     <element xsi:type="archimate:SystemSoftware" name="csc.exe" id="2f5793b5-0b18-44d3-886e-d89ed4b378ab"/>
     <element xsi:type="archimate:SystemSoftware" name="neon.exe" id="09f7e56d-5217-44ac-aa6c-4971d16793c6"/>
     <element xsi:type="archimate:SystemSoftware" name="neo-gui.exe (developer)" id="59cef174-2a6c-4557-a87b-b5692c44f455"/>
@@ -111,7 +111,7 @@
     <element xsi:type="archimate:AccessRelationship" id="8007e3d3-68cf-4123-b923-7f9e7a7fe5ff" source="09f7e56d-5217-44ac-aa6c-4971d16793c6" target="4fde47fd-2124-4e05-b748-ac71d368bf25"/>
     <element xsi:type="archimate:AccessRelationship" id="4a8557bb-8a23-4812-9c69-83ffc6d89ff4" source="09f7e56d-5217-44ac-aa6c-4971d16793c6" target="caa0a661-ef2f-4d0a-8dc7-28fa202efcf7"/>
     <element xsi:type="archimate:AccessRelationship" id="79a5e5eb-35f8-4785-9fca-5c73ebf98836" source="59cef174-2a6c-4557-a87b-b5692c44f455" target="caa0a661-ef2f-4d0a-8dc7-28fa202efcf7"/>
-    <element xsi:type="archimate:AccessRelationship" id="e1cb51c2-690b-4da6-8ed4-f1b2012e2dce" source="59cef174-2a6c-4557-a87b-b5692c44f455" target="9a5d9305-f4bc-4cc8-a2ed-8b1d188453fa"/>
+    <element xsi:type="archimate:AccessRelationship" name="AVM Script (byte code)" id="e1cb51c2-690b-4da6-8ed4-f1b2012e2dce" source="59cef174-2a6c-4557-a87b-b5692c44f455" target="9a5d9305-f4bc-4cc8-a2ed-8b1d188453fa"/>
     <element xsi:type="archimate:AggregationRelationship" id="1c94204b-e1ab-4053-8cb7-740db2365b94" source="7c801d36-da53-4bb1-9b74-18c265ad8549" target="3f105d15-b959-41e8-a57f-7705d0d41dfb"/>
     <element xsi:type="archimate:AggregationRelationship" id="a4a28c2f-0e04-4298-9703-d2ea545b4b9d" source="7c801d36-da53-4bb1-9b74-18c265ad8549" target="83c5f6ee-4025-4e50-9340-2028f6dd81ba"/>
     <element xsi:type="archimate:AggregationRelationship" id="6aa01e6a-e07a-4a10-8105-0cf530286d04" source="7c801d36-da53-4bb1-9b74-18c265ad8549" target="272a6897-e343-4b26-be19-b907480857ae"/>
@@ -693,7 +693,7 @@ http://docs.neo.org/en-us/sc/tutorial.html</content>
       <child xsi:type="archimate:DiagramObject" id="7f357d9d-ffd4-4938-803f-827949e5803f" archimateElement="59cef174-2a6c-4557-a87b-b5692c44f455">
         <bounds x="924" y="288" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="4fd05466-192a-48d6-9e1f-d16d4659fce1" source="7f357d9d-ffd4-4938-803f-827949e5803f" target="05ba9133-2545-44f9-a89c-c9519fedfdcb" archimateRelationship="79a5e5eb-35f8-4785-9fca-5c73ebf98836"/>
-        <sourceConnection xsi:type="archimate:Connection" id="ae4f03cf-3019-4d78-85e6-fac1b07f0180" source="7f357d9d-ffd4-4938-803f-827949e5803f" target="51ff2453-619d-4b5b-a35c-13116989f343" archimateRelationship="e1cb51c2-690b-4da6-8ed4-f1b2012e2dce"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ae4f03cf-3019-4d78-85e6-fac1b07f0180" textPosition="0" source="7f357d9d-ffd4-4938-803f-827949e5803f" target="51ff2453-619d-4b5b-a35c-13116989f343" archimateRelationship="e1cb51c2-690b-4da6-8ed4-f1b2012e2dce"/>
       </child>
       <child xsi:type="archimate:Note" id="e77d0649-6fad-4056-bc00-344d1c8bc7fd" textAlignment="1">
         <bounds x="588" y="612" width="456" height="145"/>
