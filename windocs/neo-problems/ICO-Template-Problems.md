@@ -18,10 +18,11 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
     ```
     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2
     ```
-    to your `bin/Debug` folder; for example:
+    into your `bin/Debug` folder; for example:
     ```
     C:\NEO\examples-csharp-master\examples-csharp-master\ICO_Template\bin\Debug
     ```
+    
     ![Dotnet-4.6.2-not-installedB.png](./images/Dotnet-4.6.2-not-installedB.png)
 
 5. Rebuild your solution and you should be ready to go.
