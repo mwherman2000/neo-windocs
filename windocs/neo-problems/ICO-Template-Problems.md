@@ -11,9 +11,8 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
 3. Close and reopen Visual Studio.  Reopen the project.
 
 4. Rebuild the solution.  You're going to run into another problem.  It will look something like:
-    ```
-    System.Action3<System.Byte[],System.Byte[],System.Numerics.BigInteger>.maybe it is System.Action which is defined in mscorlib.dll，copy this dll in.`
-    ```
+    >System.Action3<System.Byte[],System.Byte[],System.Numerics.BigInteger>.maybe it is System.Action which is defined in mscorlib.dll，copy this dll in.`
+    
     You need to copy `mscorlib.dll` from
     ```
     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2
