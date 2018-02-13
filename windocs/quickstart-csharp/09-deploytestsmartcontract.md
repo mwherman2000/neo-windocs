@@ -57,6 +57,12 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
     ```
     Script: NEO Docker Python CLI/Shell ([./scripts/neodockerpshell.bat.txt](./scripts/neodockerpshell.bat.txt))
 
+    When the bash shell starts, enter the following commands:
+    ```python
+    cd opt/neo-python
+    python3 prompt.py -p
+    block 0
+    ```
 ## Configure `neo-gui (developer)` to use the NEO privatenet Docker container
 
 3. Open Windows Explorer and navigate to `C:\NEO\neo-gui-developer\neo-gui\bin` and right-click on the the `Debug` folder and delete it (and all of of the folder's contents). 
@@ -287,11 +293,11 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
 ## Create your second smart contract (HelloWorld 2.0)
 
-26. Follow the pattern set out in the previous tasks to create a new NeonContract project (e.g. NeoContract2).
+30. Follow the pattern set out in the previous tasks to create a new NeonContract project (e.g. NeoContract2).
 
     **NOTE:** If you have created previous NeoContract projects, your project may be called `NeoContract3`, `NeoContract4`, or whatever you chose to name the project.  Remember the project name and path because you will need to find the AVM file later on in this activity.
 
-27. Make a few changes to the default smart contract:
+31. Make a few changes to the default smart contract:
     * Change `Main()` to a accept a single integer parameter called `value`.
     * Add a `return value * 100;` statement to the end of `Main()`.
 
@@ -323,7 +329,7 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
 ## Deploy your second smart contract
 
-28. Follow the pattern set out in the previous tasks to deploy your HelloWorld 2.0 smart contract. Fill in the fields on the Deploy Contract dialog box.
+32. Follow the pattern set out in the previous tasks to deploy your HelloWorld 2.0 smart contract. Fill in the fields on the Deploy Contract dialog box.
 
     **NOTE:** On the `Deploy Contract` dialog box, in the `Return Type` section, you need to provide a string of 2-digit codes denoting the data type of:
     * Inbound parameters
@@ -352,25 +358,25 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
     Figure 9.30. HelloWorld 2.0: Deploy Contract
 
-29. Load the AVM file for HelloWorld 2.0 and click `Deploy` on the `Deploy Contract` dialog box.
+33. Load the AVM file for HelloWorld 2.0 and click `Deploy` on the `Deploy Contract` dialog box.
 
     ![HelloWorld 2.0: Load Contract](./images/09-deploytestsmartcontract/HelloWorldUTest.png)
 
     Figure 9.31. HelloWorld 2.0: Load Contract
 
-30. Copy the script hash value and click `close` on the `Script Hash` dialog box.
+34. Copy the script hash value and click `close` on the `Script Hash` dialog box.
 
     ![HelloWorld 2.0: Script Hash](./images/09-deploytestsmartcontract/HelloWorldVTest.png)
 
     Figure 9.32. HelloWorld 2.0: Script Hash
 
-31. To complete the deployment, click `Test` and then `Invoke` on the `Invoke Contract` dialog box.
+35. To complete the deployment, click `Test` and then `Invoke` on the `Invoke Contract` dialog box.
 
     ![HelloWorld 2.0: Complete Deployment](./images/09-deploytestsmartcontract/HelloWorldWTest.png)
 
     Figure 9.33. HelloWorld 2.0: Complete Deployment
 
-32. Deployment complete. Click `close`.
+36. Deployment complete. Click `close`.
 
     ![HelloWorld 2.0: Deployment Complete](./images/09-deploytestsmartcontract/HelloWorldXTest.png)
 
@@ -378,19 +384,19 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
 ## Invoke your second smart contract
 
-33. On the right-side of the `Invoke Contract` dialog box, in the `Contract Parameters` section, click on `Integer=(null)` to dislay the `Parameter Editor` dialog box. Enter `123` and click `Add`.
+37. On the right-side of the `Invoke Contract` dialog box, in the `Contract Parameters` section, click on `Integer=(null)` to dislay the `Parameter Editor` dialog box. Enter `123` and click `Add`.
 
     ![HelloWorld 2.0: Parameters](./images/09-deploytestsmartcontract/HelloWorldOTest.png)
 
     Figure 9.35. HelloWorld 2.0: Parameters
 
-34. Click `Test` to call your smart contract. The results (return value) will appear in the text box at the bottom of the dialog box.
+38. Click `Test` to call your smart contract. The results (return value) will appear in the text box at the bottom of the dialog box.
 
     ![HelloWorld 2.0: Test](./images/09-deploytestsmartcontract/HelloWorldYTest.png)
 
     Figure 9.36. HelloWorld 2.0: Test
 
-35. To see the list of contracts you have deployed,dFrom the `neo-gui`menu bar, select `Advanced` > `List Contracts` to display the `Smart Contract Monitor` dialog box.
+39. To see the list of contracts you have deployed,dFrom the `neo-gui`menu bar, select `Advanced` > `List Contracts` to display the `Smart Contract Monitor` dialog box.
 
     ![`neo-gui`: Smart Contract Monitor](./images/09-deploytestsmartcontract/HelloWorldZTest.png)
 
@@ -400,7 +406,13 @@ The tasks for this activity are complete. Proceed to [Activity 10 - Celebrate](.
 
 ## Script Library
 
+* NEO Docker Download/Install/Run ([./scripts/neodockerinstall.bat.txt](./scripts/neodockerinstall.bat.txt))
+* NEO Docker Stop/Remove ([./scripts/neodockeruninstall.bat.txt](./scripts/neodockeruninstall.bat.txt))
 * NEO Docker Start ([./scripts/neodockerstart.bat.txt](./scripts/neodockerstart.bat.txt))
+* NEO Docker Stop ([./scripts/neodockerstop.bat.txt](./scripts/neodockerstop.bat.txt))
+* NEO Docker Restart ([./scripts/neodockerrestart.bat.txt](./scripts/neodockerrestart.bat.txt))
+* NEO Docker Reset ([./scripts/neodockerreset.bat.txt](./scripts/neodockerreset.bat.txt))
+* NEO Docker Python CLI/Shell ([./scripts/neodockerpshell.bat.txt](./scripts/neodockerpshell.bat.txt))
 
 ## References
 
