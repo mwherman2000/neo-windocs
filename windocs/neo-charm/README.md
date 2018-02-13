@@ -20,9 +20,13 @@ The purpose of this document is to document a (software) architecture reference 
 
 * Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
-## NEO Blockchain Architecture Reference Model v1.0.2
+## NEO Blockchain Architecture Reference Model
 
-![NEO Blockchain Architecture Reference Model](./diagrams/neo-charm-1-0-2.png)
+![NEO Blockchain Architecture Reference Model](./diagrams/neo-charm-2-0-0.png)
+Figure 1. NEO Blockchain Architecture Reference Model (dataflow)
+
+![NEO Blockchain Architecture Reference Model (namespaces)](./diagrams/neo-charm-1-0-2.png)
+Figure 2. NEO Blockchain Architecture Reference Model (namespaces)
 
 ## References
 
