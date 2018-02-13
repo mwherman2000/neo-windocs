@@ -22,8 +22,31 @@ The purpose of this document is to document a (software) architecture reference 
 
 ## NEO Blockchain Architecture Reference Model
 
+When you're learning to write NEO smart contracts, you're really learning how to program the NEO VM to do what you want; for example, 
+* perform a calculation
+* read persisted data (state) from the blockchain
+* add new data (state) to the blockchain
+* verify someone's identity (and, in turn, determine which roles and permissions they have with respect to the purpose and goals of your smart contract)
+* etc.
+
+As an analogy, learning to program the NEO VM is like learning to fly a flight simulator.
+
+![A Sukhoi SuperJet full flight simulator-Wikipedia](./images/SSJ100_FFS_1_(9318513805)-1024.jpg)
+
+Figure 1. Sukhoi SuperJet Full Flight Simulator [credit: [Wikipedia](https://en.wikipedia.org/wiki/Full_flight_simulator#/media/File:SSJ100_FFS_1_(9318513805).jpg)]
+
+In a simulator cockpit, the pilot is manipulating the controls (foot pedals, switches and knobs as well as the control column) and the simulator, in turn, receives those stimuli and causes multiple subsystems to respond and create an illusion that you are controlling a sophisticated aircraft. The subsystems responsible for creating these illusions include visual displays, audio cues and sound effects, hydraulic actuators, dials and other instruments.
+
+A NEO smart contract running in the NEO VM is like the pilot in control of the flight simulator. The smart contract is performing various calculations and calling various virtual machine APIs to accomplish the smart contract's purpose and goals. In response to these API calls, the VM is interacting with its various susbsystems (just like the flight simulator). In the case of the NEO VM, these subsystems include: account management, asset managemen, smart contract management, and storage management; in addition to the [more basic computational operations](http://docs.neo.org/en-us/sc/tutorial.html) (e.g. flow control, stack operations, bit operations, arithmetic operations, logical operations, cryptographic methods, and so on).
+
+As a smart contract developer, it is your responsbility to learn and understand the purpose and goals each of the VM subsystems, the use cases they sypport, and best practices and programming patterns when developing best-in-class smart contacts.
+
+The architecture of the NEO VM is illustrated in the following diagram.
+
 ![NEO Blockchain Architecture Reference Model](./diagrams/neo-charm-2-0-0.png)
 Figure 1. NEO Blockchain Architecture Reference Model (dataflow)
+
+The collection of namespaces (subsystems) supported by the NEO VM is illustrated below.
 
 ![NEO Blockchain Architecture Reference Model (namespaces)](./diagrams/neo-charm-1-0-2.png)
 Figure 2. NEO Blockchain Architecture Reference Model (namespaces)
