@@ -1,4 +1,4 @@
-# NEO Blockchain Architecture Reference Model for .NET Developers (neo-charm)
+# NEO Blockchain Architecture Reference Model for .NET Developers (neo-charm) [WORK-IN-PROGRESS]
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
