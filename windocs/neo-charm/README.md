@@ -20,9 +20,9 @@ The purpose of this document is to document a (software) architecture reference 
 
 * Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
-## NEO Blockchain Architecture Reference Model
+## NEO Blockchain Architecture Reference Model v1.0.2
 
-![NEO Blockchain Architecture Reference Model](./diagrams/neo-charm-1-0-1.png)
+![NEO Blockchain Architecture Reference Model](./diagrams/neo-charm-1-0-2.png)
 
 ## References
 
@@ -32,7 +32,7 @@ The purpose of this document is to document a (software) architecture reference 
 
 ## Other Good Resources
 
-* [NEORPSHARPCLIENT] City of Zion, [Neo-RPC-SharpClient](https://github.com/CityOfZion/Neo-RPC-SharpClient/blob/master/README.md) from ([https://github.com/CityOfZion/Neo-RPC-SharpClient/blob/master/README.md])
+* [NEORPCSHARPCLIENT] City of Zion, [Neo-RPC-SharpClient](https://github.com/CityOfZion/Neo-RPC-SharpClient/blob/master/README.md) from ([https://github.com/CityOfZion/Neo-RPC-SharpClient/blob/master/README.md])
 
 
 

@@ -35,10 +35,10 @@ Activity | Description | Complete?  | Numbering? | Reviewed? | Tested?
 6 | **[Activity 6 - Download, install, and test Docker platform](./06-installdockerplatform.md)** | 2018/2/10 | ____________ | ____________ | ____________
 7 | **[Activity 7 - Download, install and test NEO privatenet Docker container](./07-installneoprivatenetcontainer.md)** | 2018/2/10 | ____________ | ____________ | ____________
 8 | **[Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)** | 2018/2/11 | ____________ | ____________ | ____________
-9 | **[Activity 9 - Deploy and test HelloWorld smart contract](./09-deploytestsmartcontract.md)** | ____________ | ____________ | ____________ | ____________
+9 | **[Activity 9 - Deploy and test HelloWorld smart contract](./09-deploytestsmartcontract.md)** | 2018/2/12 | ____________ | ____________ | ____________
 10 | **[Activity 10 - Celebrate](./10-celebrate.md)** | 2018/2/10 | 2018/2/10 | ____________ | ____________
 11 | **[Appendix A - Checklist](./11-checklist.md)** | ____________ | ____________ | ____________ | ____________
-12 | **[Appendix B - Roadmap (this document)](./12-roadmap.md)** | 2018/2/11 | ____________ | ____________ | ____________
+12 | **[Appendix B - Roadmap (this document)](./12-roadmap.md)** | 2018/2/12 | ____________ | ____________ | ____________
 13 | **[Appendix C - Reset your NEO privatenet environment: Container, Wallets, and Clients ](./13-resetprivatenetenv.md)** | 2018/2/11 | ____________ | ____________ | ____________
 
 ## References
