@@ -6,7 +6,7 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
 
     ![Dotnet-4.6.2-not-installedA.png](./images/Dotnet-4.6.2-not-installedA.png)
 
-2. Select the second option and download the .NET v4.6.2 from the Microsoft web site. (You may have to click on a redirection link.)
+2. Select the second option and download the .NET v4.6.2 from the Microsoft web site and install it on your local computer. (You may have to click on a redirection link.)
 
 3. Close and reopen Visual Studio.  Reopen the project.
 
