@@ -30,6 +30,12 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
 
 6. Smile :-)
 
+7. **NOTE:** Be careful if you try to use `switch` statements in a C# smart contract.  You can run into problems (see below).
+
+    ![igormcoelho-usingswitchstatements.pngg](./images/igormcoelho-usingswitchstatements.png)
+
+    For example, if you try to add to the number of `case`s in a switch statement, the csharp compile may generate MSIL that `neon.exe` won't be able to process.
+
 ## References
 
 * [ICOTEMPLATEMSCORLIB] [ICO-Template project: mscorlib.dll build error (with a fix/workaround)](https://github.com/CityOfZion/neo-debugger-tools/issues/30) from [https://github.com/CityOfZion/neo-debugger-tools/issues/30](https://github.com/CityOfZion/neo-debugger-tools/issues/30)
