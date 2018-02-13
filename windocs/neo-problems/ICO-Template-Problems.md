@@ -34,3 +34,6 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
 
 * [ICOTEMPLATEMSCORLIB] [ICO-Template project: mscorlib.dll build error (with a fix/workaround)](https://github.com/CityOfZion/neo-debugger-tools/issues/30) from [https://github.com/CityOfZion/neo-debugger-tools/issues/30](https://github.com/CityOfZion/neo-debugger-tools/issues/30)
 
+## Feedback
+* >"After a clean re-install of VS2017, re-pulling and then applying your 'hack', it is compiling again... You da freakin' man!  Thank you sir."
+
