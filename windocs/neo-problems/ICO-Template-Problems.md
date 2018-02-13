@@ -18,7 +18,7 @@ Url: [https://github.com/neo-project/examples-csharp](https://github.com/neo-pro
     ```
     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2
     ```
-    into your `bin/Debug` folder; for example:
+    into your project's `bin/Debug` folder; for example:
     ```
     C:\NEO\examples-csharp-master\examples-csharp-master\ICO_Template\bin\Debug
     ```
