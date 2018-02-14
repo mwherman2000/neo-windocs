@@ -95,19 +95,19 @@
     <element xsi:type="archimate:SystemSoftware" name="neo-gui.exe (developer)" id="59cef174-2a6c-4557-a87b-b5692c44f455"/>
     <element xsi:type="archimate:TechnologyFunction" name="CurrentContext : ExecutionContext" id="9caf5433-d9ae-4408-bf80-c0e4728e45c2"/>
     <element xsi:type="archimate:TechnologyService" name="Neo.SmartContract.StateMachine : InteropService" id="7c801d36-da53-4bb1-9b74-18c265ad8549"/>
-    <element xsi:type="archimate:TechnologyService" name="Accounts Service" id="3f105d15-b959-41e8-a57f-7705d0d41dfb"/>
-    <element xsi:type="archimate:TechnologyService" name="Assets Service" id="83c5f6ee-4025-4e50-9340-2028f6dd81ba"/>
-    <element xsi:type="archimate:TechnologyService" name="Blocks Service" id="272a6897-e343-4b26-be19-b907480857ae"/>
+    <element xsi:type="archimate:TechnologyService" name="Account Service" id="3f105d15-b959-41e8-a57f-7705d0d41dfb"/>
+    <element xsi:type="archimate:TechnologyService" name="Asset Service" id="83c5f6ee-4025-4e50-9340-2028f6dd81ba"/>
+    <element xsi:type="archimate:TechnologyService" name="Block Service" id="272a6897-e343-4b26-be19-b907480857ae"/>
     <element xsi:type="archimate:TechnologyService" name="Blockchain Service" id="45c55273-b9a9-4354-8e8e-91a145361a6a"/>
     <element xsi:type="archimate:Artifact" name="Blockchain State (Distributed Ledger)" id="d9c494ff-14a4-429b-b72b-f26d58ed23e0"/>
-    <element xsi:type="archimate:TechnologyService" name="Contracts Service" id="7149a641-4c99-46a0-a537-366832a35623"/>
-    <element xsi:type="archimate:TechnologyService" name="Headers Service" id="71118bf8-543a-4f07-bf8b-4a3afe70791d"/>
+    <element xsi:type="archimate:TechnologyService" name="Contract Service" id="7149a641-4c99-46a0-a537-366832a35623"/>
+    <element xsi:type="archimate:TechnologyService" name="Header Service" id="71118bf8-543a-4f07-bf8b-4a3afe70791d"/>
     <element xsi:type="archimate:TechnologyService" name="Runtime Service" id="a18b77ce-79fb-4e47-b597-e9b47c15375a"/>
     <element xsi:type="archimate:TechnologyService" name="Storage Service" id="363afeb5-225a-4f37-af33-60d97bb08478"/>
-    <element xsi:type="archimate:TechnologyService" name="Transactions Service" id="e6a703b8-740e-4d25-a055-310b8a65415f"/>
-    <element xsi:type="archimate:TechnologyService" name="Attributes Service" id="946dbcb0-5a4e-451a-b255-5ad421dc14dd"/>
-    <element xsi:type="archimate:TechnologyService" name="Input Service" id="521bcaad-d6d5-4616-87e9-7058e2b67fe3"/>
-    <element xsi:type="archimate:TechnologyService" name="Output Service" id="7b98d2de-221a-4a36-8bc9-3bfe7978520c"/>
+    <element xsi:type="archimate:TechnologyService" name="Transaction Service" id="e6a703b8-740e-4d25-a055-310b8a65415f"/>
+    <element xsi:type="archimate:TechnologyService" name="Transaction Attributes Service" id="946dbcb0-5a4e-451a-b255-5ad421dc14dd"/>
+    <element xsi:type="archimate:TechnologyService" name="Transaction Input Service" id="521bcaad-d6d5-4616-87e9-7058e2b67fe3"/>
+    <element xsi:type="archimate:TechnologyService" name="Transaction Output Service" id="7b98d2de-221a-4a36-8bc9-3bfe7978520c"/>
     <element xsi:type="archimate:TechnologyService" name="Validator Service" id="ce844f33-df63-4af0-9ff7-350c292852cf"/>
     <element xsi:type="archimate:Artifact" name="Other State" id="3e5f3736-f1aa-45dc-a9e0-d033bbe0c991"/>
     <element xsi:type="archimate:TechnologyService" name="Host Operating System Services" id="9141d4c0-c463-4c58-bd84-f7e991364f5c"/>
