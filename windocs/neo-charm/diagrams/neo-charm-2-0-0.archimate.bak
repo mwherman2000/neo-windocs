@@ -616,7 +616,7 @@ http://docs.neo.org/en-us/sc/tutorial.html</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="NEO Architecture Reference Model v2.0" id="ba0f0334-e69b-4d05-8ed5-a8d78f74a8f1" connectionRouterType="2">
-      <child xsi:type="archimate:Group" id="0c1fde08-577d-4835-babe-ac1de1445f3e" name="NEO Node" textAlignment="1">
+      <child xsi:type="archimate:Group" id="0c1fde08-577d-4835-babe-ac1de1445f3e" name="NEO Virtual Machine" textAlignment="1">
         <bounds x="24" y="24" width="541" height="733"/>
         <child xsi:type="archimate:DiagramObject" id="3021f38e-880a-40c1-9f55-5f2837ad24f5" archimateElement="582a0b7f-6603-49c0-87f2-d6bfadc49ffe">
           <bounds x="119" y="48" width="288" height="325"/>

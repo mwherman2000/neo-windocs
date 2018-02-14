@@ -95,10 +95,10 @@
     <element xsi:type="archimate:SystemSoftware" name="neo-gui.exe (developer)" id="59cef174-2a6c-4557-a87b-b5692c44f455"/>
     <element xsi:type="archimate:TechnologyFunction" name="CurrentContext : ExecutionContext" id="9caf5433-d9ae-4408-bf80-c0e4728e45c2"/>
     <element xsi:type="archimate:TechnologyService" name="Neo.SmartContract.StateMachine : InteropService" id="7c801d36-da53-4bb1-9b74-18c265ad8549"/>
-    <element xsi:type="archimate:TechnologyService" name="Accounts DataCache" id="3f105d15-b959-41e8-a57f-7705d0d41dfb"/>
-    <element xsi:type="archimate:TechnologyService" name="Assets DataCache" id="83c5f6ee-4025-4e50-9340-2028f6dd81ba"/>
-    <element xsi:type="archimate:TechnologyService" name="Contracts DataCache" id="272a6897-e343-4b26-be19-b907480857ae"/>
-    <element xsi:type="archimate:TechnologyService" name="Storage DataCache" id="45c55273-b9a9-4354-8e8e-91a145361a6a"/>
+    <element xsi:type="archimate:TechnologyService" name="Accounts Service" id="3f105d15-b959-41e8-a57f-7705d0d41dfb"/>
+    <element xsi:type="archimate:TechnologyService" name="Assets Service" id="83c5f6ee-4025-4e50-9340-2028f6dd81ba"/>
+    <element xsi:type="archimate:TechnologyService" name="Contracts Service" id="272a6897-e343-4b26-be19-b907480857ae"/>
+    <element xsi:type="archimate:TechnologyService" name="Storage Service" id="45c55273-b9a9-4354-8e8e-91a145361a6a"/>
     <element xsi:type="archimate:Artifact" name="Blockchain State (Distributed Ledger)" id="d9c494ff-14a4-429b-b72b-f26d58ed23e0"/>
     <element xsi:type="archimate:TechnologyService" name="Blockchain.Default" id="896a6ccf-c18b-4909-bc30-1f1f74965582"/>
   </folder>
@@ -616,6 +616,30 @@ http://docs.neo.org/en-us/sc/tutorial.html</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="NEO Architecture Reference Model v2.0" id="ba0f0334-e69b-4d05-8ed5-a8d78f74a8f1" connectionRouterType="2">
+      <child xsi:type="archimate:Group" id="cb8afc66-3ea9-484d-9700-652a8dbdfa60" name="NEO Developer Environment" textAlignment="1">
+        <bounds x="612" y="24" width="541" height="409"/>
+        <child xsi:type="archimate:DiagramObject" id="0f49d9cd-6245-4769-869f-b06100a1e977" archimateElement="2f5793b5-0b18-44d3-886e-d89ed4b378ab">
+          <bounds x="120" y="48" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="f126c417-2dd8-484e-9d73-284705339373" source="0f49d9cd-6245-4769-869f-b06100a1e977" target="077cf338-537f-4db3-98ab-43b6e68d325d" archimateRelationship="de9b8fd8-f0ca-4adc-aa9b-05760392c9e6"/>
+          <sourceConnection xsi:type="archimate:Connection" id="c232cd68-2853-432c-9a0c-670920fedab4" source="0f49d9cd-6245-4769-869f-b06100a1e977" target="bc5e1ab1-1f47-4d07-b0b5-186b191f4ed0" archimateRelationship="f8bcfeb0-0da6-4a07-925e-67901c7c602f"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="077cf338-537f-4db3-98ab-43b6e68d325d" targetConnections="b32267ef-baf6-4336-ad0e-9e51c1538b74 f126c417-2dd8-484e-9d73-284705339373" archimateElement="4fde47fd-2124-4e05-b748-ac71d368bf25">
+          <bounds x="216" y="144" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="ce152436-981e-45dd-ba95-82a0d73db37c" archimateElement="09f7e56d-5217-44ac-aa6c-4971d16793c6">
+          <bounds x="300" y="48" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="b32267ef-baf6-4336-ad0e-9e51c1538b74" source="ce152436-981e-45dd-ba95-82a0d73db37c" target="077cf338-537f-4db3-98ab-43b6e68d325d" archimateRelationship="8007e3d3-68cf-4123-b923-7f9e7a7fe5ff"/>
+          <sourceConnection xsi:type="archimate:Connection" id="5dc1ecd6-6173-4e2b-abe6-1c1725cc8ad0" source="ce152436-981e-45dd-ba95-82a0d73db37c" target="05ba9133-2545-44f9-a89c-c9519fedfdcb" archimateRelationship="4a8557bb-8a23-4812-9c69-83ffc6d89ff4"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="05ba9133-2545-44f9-a89c-c9519fedfdcb" targetConnections="5dc1ecd6-6173-4e2b-abe6-1c1725cc8ad0 4fd05466-192a-48d6-9e1f-d16d4659fce1" archimateElement="caa0a661-ef2f-4d0a-8dc7-28fa202efcf7">
+          <bounds x="384" y="144" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="7f357d9d-ffd4-4938-803f-827949e5803f" archimateElement="59cef174-2a6c-4557-a87b-b5692c44f455">
+          <bounds x="384" y="288" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="4fd05466-192a-48d6-9e1f-d16d4659fce1" source="7f357d9d-ffd4-4938-803f-827949e5803f" target="05ba9133-2545-44f9-a89c-c9519fedfdcb" archimateRelationship="79a5e5eb-35f8-4785-9fca-5c73ebf98836"/>
+          <sourceConnection xsi:type="archimate:Connection" id="ae4f03cf-3019-4d78-85e6-fac1b07f0180" textPosition="0" source="7f357d9d-ffd4-4938-803f-827949e5803f" target="51ff2453-619d-4b5b-a35c-13116989f343" archimateRelationship="e1cb51c2-690b-4da6-8ed4-f1b2012e2dce"/>
+        </child>
+      </child>
       <child xsi:type="archimate:Group" id="0c1fde08-577d-4835-babe-ac1de1445f3e" name="NEO Virtual Machine" textAlignment="1">
         <bounds x="24" y="24" width="541" height="733"/>
         <child xsi:type="archimate:DiagramObject" id="3021f38e-880a-40c1-9f55-5f2837ad24f5" archimateElement="582a0b7f-6603-49c0-87f2-d6bfadc49ffe">
@@ -672,31 +696,10 @@ http://docs.neo.org/en-us/sc/tutorial.html</content>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="bc5e1ab1-1f47-4d07-b0b5-186b191f4ed0" targetConnections="c232cd68-2853-432c-9a0c-670920fedab4" archimateElement="f86ee9bc-cbe7-4091-b1fd-9c7e46d86a45">
-        <bounds x="588" y="144" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="077cf338-537f-4db3-98ab-43b6e68d325d" targetConnections="b32267ef-baf6-4336-ad0e-9e51c1538b74 f126c417-2dd8-484e-9d73-284705339373" archimateElement="4fde47fd-2124-4e05-b748-ac71d368bf25">
-        <bounds x="756" y="144" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="05ba9133-2545-44f9-a89c-c9519fedfdcb" targetConnections="5dc1ecd6-6173-4e2b-abe6-1c1725cc8ad0 4fd05466-192a-48d6-9e1f-d16d4659fce1" archimateElement="caa0a661-ef2f-4d0a-8dc7-28fa202efcf7">
-        <bounds x="924" y="144" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="0f49d9cd-6245-4769-869f-b06100a1e977" archimateElement="2f5793b5-0b18-44d3-886e-d89ed4b378ab">
-        <bounds x="660" y="48" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="f126c417-2dd8-484e-9d73-284705339373" source="0f49d9cd-6245-4769-869f-b06100a1e977" target="077cf338-537f-4db3-98ab-43b6e68d325d" archimateRelationship="de9b8fd8-f0ca-4adc-aa9b-05760392c9e6"/>
-        <sourceConnection xsi:type="archimate:Connection" id="c232cd68-2853-432c-9a0c-670920fedab4" source="0f49d9cd-6245-4769-869f-b06100a1e977" target="bc5e1ab1-1f47-4d07-b0b5-186b191f4ed0" archimateRelationship="f8bcfeb0-0da6-4a07-925e-67901c7c602f"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="ce152436-981e-45dd-ba95-82a0d73db37c" archimateElement="09f7e56d-5217-44ac-aa6c-4971d16793c6">
-        <bounds x="840" y="48" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="b32267ef-baf6-4336-ad0e-9e51c1538b74" source="ce152436-981e-45dd-ba95-82a0d73db37c" target="077cf338-537f-4db3-98ab-43b6e68d325d" archimateRelationship="8007e3d3-68cf-4123-b923-7f9e7a7fe5ff"/>
-        <sourceConnection xsi:type="archimate:Connection" id="5dc1ecd6-6173-4e2b-abe6-1c1725cc8ad0" source="ce152436-981e-45dd-ba95-82a0d73db37c" target="05ba9133-2545-44f9-a89c-c9519fedfdcb" archimateRelationship="4a8557bb-8a23-4812-9c69-83ffc6d89ff4"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="7f357d9d-ffd4-4938-803f-827949e5803f" archimateElement="59cef174-2a6c-4557-a87b-b5692c44f455">
-        <bounds x="924" y="288" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="4fd05466-192a-48d6-9e1f-d16d4659fce1" source="7f357d9d-ffd4-4938-803f-827949e5803f" target="05ba9133-2545-44f9-a89c-c9519fedfdcb" archimateRelationship="79a5e5eb-35f8-4785-9fca-5c73ebf98836"/>
-        <sourceConnection xsi:type="archimate:Connection" id="ae4f03cf-3019-4d78-85e6-fac1b07f0180" textPosition="0" source="7f357d9d-ffd4-4938-803f-827949e5803f" target="51ff2453-619d-4b5b-a35c-13116989f343" archimateRelationship="e1cb51c2-690b-4da6-8ed4-f1b2012e2dce"/>
+        <bounds x="648" y="168" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="e77d0649-6fad-4056-bc00-344d1c8bc7fd" textAlignment="1">
-        <bounds x="588" y="612" width="456" height="145"/>
+        <bounds x="612" y="648" width="541" height="109"/>
         <content>References&#xD;
 1. https://github.com/neo-project/neo/blob/bf2c10598e78fa65ad3c06d181b72f33f5d7f012/neo/SmartContract/ApplicationEngine.cs#L433&#xD;
 2. Visual Studio Object Browser: NEO Assemblies</content>
