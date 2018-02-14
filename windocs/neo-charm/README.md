@@ -68,11 +68,17 @@ The architecture of the NEO VM is illustrated in the following diagram.
 ![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-0.png)
 Figure 2. NEO Blockchain Architecture Reference Model (subsystems)
 
-![A](../../images/balls/A32.png) Some Stuff
-
-![B](../../images/balls/B32.png) Some Stuff
-
-![C](../../images/balls/C32.png) Some Stuff
+| Mark | Name | Applicable Namespaces |
+|:----:|:--------------- | ----------------------------------------|
+| | | **NEO Developer Environment** |
+| ![A](../../images/balls/A32.png) | Foo | Some Stuff
+| ![B](../../images/balls/B32.png) | Bar | Some Stuff
+| ![C](../../images/balls/C32.png) | Bar | Some Stuff
+| ![D](../../images/balls/D32.png) | Foo | Some Stuff
+| ![E](../../images/balls/E32.png) | Bar | Some Stuff
+| ![F](../../images/balls/F32.png) | Bar | Some Stuff
+| | | **NEO Virtual Machine** |
+| ![G](../../images/balls/F32.png) | Bar | Some Stuff
 
 
 The collection of .NET namespaces supported by the NEO VM susbsystems is illustrated below.
