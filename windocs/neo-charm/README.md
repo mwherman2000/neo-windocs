@@ -37,7 +37,21 @@ Figure 1. Sukhoi SuperJet Full Flight Simulator [credit: [Wikipedia](https://en.
 
 In a simulator cockpit, the pilot is manipulating the controls (foot pedals, switches and knobs as well as the control column) and the simulator, in turn, receives those stimuli and causes multiple subsystems to respond and create an illusion that you are controlling a sophisticated aircraft. The subsystems responsible for creating these illusions include visual displays, audio cues and sound effects, hydraulic actuators, dials and other instruments.
 
-A NEO smart contract running in the NEO VM is like the pilot in control of the flight simulator. The smart contract is performing various calculations and calling various virtual machine APIs to accomplish the smart contract's purpose and goals. In response to these API calls, the VM is interacting with its various susbsystems (just like the flight simulator). In the case of the NEO VM, these subsystems include: account management, asset managemen, smart contract management, and storage management; in addition to the [more basic computational operations](http://docs.neo.org/en-us/sc/tutorial.html) (e.g. flow control, stack operations, bit operations, arithmetic operations, logical operations, cryptographic methods, and so on).
+A NEO smart contract running in the NEO VM is like the pilot in control of the flight simulator. The smart contract is performing various calculations and calling various virtual machine APIs to accomplish the smart contract's purpose and goals. In response to these API calls, the VM is interacting with its various susbsystems (just like the flight simulator). In the case of the NEO VM, these subsystems include: 
+* Account management
+* Asset management
+* Smart contract management
+* Storage management
+
+...in addition to the [more basic computational operations](http://docs.neo.org/en-us/sc/tutorial.html):
+* Flow control
+* Stack operations
+* Bit operations
+* Arithmetic operations
+* Logical operations
+* Data type conversion
+* Cryptographic methods
+* Etc.
 
 As a smart contract developer, it is your responsbility to learn and understand the purpose and goals each of the VM subsystems, the use cases they sypport, and best practices and programming patterns when developing best-in-class smart contacts.
 
