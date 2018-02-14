@@ -68,7 +68,7 @@ The architecture of the NEO VM is illustrated in the following diagram.
 ![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-0.png)
 Figure 2. NEO Blockchain Architecture Reference Model (subsystems)
 
-| Mark | Name | Applicable Namespaces |
+| | Name | Applicable Namespaces |
 |:----:|:--------------- | ----------------------------------------|
 | | | **NEO Developer Environment** |
 | ![A](../../images/balls/A32.png) | Foo | Some Stuff
