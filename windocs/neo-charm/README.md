@@ -48,7 +48,7 @@ public static object Main(string operation, params object[] args)
 
 **NOTE:** Be careful using C# `switch` statements in NEO smart contracts [[TODO](TODO)].
 
-## NEO Blockchain Architecture Reference Model
+## Motivation
 
 When you're learning to write NEO smart contracts, you're really learning how to program the NEO VM to do what you want; for example, 
 * perform a calculation
@@ -92,15 +92,17 @@ A NEO smart contract running in the NEO VM is like the pilot in control of the f
 
 As a smart contract developer, it is your responsbility to learn and understand the purpose and goals each of the VM subsystems, the use cases they sypport, and best practices and programming patterns to use when developing best-in-class smart contacts.
 
-The collection of NEO VM .NET namespaces is illustrated below.
+## NEO Blockchain Architecture Reference Model
+
+The NEO .NET namespaces are illustrated below.
 
 ![NEO Blockchain Architecture Reference Model (.NET namespaces)](./diagrams/neo-charm-1-0-2.png)
-Figure 3. NEO Blockchain Architecture Reference Model (.NET namespaces)
+Figure 2. NEO Blockchain Architecture Reference Model (.NET namespaces)
 
 The architecture of the NEO environment is illustrated in the following diagram.
 
 ![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-1.png)
-Figure 2. NEO Blockchain Architecture Reference Model (subsystems)
+Figure 3. NEO Blockchain Architecture Reference Model (subsystems)
 
 ### NEO Developer Environment
 
@@ -119,7 +121,7 @@ The following table describes the key components of the NEO developer environmen
 
 ### NEO Virtual Machine
 
-| | Name | Description | Namespaces |
+| | Name | Description | Namespaces/APIs Called by a Smart Contract |
 |:----:|:--------------- |:--------------- | ----------------------------------------|
 | | |  |
 | ![G](../../images/balls/G32.png) | NEO VM | Virtual machine major components and services | -
@@ -128,7 +130,7 @@ The following table describes the key components of the NEO developer environmen
 | ![J](../../images/balls/J32.png) | InstructionPointer | Execution engine current instruction pointer | -
 | ![K](../../images/balls/K32.png) | Script | Current smart contract script being executed 
 | ![L](../../images/balls/L32.png) | ExecutionStack | Execution engine data stack | -
-| ![M](../../images/balls/M32.png) | VMState | Virtual machine current state (HALT, FAULT, BREAK) | `Neo.VM.VMState` 
+| ![M](../../images/balls/M32.png) | VMState | Virtual machine current state (HALT, FAULT, BREAK) | -
 | ![N](../../images/balls/N32.png) | ScriptTable | Virtual machine script table of callable scripts | -
 | ![O](../../images/balls/O32.png) | InteropService | Interop service layer for everything that isn't one of the basic execution engine capabilities (see above) | -
 | ![P](../../images/balls/P32.png) | Accounts Service | Accounts service | -
