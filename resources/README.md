@@ -17,7 +17,5 @@ Other files and online resources that don't fit into one of the other categories
   * An **activity** is made up of a sequence of tasks
   * A **task** is made up of a sequence of steps
   * A **step** can not be subdivided further. A complex step can be refactored into a series of 2 or more simpler steps
-* Definitions: Create
-  * TODO
 * Definitions: A Reliable Answer
   * *Timely, Complete, Illustrated, and Correct*

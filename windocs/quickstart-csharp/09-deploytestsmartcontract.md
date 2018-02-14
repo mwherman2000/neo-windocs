@@ -4,8 +4,6 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Activity 9 - Deploy and test HelloWorld smart contract
 
-TODO
-
 ### Purpose
 
 The purpose of this activity is to use deploy and test the HelloWorld smart contract created in the previous activity. It uses the the neo-gui-developer tool that was build in an earlier activity. This activity also uses the NEO Docker container that was installed and configured also in an earlier activity.
@@ -243,7 +241,7 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
     ![`neo-gui`: Invoke Contract Dialog Box](./images/09-deploytestsmartcontract/HelloWorldKTest.png)
 
-    Figure 9.22. `neo-gui`: Invoke Contract Dialog BoxXXX
+    Figure 9.22. `neo-gui`: Invoke Contract Dialog Box
 
 24. When the `Transaction successful` dialog box appears, click `close`. There is no need to copy of the transaction hash (TXID).
 
