@@ -243,7 +243,7 @@ Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER
 
     ![`neo-gui`: Invoke Contract Dialog Box](./images/09-deploytestsmartcontract/HelloWorldKTest.png)
 
-    Figure 9.22. `neo-gui`: Invoke Contract Dialog BoxXXX
+    Figure 9.22. `neo-gui`: Invoke Contract Dialog Box
 
 24. When the `Transaction successful` dialog box appears, click `close`. There is no need to copy of the transaction hash (TXID).
 
