@@ -24,9 +24,29 @@ The purpose of this document is to document a (software) architecture reference 
 
 If you're coming from an ETH development background, you will be used to thinking of your smart contract (after it's deployed onto the blockchain) like an instance of a C++/C# class and you can invoke any of the contract's public methods and fields. 
 
-In NEO smart contract development, most people follow a pattern of invoking a smart contract through the public `Main()` function. Using this pattern, NEO smart contracts are more like .NET/C# console applications where the operating environment invokes function Main and passes in the arguments to the function (metaphorically, like command line parameters). This will evolve but this is a common pattern today.
+In NEO smart contract development, most people follow a pattern of invoking a smart contract through the public `Main()` function. Using this pattern, NEO smart contracts are more like .NET/C# console applications where the operating environment invokes function Main and passes in the arguments to the function (metaphorically, like command line parameters). This will evolve but this is a common pattern today. Here's an example from  the[neo-project/examples-csharp](https://github.com/neo-project/examples-csharp/blob/master/Domain/Domain.cs#L7) project:
+```csharp
+public static object Main(string operation, params object[] args)
+{
+    switch (operation)
+    {
+        case "query":
+            return Query((string)args[0]);
+        case "register":
+            return Register((string)args[0], (byte[])args[1]);
+        case "transfer":
+            return Transfer((string)args[0], (byte[])args[1]);
+        case "delete":
+            return Delete((string)args[0]);
+        default:
+            return false;
+    }
+}
+```
 
 **NOTE:** In NEO smart contracts, public fields in a class are not automatically visible/callable unless you specifically write some accessor code of your own.
+
+**NOTE:** Be careful using C# `switch` statements in NEO smart contracts [[TODO](TODO)].
 
 ## NEO Blockchain Architecture Reference Model
 
@@ -60,7 +80,7 @@ A NEO smart contract running in the NEO VM is like the pilot in control of the f
 * Output management
 * Validation management
 
-...in addition to the [more basic computational operations](http://docs.neo.org/en-us/sc/tutorial.html) such as:
+...in addition to the [basic execution engine capabilities](http://docs.neo.org/en-us/sc/tutorial.html) such as:
 * Flow control
 * Stack operations (including parameter passing)
 * Bit operations
@@ -99,27 +119,27 @@ The following table describes the key components of the NEO developer environmen
 
 ### NEO Virtual Machine
 
-| | Name | Applicable Namespaces |
-|:----:|:--------------- | ----------------------------------------|
+| | Name | Description | Namespaces |
+|:----:|:--------------- |:--------------- | ----------------------------------------|
 | | |  |
-| ![G](../../images/balls/G32.png) | Foo | Some Stuff
-| ![H](../../images/balls/H32.png) | Bar | Some Stuff
-| ![I](../../images/balls/I32.png) | Bar | Some Stuff
-| ![J](../../images/balls/J32.png) | Foo | Some Stuff
-| ![K](../../images/balls/K32.png) | Bar | Some Stuff
-| ![L](../../images/balls/L32.png) | Bar | Some Stuff
-| ![M](../../images/balls/M32.png) | Bar | Some Stuff
-| ![N](../../images/balls/N32.png) | Bar | Some Stuff
-| ![O](../../images/balls/O32.png) | Foo | Some Stuff
-| ![P](../../images/balls/P32.png) | Bar | Some Stuff
-| ![Q](../../images/balls/Q32.png) | Bar | Some Stuff
-| ![R](../../images/balls/R32.png) | Bar | Some Stuff
-| ![S](../../images/balls/S32.png) | Bar | Some Stuff
-| ![T](../../images/balls/T32.png) | Bar | Some Stuff
-| ![U](../../images/balls/U32.png) | Bar | Some Stuff
-| ![X](../../images/balls/X32.png) | Bar | Some Stuff
-| ![Y](../../images/balls/Y32.png) | Bar | Some Stuff
-| ![Z](../../images/balls/Z32.png) | Bar | Some Stuff
+| ![G](../../images/balls/G32.png) | NEO VM | Virtual machine major components and services | -
+| ![H](../../images/balls/H32.png) | ApplicationEngine | Execution enging components | -
+| ![I](../../images/balls/I32.png) | CurrentContext | Execution engine current context | -
+| ![J](../../images/balls/J32.png) | InstructionPointer | Execution engine current instruction pointer | -
+| ![K](../../images/balls/K32.png) | Script | Current smart contract script being executed 
+| ![L](../../images/balls/L32.png) | ExecutionStack | Execution engine data stack | -
+| ![M](../../images/balls/M32.png) | VMState | Virtual machine current state (HALT, FAULT, BREAK) | `Neo.VM.VMState` 
+| ![N](../../images/balls/N32.png) | ScriptTable | Virtual machine script table of callable scripts | -
+| ![O](../../images/balls/O32.png) | InteropService | Interop service layer for everything that isn't one of the basic execution engine capabilities (see above) | -
+| ![P](../../images/balls/P32.png) | Accounts Service | Accounts service | -
+| ![Q](../../images/balls/Q32.png) | Assets Service | Assets service | -
+| ![R](../../images/balls/R32.png) | Blocks Service | Blocks service | -
+| ![S](../../images/balls/S32.png) | Blockchain Service | Blockchain service | -
+| ![T](../../images/balls/T32.png) | Contacts Service | Contacts service | -
+| ![U](../../images/balls/U32.png) | Runtime Service | Runtime service | -
+| ![X](../../images/balls/X32.png) | Storage Service | Storage service | -
+| ![Y](../../images/balls/Y32.png) | Validator Service | Validator service | -
+| ![Z](../../images/balls/Z32.png) | Blockchain State | Distributed ledger | -
 
 ## References
 
