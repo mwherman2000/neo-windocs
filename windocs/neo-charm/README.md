@@ -26,6 +26,8 @@ If you're coming from an ETH dev background, you will be used to thinking of you
 
 In NEO smart contract development, most people follow a pattern of invoking a smart contract through the public `Main()` function. Using this pattern, NEO smart contracts are more like .NET/C# console applications where the operating environment invokes function Main and passes in the arguments to the function (metaphorically, like command line parameters). This will evolve but this is a common pattern today.
 
+**NOTE:** In NEO smart contracts, public fields in a class are not automatically visible/callable unless you specifically write an accessor of your own.
+
 ## NEO Blockchain Architecture Reference Model
 
 When you're learning to write NEO smart contracts, you're really learning how to program the NEO VM to do what you want; for example, 
