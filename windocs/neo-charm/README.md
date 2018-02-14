@@ -123,7 +123,6 @@ The following table describes the key components of the NEO developer environmen
 
 | Mark | Name | Description | Namespaces/APIs Callable by a Smart Contract |
 |:----:|:--------------- |:--------------- | ----------------------------------------|
-| | |  |
 | ![G](../../images/balls/G32.png) | NEO VM | Virtual machine major components and services | -
 | ![H](../../images/balls/H32.png) | ApplicationEngine | Execution enging components | -
 | ![I](../../images/balls/I32.png) | CurrentContext | Execution engine current context | -
