@@ -6,7 +6,11 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environment and get it up and running in as little time as possible.
 
-This document is specifically targeted at .NET developers and architects. In addition, when the first version of the document was written (February 2018), you will also need to have an [*early adopters*](https://en.wikipedia.org/wiki/Technology_adoption_life_cycle) mind set. It's the early days. You'll be downloading the code for most of the develeper tools (aside from Visual Studio) and compiling them yourself. It may not always be fun but I promise it will certainly be rewarding in the end.
+This document is specifically targeted at .NET developers and architects. 
+
+### Caveat
+
+In addition, when the first version of the document was written (February 2018), you will also need to have an [*early adopters*](https://en.wikipedia.org/wiki/Technology_adoption_life_cycle) mind set. It's the early days. You'll be downloading the code for most of the develeper tools (aside from Visual Studio) and compiling them yourself. It may not always be fun but I promise it will certainly be rewarding in the end.
 
 ## Goals
 
