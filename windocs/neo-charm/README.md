@@ -108,7 +108,7 @@ Figure 3. NEO Blockchain Architecture Reference Model (subsystems)
 
 The following table describes the key components of the NEO developer environment.
 
-| Mark | Name | Description |
+| | Name | Description |
 |:----:|:--------------- | ----------------------------------------|
 | ![A](../../images/balls/A32.png) | HelloWorld.cs | Smart contract source (example) 
 | ![B](../../images/balls/B32.png) | csc.exe | C# Compiler
@@ -121,7 +121,7 @@ The following table describes the key components of the NEO developer environmen
 
 ### NEO Virtual Machine
 
-| Mark | Name | Description | Namespaces/APIs Callable by a Smart Contract |
+| | Name | Description | Namespaces/APIs Callable by a Smart Contract |
 |:----:|:--------------- |:--------------- | ----------------------------------------|
 | ![G](../../images/balls/G32.png) | NEO VM | Virtual machine major components and services | -
 | ![H](../../images/balls/H32.png) | ApplicationEngine | Execution enging components | -
