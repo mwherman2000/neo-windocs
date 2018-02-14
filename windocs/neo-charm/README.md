@@ -121,7 +121,7 @@ The following table describes the key components of the NEO developer environmen
 
 ### NEO Virtual Machine
 
-| | Name | Description | Namespaces/APIs Called by a Smart Contract |
+| | Name | Description | Namespaces/APIs Callable by a Smart Contract |
 |:----:|:--------------- |:--------------- | ----------------------------------------|
 | | |  |
 | ![G](../../images/balls/G32.png) | NEO VM | Virtual machine major components and services | -
