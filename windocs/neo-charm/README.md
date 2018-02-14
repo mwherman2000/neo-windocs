@@ -63,28 +63,52 @@ A NEO smart contract running in the NEO VM is like the pilot in control of the f
 
 As a smart contract developer, it is your responsbility to learn and understand the purpose and goals each of the VM subsystems, the use cases they sypport, and best practices and programming patterns to use when developing best-in-class smart contacts.
 
-The architecture of the NEO VM is illustrated in the following diagram.
-
-![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-0.png)
-Figure 2. NEO Blockchain Architecture Reference Model (subsystems)
-
-| | Name | Applicable Namespaces |
-|:----:|:--------------- | ----------------------------------------|
-| | | **NEO Developer Environment** |
-| ![A](../../images/balls/A32.png) | Foo | Some Stuff
-| ![B](../../images/balls/B32.png) | Bar | Some Stuff
-| ![C](../../images/balls/C32.png) | Bar | Some Stuff
-| ![D](../../images/balls/D32.png) | Foo | Some Stuff
-| ![E](../../images/balls/E32.png) | Bar | Some Stuff
-| ![F](../../images/balls/F32.png) | Bar | Some Stuff
-| | | **NEO Virtual Machine** |
-| ![G](../../images/balls/F32.png) | Bar | Some Stuff
-
-
 The collection of .NET namespaces supported by the NEO VM susbsystems is illustrated below.
 
 ![NEO Blockchain Architecture Reference Model (.NET namespaces)](./diagrams/neo-charm-1-0-2.png)
 Figure 3. NEO Blockchain Architecture Reference Model (.NET namespaces)
+
+The architecture of the NEO VM is illustrated in the following diagram.
+
+![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-1.png)
+Figure 2. NEO Blockchain Architecture Reference Model (subsystems)
+
+### NEO Developer Environment
+
+| | Name | Applicable Namespaces |
+|:----:|:--------------- | ----------------------------------------|
+| ![A](../../images/balls/A32.png) | HelloWorld.cs Smart Contract | Some Stuff
+| ![B](../../images/balls/B32.png) | C# Compiler | Some Stuff
+| ![C](../../images/balls/C32.png) | HelloWorld.dll MSIL File | Some Stuff
+| ![D](../../images/balls/D32.png) | NEO Transcompiler | Some Stuff
+| ![E](../../images/balls/E32.png) | HelloWorld.avm Byte Script File | Some Stuff
+| ![F](../../images/balls/F32.png) | neo-gui (developer) | Some Stuff
+| ![V](../../images/balls/V32.png) | Visual Studio IDE | Some Stuff
+| ![W](../../images/balls/W32.png) | neo-debugger | Some Stuff
+
+### NEO Virtual Machine
+
+| | Name | Applicable Namespaces |
+|:----:|:--------------- | ----------------------------------------|
+| | |  |
+| ![G](../../images/balls/G32.png) | Foo | Some Stuff
+| ![H](../../images/balls/H32.png) | Bar | Some Stuff
+| ![I](../../images/balls/I32.png) | Bar | Some Stuff
+| ![J](../../images/balls/J32.png) | Foo | Some Stuff
+| ![K](../../images/balls/K32.png) | Bar | Some Stuff
+| ![L](../../images/balls/L32.png) | Bar | Some Stuff
+| ![M](../../images/balls/M32.png) | Bar | Some Stuff
+| ![N](../../images/balls/N32.png) | Bar | Some Stuff
+| ![O](../../images/balls/O32.png) | Foo | Some Stuff
+| ![P](../../images/balls/P32.png) | Bar | Some Stuff
+| ![Q](../../images/balls/Q32.png) | Bar | Some Stuff
+| ![R](../../images/balls/R32.png) | Bar | Some Stuff
+| ![S](../../images/balls/S32.png) | Bar | Some Stuff
+| ![T](../../images/balls/T32.png) | Bar | Some Stuff
+| ![U](../../images/balls/U32.png) | Bar | Some Stuff
+| ![X](../../images/balls/X32.png) | Bar | Some Stuff
+| ![Y](../../images/balls/Y32.png) | Bar | Some Stuff
+| ![Z](../../images/balls/Z32.png) | Bar | Some Stuff
 
 ## References
 
