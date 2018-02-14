@@ -99,7 +99,7 @@ The NEO .NET namespaces are illustrated below.
 ![NEO Blockchain Architecture Reference Model (.NET namespaces)](./diagrams/neo-charm-1-0-2.png)
 Figure 2. NEO Blockchain Architecture Reference Model (.NET namespaces)
 
-The architecture of the NEO environment is illustrated in the following diagram.
+The architecture of the NEO environment is illustrated in the following diagram. This diagram was inspired by the [Relfos/neo-debugger-tools](https://github.com/Relfos/neo-debugger-tools) project.
 
 ![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-1.png)
 Figure 3. NEO Blockchain Architecture Reference Model (subsystems)
