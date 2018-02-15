@@ -48,3 +48,7 @@ Best regards,
 * M: https://www.meetup.com/NEO-Blockchain-Toronto
 * T: [@neotoronto](https://twitter.com/NeoToronto)
 
+## Feedback
+
+* >In just 10 days you [made] tons of progress, you're probably [one of] the fastest learners around here. 
+
