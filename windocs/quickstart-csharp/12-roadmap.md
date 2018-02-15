@@ -37,9 +37,11 @@ Activity | Description | Complete?  | Numbering? | Reviewed? | Tested?
 8 | **[Activity 8 - Create and compile HelloWorld smart contract sample](./08-createcompilesmartcontract.md)** | 2018/2/11 | ____________ | ____________ | ____________
 9 | **[Activity 9 - Deploy and test HelloWorld smart contract](./09-deploytestsmartcontract.md)** | 2018/2/12 | ____________ | ____________ | ____________
 10 | **[Activity 10 - Celebrate](./10-celebrate.md)** | 2018/2/10 | 2018/2/10 | ____________ | ____________
-11 | **[Appendix A - Checklist](./11-checklist.md)** | ____________ | ____________ | ____________ | ____________
+11 | **[Appendix A - Checklist](./11-checklist.md)** | 2018/2/13 | ____________ | ____________ | ____________
 12 | **[Appendix B - Roadmap (this document)](./12-roadmap.md)** | 2018/2/12 | ____________ | ____________ | ____________
 13 | **[Appendix C - Reset your NEO privatenet environment: Container, Wallets, and Clients ](./13-resetprivatenetenv.md)** | 2018/2/11 | ____________ | ____________ | ____________
+
+Table B.2. Document Status
 
 ## References
 

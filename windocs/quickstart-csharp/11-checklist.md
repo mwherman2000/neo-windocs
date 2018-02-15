@@ -72,6 +72,8 @@ Activity | Key&nbsp;Tasks | Description | Complete?
 10 | | **[Activity 10 - Celebrate](./10-celebrate.md)**
 10 | 1 | Have fun | ____________
 
+Table A.1. Checklist
+
 ## References
 
 * [NEOTUTORIAL] NEO Project, [NEO smart contract tutorial](http://docs.neo.org/en-us/sc/tutorial.html) from [http://docs.neo.org/en-us/sc/tutorial.html](http://docs.neo.org/en-us/sc/tutorial.html)
