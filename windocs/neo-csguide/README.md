@@ -50,7 +50,8 @@ In addition, when the first version of the document was written (February 2018),
 8. [Testing](./08-testing.md)
 9. [Maintenance](./09-maintenance.md)
 10. [Documentation](./10-documentation.md)
-11. [Appendix A - Roadmap](./11-roadmap.md)
+11. [Appendix A - NEO Object Model Overview](./11.neoobjectmodel.md)
+12. [Appendix B - Roadmap](./12-roadmap.md)
 
 ## References
 
