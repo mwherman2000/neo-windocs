@@ -119,6 +119,8 @@ The following table describes the key components of the NEO developer environmen
 | ![V](../../images/balls/V32.png) | Visual Studio | Microsoft .NET/C# IDE
 | ![W](../../images/balls/W32.png) | neo-debugger | Interactive source and byte code level debugger
 
+Table 1. NEO Developer Environment
+
 ### NEO Virtual Machine
 
 | Mark | Name | Description | Namespaces/APIs Callable by a Smart Contract |
@@ -141,6 +143,8 @@ The following table describes the key components of the NEO developer environmen
 | ![X](../../images/balls/X32.png) | Storage Service | Storage service | `Neo.SmartContract.Framework.Services.Neo.Storage`
 | ![Y](../../images/balls/Y32.png) | Validator Service | Validator service | `Neo.SmartContract.Framework.Services.Neo.Validator`
 | ![Z](../../images/balls/Z32.png) | Blockchain State | Distributed ledger | -
+
+Table 2. NEO Virtual Machine
 
 ## References
 
