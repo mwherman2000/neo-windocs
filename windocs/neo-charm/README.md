@@ -94,19 +94,12 @@ As a smart contract developer, it is your responsbility to learn and understand 
 
 ## NEO Blockchain Architecture Reference Model
 
-### NEO .NET Namespaces
-
-The NEO .NET namespaces are illustrated below.
-
-![NEO Blockchain Architecture Reference Model (.NET namespaces)](./diagrams/neo-charm-1-0-2.png)
-Figure 2. NEO Blockchain Architecture Reference Model (.NET namespaces)
-
 ### NEO Developer Environment
 
 The architecture of the NEO environment from a developer perspective is illustrated in the following diagram. This diagram was inspired by the [Relfos/neo-debugger-tools](https://github.com/Relfos/neo-debugger-tools) project.
 
 ![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-2-annotated.png)
-Figure 3. NEO Blockchain Architecture Reference Model (subsystems)
+Figure 2. NEO Blockchain Architecture Reference Model (subsystems)
 
 The following table describes the key components of the NEO developer environment.
 
@@ -147,6 +140,13 @@ Table 1. NEO Developer Environment
 | ![Z](../../images/balls/Z32.png) | Blockchain State | Distributed ledger | -
 
 Table 2. NEO Virtual Machine
+
+### NEO .NET Namespaces
+
+The NEO .NET namespaces are illustrated below.
+
+![NEO Blockchain Architecture Reference Model (.NET namespaces)](./diagrams/neo-charm-1-0-2.png)
+Figure 3. NEO Blockchain Architecture Reference Model (.NET namespaces)
 
 ## References
 
