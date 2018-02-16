@@ -94,17 +94,19 @@ As a smart contract developer, it is your responsbility to learn and understand 
 
 ## NEO Blockchain Architecture Reference Model
 
+### NEO .NET Namespaces
+
 The NEO .NET namespaces are illustrated below.
 
 ![NEO Blockchain Architecture Reference Model (.NET namespaces)](./diagrams/neo-charm-1-0-2.png)
 Figure 2. NEO Blockchain Architecture Reference Model (.NET namespaces)
 
-The architecture of the NEO environment is illustrated in the following diagram. This diagram was inspired by the [Relfos/neo-debugger-tools](https://github.com/Relfos/neo-debugger-tools) project.
-
-![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-1-annotated.png)
-Figure 3. NEO Blockchain Architecture Reference Model (subsystems)
-
 ### NEO Developer Environment
+
+The architecture of the NEO environment from a developer perspective is illustrated in the following diagram. This diagram was inspired by the [Relfos/neo-debugger-tools](https://github.com/Relfos/neo-debugger-tools) project.
+
+![NEO Blockchain Architecture Reference Model (subsystems)](./diagrams/neo-charm-2-0-2-annotated.png)
+Figure 3. NEO Blockchain Architecture Reference Model (subsystems)
 
 The following table describes the key components of the NEO developer environment.
 
@@ -126,7 +128,7 @@ Table 1. NEO Developer Environment
 | Mark | Name | Description | Namespaces/APIs Callable by a Smart Contract |
 |:----:|:--------------- |:--------------- | ----------------------------------------|
 | ![G](../../images/balls/G32.png) | NEO VM | Virtual machine major components and services | -
-| ![H](../../images/balls/H32.png) | ApplicationEngine | Execution enging components | -
+| ![H](../../images/balls/H32.png) | ExecutionEngine | Execution enging components | `Neo.SmartContract.Framework.Services.System.ExecutionEngine` Class
 | ![I](../../images/balls/I32.png) | CurrentContext | Execution engine current context | -
 | ![J](../../images/balls/J32.png) | InstructionPointer | Execution engine current instruction pointer | -
 | ![K](../../images/balls/K32.png) | Script | Current smart contract script being executed | `Neo.SmartContract.Framework.SmartContract`
