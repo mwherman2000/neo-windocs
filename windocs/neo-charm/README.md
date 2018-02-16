@@ -1,4 +1,4 @@
-# NEO Blockchain Architecture Reference Model for .NET Developers (neo-charm) 1.0
+# NEO Blockchain Architecture Reference Model (ARM) for .NET Developers (neo-charm) 1.0
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
@@ -92,7 +92,7 @@ A NEO smart contract running in the NEO VM is like the pilot in control of the f
 
 As a smart contract developer, it is your responsbility to learn and understand the purpose and goals each of the VM subsystems, the use cases they sypport, and best practices and programming patterns to use when developing best-in-class smart contacts.
 
-## NEO Blockchain Architecture Reference Model
+## NEO Blockchain Architecture Reference Model (ARM)
 
 ### NEO Developer Environment
 
