@@ -154,7 +154,7 @@ The purpose of this activity is to use deploy and test the HelloWorld smart cont
     Figure 9.13. `neo-gui`: `Import` > `Import from WIF...`
 
 15. The following `Import Private Key` dialog box will be displayed. 
-Enter the WIF key provided in the NEO Docker container documentation ][NEODOCKER1](https://hub.docker.com/r/metachris/neo-privnet-with-gas/#Wallet)] and click `OK`. 
+Enter the WIF key provided in the NEO Docker container documentation [[NEODOCKER1](https://hub.docker.com/r/metachris/neo-privnet-with-gas/#Wallet)] and click `OK`. 
     ```
     WIF key: KxDgvEKzgSBPPfuVfw67oPQBSjidEiqTHURKSDL1R7yGaGYAeYnr
     ```
