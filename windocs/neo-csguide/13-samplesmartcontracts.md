@@ -1,0 +1,49 @@
+# C# Smart Contract Developers Guide
+
+NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
+
+## Appendix C - Sample Smart Contracts
+
+### Purpose
+
+TODO
+
+### Goals, Non-Goals and Assumptions
+
+TODO
+
+### Principles
+
+TODO
+
+### Drivers
+
+TODO
+
+## Sample Smart Contracts
+
+### First dApps Competition
+
+1. [Splyse/neo-smart-iot](https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py) from [https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py](https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py)
+2. [Splyse/neo-smart-iot](https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py) from [https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py](https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py)
+3. [neoauth/smart-contract](https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py) from [https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py]https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py()
+4. [BlockSaver/smart-saving-contract](https://github.com/BlockSaver/smart-saving-contract/blob/master/SmartSavingContract/SmartSavingContract.cs) from [https://github.com/BlockSaver/smart-saving-contract/blob/master/SmartSavingContract/SmartSavingContract.cs](https://github.com/BlockSaver/smart-saving-contract/blob/master/SmartSavingContract/SmartSavingContract.cs)
+5. [imusify/smart-contract-incentify](https://github.com/imusify/smart-contract-incentify/blob/master/contract/ImusifyToken.cs) from [https://github.com/imusify/smart-contract-incentify/blob/master/contract/ImusifyToken.cs](https://github.com/imusify/smart-contract-incentify/blob/master/contract/ImusifyToken.cs)
+6. [mmoravec/luckyneo](https://github.com/mmoravec/luckyneo/blob/master/LuckyNeo.py) from [https://github.com/mmoravec/luckyneo/blob/master/LuckyNeo.py](https://github.com/mmoravec/luckyneo/blob/master/LuckyNeo.py)
+7. [birmas/neotrade](https://github.com/birmas/neotrade/blob/master/neotrade.cs) from [https://github.com/birmas/neotrade/blob/master/neotrade.cs](https://github.com/birmas/neotrade/blob/master/neotrade.cs)
+8. [nickazg/neo-fund](https://github.com/nickazg/neo-fund/blob/master/neo-fund-sc/neo-fund-sc/NeoFund.cs) from [https://github.com/nickazg/neo-fund/blob/master/neo-fund-sc/neo-fund-sc/NeoFund.cs](https://github.com/nickazg/neo-fund/blob/master/neo-fund-sc/neo-fund-sc/NeoFund.cs)
+9. [ambethia/neo-raffle](https://github.com/ambethia/neo-raffle/blob/master/Contract.cs) from [https://github.com/ambethia/neo-raffle/blob/master/Contract.cs](https://github.com/ambethia/neo-raffle/blob/master/Contract.cs)
+10. [block-shaman/NepSwap](https://github.com/block-shaman/NepSwap/blob/master/Contract1.cs) from [https://github.com/block-shaman/NepSwap/blob/master/Contract1.cs](https://github.com/block-shaman/NepSwap/blob/master/Contract1.cs)
+11. [MediaServe/KRYPTON](https://github.com/MediaServe/KRYPTON/blob/master/contract/krypton.py) from [https://github.com/MediaServe/KRYPTON/blob/master/contract/krypton.py](https://github.com/MediaServe/KRYPTON/blob/master/contract/krypton.py)
+13. [Relfos/phantasma](https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs) from [https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs](https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs)
+14. [SmartPromise/SmartPromise.NeoContract](https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs) from [https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs](https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs)
+15. [JorritvandenBerg/sunny-dapp](https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py) from [https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py](https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py)
+16. [ConjurTech/switcheo](https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs) from [https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs](https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs)
+17. [xtolya/TripShares](https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs) from [https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs](https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs)
+18. [Nikolaj-K/turing-complete-smart-contract](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs) from [https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs)
+
+## References
+
+TODO
+
+
