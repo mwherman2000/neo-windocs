@@ -342,7 +342,7 @@ Enter the WIF key provided in the NEO Docker container documentation [[NEODOCKER
     Integer|02|
     Hash160 (160-bit hash value)|03|
     Hash256 (256-bit hash value)|04|
-    ByteArray|05|
+    ByteArray, Object|05|
     PublicKey|06|
     String|07|
     Array|10|
