@@ -4,7 +4,7 @@ NEO Blockchain end-to-end, detailed guidance for .NET developers ([url](https://
 
 This project contains content purposely designed to help .NET developers ramp up and become productive more quickly.
 
-This project also serves as a respository for content presented at the [NEO Blockchain Toronto meetup group](https://www.meetup.com/NEO-Blockchain-Toronto/).
+This project also serves as a repository for content presented at the [NEO Blockchain Toronto meetup group](https://www.meetup.com/NEO-Blockchain-Toronto/).
 
 ## NEO Blockchain Microsoft .NET Developer Content
 
