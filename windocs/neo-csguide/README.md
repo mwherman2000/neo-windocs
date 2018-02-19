@@ -52,6 +52,7 @@ In addition, when the first version of the document was written (February 2018),
 10. [Documentation](./10-documentation.md)
 11. [Appendix A - NEO Object Model Overview](./11.neoobjectmodel.md)
 12. [Appendix B - Roadmap](./12-roadmap.md)
+12. [Appendix C - Sample Smart Contracts](./13-samplesmartcontracts.md)
 
 ## References
 
