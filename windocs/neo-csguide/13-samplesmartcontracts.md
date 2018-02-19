@@ -69,23 +69,39 @@ The following is a list of the links to the smart contracts in each project (som
 10. [block-shaman/NepSwap](https://github.com/block-shaman/NepSwap/blob/master/Contract1.cs) from [https://github.com/block-shaman/NepSwap/blob/master/Contract1.cs](https://github.com/block-shaman/NepSwap/blob/master/Contract1.cs)
     * ExecutionEngine.ScriptContainer
     * Transaction - high level
-    * Blockchain.GetAccount(contractHash) - hardcode contractHash
+    * Blockchain.GetAccount(contractHash) - hardcoded contractHash
     * NEP1 template
     * Assets and AssetIDs
     * ExecutionEngine.ExecutingScriptHash
 11. [MediaServe/KRYPTON](https://github.com/MediaServe/KRYPTON/blob/master/contract/krypton.py) from [https://github.com/MediaServe/KRYPTON/blob/master/contract/krypton.py](https://github.com/MediaServe/KRYPTON/blob/master/contract/krypton.py)
-13. [Relfos/phantasma](https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs) from [https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs](https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs)
+12. [Relfos/phantasma](https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs) from [https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs](https://github.com/Relfos/phantasma/blob/master/PhantasmaContract/PhantasmaContract.cs)
     * NEP token
     * Assets and AssetIDs
     * ExecutionEngine.ExecutingScriptHash
     * Blockchain.GetHeader(Blockchain.GetHeight()).Timestamp
     * "Secure Blockchain email service"
-    * Elaborate
-14. [SmartPromise/SmartPromise.NeoContract](https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs) from [https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs](https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs)
-15. [JorritvandenBerg/sunny-dapp](https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py) from [https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py](https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py)
-16. [ConjurTech/switcheo](https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs) from [https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs](https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs)
-17. [xtolya/TripShares](https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs) from [https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs](https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs)
-18. [Nikolaj-K/turing-complete-smart-contract](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs) from [https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs)
+    * Elaborate but good smart contract
+13. [SmartPromise/SmartPromise.NeoContract](https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs) from [https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs](https://github.com/SmartPromise/SmartPromise.NeoContract/blob/master/SmartPromise/SmartPromise.cs)
+    * Storage - medium level
+    * NEP token
+    * ExecutionEngine.ExecutingScriptHash
+    * Transactions - high level
+    * Assets and AssetIDs
+14. [JorritvandenBerg/sunny-dapp](https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py) from [https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py](https://github.com/JorritvandenBerg/sunny-dapp/blob/master/smartcontract/sunny_dapp.py)
+15. [ConjurTech/switcheo](https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs) from [https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs](https://github.com/ConjurTech/switcheo/blob/master/switcheo/BrokerContract.cs)
+    * Transaction - high level
+    * Elaborate and long - good
+    * Assets and AssetIDs
+    * !Runtime.CheckWitness(offer.MakerAddress)
+    * Long but very factored
+16. [xtolya/TripShares](https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs) from [https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs](https://github.com/xtolya/TripShares/blob/master/TripShareSmartContract/TripShareSmartContract/TripShareContract.cs)
+    * Transaction - high level
+    * Elaborate and long - good
+    * Assets and AssetIDs
+    * NEP5
+17. [Nikolaj-K/turing-complete-smart-contract](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs) from [https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs)
+    * TODO
+    * TODO
 
 Figure C.1. First dApps Competition: List of Smart Contracts
 
