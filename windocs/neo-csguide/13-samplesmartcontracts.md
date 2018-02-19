@@ -100,8 +100,7 @@ The following is a list of the links to the smart contracts in each project (som
     * Assets and AssetIDs
     * NEP5
 17. [Nikolaj-K/turing-complete-smart-contract](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs) from [https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs](https://github.com/Nikolaj-K/turing-complete-smart-contract/blob/master/contract.cs)
-    * TODO
-    * TODO
+    * Cool app
 
 Figure C.1. First dApps Competition: List of Smart Contracts
 
