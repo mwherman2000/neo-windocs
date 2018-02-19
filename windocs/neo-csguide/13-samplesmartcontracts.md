@@ -22,7 +22,7 @@ TODO
 
 ## Sample Smart Contracts
 
-### First dApps Competition [DAPPSCOMPETE1]
+### First dApps Competition [[DAPPSCOMPETE1](https://medium.com/proof-of-working/coz-first-dapps-competition-dapp-review-3a6b284afaef>)]
 
 >A few days ago, the first City of Zion dApps competition submission deadline was reached, and 17 valid projects were submitted. This post provides a brief overview of each project and the integrated components. The projects are presented in alphabetical order. [Chris Hager, Nov 23, 2017]
 
@@ -106,6 +106,6 @@ Figure C.1. First dApps Competition: List of Smart Contracts
 
 ## References
 
-* [DAPPSCOMPETE] Chris Hager, [CoZ first dApps competition dApp review](https://medium.com/proof-of-working/coz-first-dapps-competition-dapp-review-3a6b284afaef) from [https://medium.com/proof-of-working/coz-first-dapps-competition-dapp-review-3a6b284afaef](https://medium.com/proof-of-working/coz-first-dapps-competition-dapp-review-3a6b284afaef), Nov 23, 2017
+* [DAPPSCOMPETE1] Chris Hager, [CoZ first dApps competition dApp review](https://medium.com/proof-of-working/coz-first-dapps-competition-dapp-review-3a6b284afaef) from [https://medium.com/proof-of-working/coz-first-dapps-competition-dapp-review-3a6b284afaef](https://medium.com/proof-of-working/coz-first-dapps-competition-dapp-review-3a6b284afaef), Nov 23, 2017
 
 
