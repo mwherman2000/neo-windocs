@@ -26,7 +26,7 @@ TODO
 
 >A few days ago, the first City of Zion dApps competition submission deadline was reached, and 17 valid projects were submitted. This post provides a brief overview of each project and the integrated components. The projects are presented in alphabetical order. [Chris Hager, Nov 23, 2017]
 
-The following is a list of the links to the smart contracts in each project (some projects have two smart contracts).
+The following is a list of the links to the smart contracts in each project (some projects have two or more smart contracts).
 
 1. [Splyse/neo-smart-iot](https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py) from [https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py](https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py)
 2. [Splyse/neo-smart-iot](https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py) from [https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py](https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py)
