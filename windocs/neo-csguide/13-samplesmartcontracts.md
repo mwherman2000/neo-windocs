@@ -30,7 +30,7 @@ The following is a list of the links to the smart contracts in each project (som
 
 1. [Splyse/neo-smart-iot](https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py) from [https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py](https://github.com/Splyse/neo-smart-iot/blob/master/neo-pubsub.py)
 2. [Splyse/neo-smart-iot](https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py) from [https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py](https://github.com/Splyse/neo-smart-iot/blob/master/elcaro-contract.py)
-3. [neoauth/smart-contract](https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py) from [https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py]https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py()
+3. [neoauth/smart-contract](https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py) from [https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py](https://github.com/neoauth/smart-contract/blob/master/src/NeoAuth.py)
 4. [BlockSaver/smart-saving-contract](https://github.com/BlockSaver/smart-saving-contract/blob/master/SmartSavingContract/SmartSavingContract.cs) from [https://github.com/BlockSaver/smart-saving-contract/blob/master/SmartSavingContract/SmartSavingContract.cs](https://github.com/BlockSaver/smart-saving-contract/blob/master/SmartSavingContract/SmartSavingContract.cs)
    * ExecutionEngine.ExecutingScriptHash
    * JSON Arrays
