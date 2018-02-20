@@ -34,6 +34,8 @@
 * **mwherman/neo-windocs** project
   >NEO Blockchain end-to-end, detailed guidance for .NET developers. This project contains content purposely designed to help .NET developers ramp up and become productive more quickly. This project also serves as a repository for content presented at the NEO Blockchain Toronto meetup group.
 
+  * Planning for integeation into CoZ - STARTED
+
   * [NEO Blockchain Quick Start Guide for .NET Developers](https://github.com/mwherman2000/neo-windocs/blob/master/windocs/quickstart-csharp/README.md) - COMPLETE
     > The purpose of this document is to enable .NET developers who are brand new to NEO Blockchain technology to create a useful NEO development environment and get it up and running in as little time as possible.
     * 10 major activities comprising 130 documented tasks (approximately)
