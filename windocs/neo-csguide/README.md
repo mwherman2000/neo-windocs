@@ -1,4 +1,4 @@
-# C# Smart Contract Developers Guide
+# C#.NEO Smart Contract Developers Guide
 
 NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwherman2000/neo-windocs/tree/master/windocs))
 
