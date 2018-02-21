@@ -90,7 +90,7 @@ A NEO smart contract running in the NEO VM is like the pilot in control of the f
 * Cryptographic operations
 * Etc.
 
-As a smart contract developer, it is your responsbility to learn and understand the purpose and goals each of the VM subsystems, the use cases they sypport, and best practices and programming patterns to use when developing best-in-class smart contacts.
+As a smart contract developer, it is your responsibility to learn and understand the purpose and goals each of the VM subsystems, the use cases they support, and best practices and programming patterns to use when developing best-in-class smart contacts.
 
 ## NEO Blockchain Architecture Reference Model (ARM)
 
