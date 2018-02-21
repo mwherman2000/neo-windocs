@@ -1,0 +1,11 @@
+D:\repos>`git clone https://github.com/birmas/neo-gui-developer.git`
+Cloning into 'neo-gui-developer'...
+remote: Counting objects: 1760, done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 1760 (delta 66), reused 71 (delta 48), pack-reused 1666
+Receiving objects: 100% (1760/1760), 1.24 MiB | 4.84 MiB/s, done.
+Resolving deltas: 100% (1357/1357), done.
+
+D:\repos> `cd neo-gui-developer`
+
+D:\repos\neo-gui-developer>`git checkout -b dev-updates`
