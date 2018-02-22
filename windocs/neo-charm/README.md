@@ -4,7 +4,7 @@ NEO Blockchain Documentation for .NET Developers ([url](https://github.com/mwher
 
 ## Purpose
 
-The purpose of this document is to document a (software) architecture reference model for the NEO Blockchain platform to enable .NET developers to become more knowledge about the NEO platform more quickly and more easily.
+The purpose of this document is to document a (software) architecture reference model for the NEO Blockchain platform to enable .NET developers to become more knowledgeable about the NEO platform more quickly and more easily.
 
 ## Goals
 
