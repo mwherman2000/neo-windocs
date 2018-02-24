@@ -40,15 +40,28 @@ This meetup is a group that it is currently independent of the official [NEO Pro
 * [images](https://github.com/mwherman2000/neo-windocs/tree/master/images) - Photos, screen shots, diagrams
 * [resources](https://github.com/mwherman2000/neo-windocs/tree/master/resources) - Other files that don't fit into one of the other categories (folders)
 
-Best regards,
-* Michael Herman (Toronto)
-* E: [neotoronto@outlook.com](mailto:neotoronto@outlook.com)
+## Who is Michael Herman?
+
+Michael Herman (Toronto)
+
+NEO City of Zion (CoZ) Developer (https://neo.org/team)
+
+Michael Herman is a CoZ Developer who contributes to several NEO Blockchain projects including:
+* NEO developer tool suite (neo-debugger and neo-gui-developer projects)
+* mwherman2000/neo-persistableclasses project – home of the NEO Persistible Class Framework (NPC) for efficient object-oriented smart contract development using C#.NEO
+* mwherman2000/dotnetquickstart project – home of the NEO Blockchain Quick Start Guide for .NET Developers. 
+
+Michael is also the founder of the first Canadian NEO Blockchain Meetup group (NEO Blockchain Toronto) and has helped bootstrap several additional Meetups worldwide including NEO Blockchain Vancouver, NEO Blockchain Cancun, and NEO Blockchain Turkey.
+
+### Contact
+
+* E: mailto:neotoronto@outlook.com
 * F: https://www.facebook.com/neotoronto/
 * G: https://github.com/mwherman2000/neo-windocs
 * M: https://www.meetup.com/NEO-Blockchain-Toronto
-* T: [@neotoronto](https://twitter.com/NeoToronto)
+* T: https://www.twitter.com/neotoronto
 
-## Feedback
+### Feedback
 
 * >In just 10 days you [made] tons of progress, you're probably [one of] the fastest learners around here. 
 
