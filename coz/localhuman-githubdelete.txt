@@ -1,0 +1,14 @@
+https://github.com/neo-project/neo/issues/128
+
+I was unaware of this issue but I have already implemented a solution for this in the NEO Persisted Classes Platform 2.1. The relavent features are:
+
+NPC Entity and Domain Model
+NPC Structured Storage Model
+NPC NeoStorageKey Specification
+NEO-KONG (Key-Object Notation for Geeks)
+
+The most condensed explanation I have available today isn't very condensed. Check out NEO Persistable Classes (NPC) Platform 2.0: Deep Dive. WARNING: It's 100 minutes long.
+
+If you want a shorter introduction (that doesn't cover the above capabilities), check out 12. NEO Persistable Classes (NPC) Platform 2.1: Preview (35 minutes).
+
+
